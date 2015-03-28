@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+  </ReferenceAssemblyList>
+  <XamlSourceFileDataList>
+    <XamlSourceFileData XamlFileName="App.xaml" XamlFileTimeAtLastCompileInTicks="635631428264592410" ClassFullName="RelativePanel.App" />
+    <XamlSourceFileData XamlFileName="Views\MainView.xaml" XamlFileTimeAtLastCompileInTicks="635631477673619610" ClassFullName="RelativePanel.MainView" />
+  </XamlSourceFileDataList>
+</XamlCompilerSaveState>
