@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+  </ReferenceAssemblyList>
+  <XamlSourceFileDataList>
+    <XamlSourceFileData XamlFileName="App.xaml" XamlFileTimeAtLastCompileInTicks="635630827303510173" ClassFullName="AdaptiveTriggers.App" />
+    <XamlSourceFileData XamlFileName="Views\MainView.xaml" XamlFileTimeAtLastCompileInTicks="635630870123454579" ClassFullName="AdaptiveTriggers.MainView" />
+  </XamlSourceFileDataList>
+</XamlCompilerSaveState>

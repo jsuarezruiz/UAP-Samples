@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-ODC74DQ2N8P</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>200e6fa2-332b-40ce-a6f0-b2dd31cd510d</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>AAE3D5471E1EEBC19B0042AB9C5C6183C3BBD4BDEAA61F8A94ACD854E1E52A6A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>200e6fa2-332b-40ce-a6f0-b2dd31cd510d_1.0.0.0_neutral__j6j5z4mnvcpja</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>200e6fa2-332b-40ce-a6f0-b2dd31cd510d_j6j5z4mnvcpja!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>200e6fa2-332b-40ce-a6f0-b2dd31cd510d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Javier</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-27T19:41:51.548</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\bin\Debug\AdaptiveTriggers.exe">
+      <PackagePath>AdaptiveTriggers.exe</PackagePath>
+      <Modified>2015-03-27T20:03:39.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\packages\Microsoft.ApplicationInsights.RuntimeTelemetry.0.13.0-build26067\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.winmd</PackagePath>
+      <Modified>2015-03-27T18:52:21.156</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\packages\Microsoft.ApplicationInsights.WindowsStore.0.13.0-build26067\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.winmd</PackagePath>
+      <Modified>2015-03-27T18:52:21.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\packages\Microsoft.ApplicationInsights.0.13.0-build26067\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.winmd</PackagePath>
+      <Modified>2015-03-27T18:52:19.462</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\packages\Microsoft.Diagnostics.Tracing.EventSource.Redist.1.1.14-beta\build\portable-net45+win8+wpa81\..\..\lib\net45\Microsoft.Diagnostics.Tracing.EventSource.dll">
+      <PackagePath>Microsoft.Diagnostics.Tracing.EventSource.dll</PackagePath>
+      <Modified>2015-03-27T18:52:18.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\obj\Debug\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2015-03-27T18:56:20.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2015-03-27T18:52:10.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-03-27T18:56:19.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\bin\Debug\Views\MainView.xbf">
+      <PackagePath>Views\MainView.xbf</PackagePath>
+      <Modified>2015-03-27T20:03:39.292</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\bin\Debug\AdaptiveTriggers.xr.xml">
+      <PackagePath>AdaptiveTriggers.xr.xml</PackagePath>
+      <Modified>2015-03-27T20:03:39.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\\UnionMetadata\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2015-03-25T09:33:44.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\AdaptiveTriggers\AdaptiveTriggers\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-03-27T20:03:12.493</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
