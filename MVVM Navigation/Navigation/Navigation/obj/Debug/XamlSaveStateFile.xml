@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+  </ReferenceAssemblyList>
+  <XamlSourceFileDataList>
+    <XamlSourceFileData XamlFileName="App.xaml" XamlFileTimeAtLastCompileInTicks="635631674535308562" ClassFullName="Navigation.App" />
+    <XamlSourceFileData XamlFileName="Views\FirstView.xaml" XamlFileTimeAtLastCompileInTicks="635631676880625449" ClassFullName="Navigation.Views.FirstView" />
+    <XamlSourceFileData XamlFileName="Views\SecondView.xaml" XamlFileTimeAtLastCompileInTicks="635631680069435195" ClassFullName="Navigation.Views.SecondView" />
+  </XamlSourceFileDataList>
+</XamlCompilerSaveState>
