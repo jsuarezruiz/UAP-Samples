@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-ODC74DQ2N8P</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>14eb0e76-6de2-41a8-9f54-656b19b3fd15</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\bin\Debug\MVVM.exe">
+      <PackagePath>MVVM.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\packages\Microsoft.ApplicationInsights.RuntimeTelemetry.0.13.0-build26067\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\packages\Microsoft.ApplicationInsights.WindowsStore.0.13.0-build26067\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\packages\Microsoft.ApplicationInsights.0.13.0-build26067\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\packages\Microsoft.Diagnostics.Tracing.EventSource.Redist.1.1.14-beta\build\portable-net45+win8+wpa81\..\..\lib\net45\Microsoft.Diagnostics.Tracing.EventSource.dll">
+      <PackagePath>Microsoft.Diagnostics.Tracing.EventSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\packages\Unity.3.5.1405-prerelease\lib\win8\Microsoft.Practices.Unity.dll">
+      <PackagePath>Microsoft.Practices.Unity.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\packages\Unity.3.5.1405-prerelease\lib\win8\Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <PackagePath>Microsoft.Practices.Unity.RegistrationByConvention.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\obj\Debug\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\bin\Debug\Views\MainView.xbf">
+      <PackagePath>Views\MainView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\bin\Debug\MVVM.xr.xml">
+      <PackagePath>MVVM.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\\UnionMetadata\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\MVVM\MVVM\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

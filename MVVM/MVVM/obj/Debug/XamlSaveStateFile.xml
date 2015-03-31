@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+  </ReferenceAssemblyList>
+  <XamlSourceFileDataList>
+    <XamlSourceFileData XamlFileName="App.xaml" XamlFileTimeAtLastCompileInTicks="635632202850675550" ClassFullName="MVVM.App" />
+    <XamlSourceFileData XamlFileName="Views\MainView.xaml" XamlFileTimeAtLastCompileInTicks="635632203928493606" ClassFullName="MVVM.Views.MainView" />
+  </XamlSourceFileDataList>
+</XamlCompilerSaveState>
