@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-ODC74DQ2N8P</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0615e271-1496-41d4-b9aa-5c23d4d54911</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>6ACE2AA124A43D734E59514A9389CBB9529FE82AF6376B9BD599148BF3A692A6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0615e271-1496-41d4-b9aa-5c23d4d54911_1.0.0.0_neutral__j6j5z4mnvcpja</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0615e271-1496-41d4-b9aa-5c23d4d54911_j6j5z4mnvcpja!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0615e271-1496-41d4-b9aa-5c23d4d54911</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Javier</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-02T17:44:41.809</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\bin\Debug\DeviceFamily View.exe">
+      <PackagePath>DeviceFamily View.exe</PackagePath>
+      <Modified>2015-04-02T17:55:37.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\packages\Microsoft.ApplicationInsights.RuntimeTelemetry.0.13.0-build26067\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.winmd</PackagePath>
+      <Modified>2015-04-02T17:35:23.910</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\packages\Microsoft.ApplicationInsights.WindowsStore.0.13.0-build26067\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.winmd</PackagePath>
+      <Modified>2015-04-02T17:35:25.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\packages\Microsoft.ApplicationInsights.0.13.0-build26067\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.winmd</PackagePath>
+      <Modified>2015-04-02T17:35:22.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\packages\Microsoft.Diagnostics.Tracing.EventSource.Redist.1.1.14-beta\build\portable-net45+win8+wpa81\..\..\lib\net45\Microsoft.Diagnostics.Tracing.EventSource.dll">
+      <PackagePath>Microsoft.Diagnostics.Tracing.EventSource.dll</PackagePath>
+      <Modified>2015-04-02T17:35:21.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\obj\Debug\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2015-04-02T17:44:35.948</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2015-04-02T17:35:15.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-04-02T17:44:35.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\bin\Debug\DeviceFamily-Mobile\MainPage.xbf">
+      <PackagePath>DeviceFamily-Mobile\MainPage.xbf</PackagePath>
+      <Modified>2015-04-02T17:55:37.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-04-02T17:55:37.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\bin\Debug\DeviceFamily View.xr.xml">
+      <PackagePath>DeviceFamily View.xr.xml</PackagePath>
+      <Modified>2015-04-02T17:55:37.875</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\\UnionMetadata\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2015-03-25T09:33:44.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\DeviceFamily View\DeviceFamily View\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-02T17:55:10.013</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

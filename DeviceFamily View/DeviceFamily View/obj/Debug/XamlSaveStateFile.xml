@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+  </ReferenceAssemblyList>
+  <XamlSourceFileDataList>
+    <XamlSourceFileData XamlFileName="App.xaml" XamlFileTimeAtLastCompileInTicks="635636001150763884" ClassFullName="DeviceFamily_View.App" />
+    <XamlSourceFileData XamlFileName="DeviceFamily-Mobile\MainPage.xaml" XamlFileTimeAtLastCompileInTicks="635636013369394493" ClassFullName="DeviceFamily_View.MainPage" />
+    <XamlSourceFileData XamlFileName="MainPage.xaml" XamlFileTimeAtLastCompileInTicks="635636013084261548" ClassFullName="DeviceFamily_View.MainPage" />
+  </XamlSourceFileDataList>
+</XamlCompilerSaveState>
