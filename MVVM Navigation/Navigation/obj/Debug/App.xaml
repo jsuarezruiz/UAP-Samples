@@ -3,14 +3,18 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Navigation"
+    xmlns:converters="using:Navigation.Converters"
 	xmlns:locator="using:Navigation.ViewModels.Base">
-  <Application.Resources>
+	<Application.Resources>
 		<ResourceDictionary>
 
 			<!-- ViewModelLocator -->
-            <locator:ViewModelLocator x:Key="Locator" />
+			<locator:ViewModelLocator x:Key="Locator" />
 
-        </ResourceDictionary>
-    </Application.Resources>
+			<!-- Converters -->
+			<converters:IntToVisibilityConverter x:Key="IntToVisibilityConverter" />
+
+		</ResourceDictionary>
+	</Application.Resources>
 </Application>
 

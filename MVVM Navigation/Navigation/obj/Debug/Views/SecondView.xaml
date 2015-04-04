@@ -8,10 +8,19 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
 	DataContext="{Binding SecondViewModel, Source={StaticResource Locator}}">
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-	<Button Content="Go Back"
-				Command="{Binding BackCommand}"
-				HorizontalAlignment="Center" />
-    </Grid>
+	<Grid
+		Background="LightGreen">
+		<StackPanel 
+			HorizontalAlignment="Center"					
+			VerticalAlignment="Center">
+			<Button 
+				Content="Go Back"
+				Command="{Binding BackCommand}" />
+			<TextBlock
+				Text="{Binding Parameter}"
+				Visibility="{Binding Parameter, Converter={StaticResource IntToVisibilityConverter}}"
+				FontSize="48" />
+		</StackPanel>
+	</Grid>
 </base:PageBase>
 

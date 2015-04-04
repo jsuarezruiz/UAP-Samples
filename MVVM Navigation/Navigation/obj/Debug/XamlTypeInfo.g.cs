@@ -132,29 +132,31 @@ namespace Navigation.Navigation_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
+            _typeNameTable = new string[11];
             _typeNameTable[0] = "Navigation.ViewModels.Base.ViewModelLocator";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "Navigation.ViewModels.FirstViewModel";
             _typeNameTable[3] = "Navigation.ViewModels.Base.ViewModelBase";
             _typeNameTable[4] = "Navigation.ViewModels.SecondViewModel";
-            _typeNameTable[5] = "Navigation.Views.Base.PageBase";
-            _typeNameTable[6] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[7] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[8] = "Navigation.Views.FirstView";
-            _typeNameTable[9] = "Navigation.Views.SecondView";
+            _typeNameTable[5] = "Navigation.Converters.IntToVisibilityConverter";
+            _typeNameTable[6] = "Navigation.Views.Base.PageBase";
+            _typeNameTable[7] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[8] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[9] = "Navigation.Views.FirstView";
+            _typeNameTable[10] = "Navigation.Views.SecondView";
 
-            _typeTable = new global::System.Type[10];
+            _typeTable = new global::System.Type[11];
             _typeTable[0] = typeof(global::Navigation.ViewModels.Base.ViewModelLocator);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::Navigation.ViewModels.FirstViewModel);
             _typeTable[3] = typeof(global::Navigation.ViewModels.Base.ViewModelBase);
             _typeTable[4] = typeof(global::Navigation.ViewModels.SecondViewModel);
-            _typeTable[5] = typeof(global::Navigation.Views.Base.PageBase);
-            _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[8] = typeof(global::Navigation.Views.FirstView);
-            _typeTable[9] = typeof(global::Navigation.Views.SecondView);
+            _typeTable[5] = typeof(global::Navigation.Converters.IntToVisibilityConverter);
+            _typeTable[6] = typeof(global::Navigation.Views.Base.PageBase);
+            _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[9] = typeof(global::Navigation.Views.FirstView);
+            _typeTable[10] = typeof(global::Navigation.Views.SecondView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -192,9 +194,10 @@ namespace Navigation.Navigation_XamlTypeInfo
         private object Activate_0_ViewModelLocator() { return new global::Navigation.ViewModels.Base.ViewModelLocator(); }
         private object Activate_2_FirstViewModel() { return new global::Navigation.ViewModels.FirstViewModel(); }
         private object Activate_4_SecondViewModel() { return new global::Navigation.ViewModels.SecondViewModel(); }
-        private object Activate_5_PageBase() { return new global::Navigation.Views.Base.PageBase(); }
-        private object Activate_8_FirstView() { return new global::Navigation.Views.FirstView(); }
-        private object Activate_9_SecondView() { return new global::Navigation.Views.SecondView(); }
+        private object Activate_5_IntToVisibilityConverter() { return new global::Navigation.Converters.IntToVisibilityConverter(); }
+        private object Activate_6_PageBase() { return new global::Navigation.Views.Base.PageBase(); }
+        private object Activate_9_FirstView() { return new global::Navigation.Views.FirstView(); }
+        private object Activate_10_SecondView() { return new global::Navigation.Views.SecondView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -239,31 +242,38 @@ namespace Navigation.Navigation_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 5:   //  Navigation.Views.Base.PageBase
+            case 5:   //  Navigation.Converters.IntToVisibilityConverter
+                userType = new global::Navigation.Navigation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_5_IntToVisibilityConverter;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  Navigation.Views.Base.PageBase
                 userType = new global::Navigation.Navigation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_5_PageBase;
+                userType.Activator = Activate_6_PageBase;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  Windows.UI.Xaml.Controls.Page
+            case 7:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::Navigation.Navigation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  Windows.UI.Xaml.Controls.UserControl
+            case 8:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::Navigation.Navigation_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  Navigation.Views.FirstView
+            case 9:   //  Navigation.Views.FirstView
                 userType = new global::Navigation.Navigation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Navigation.Views.Base.PageBase"));
-                userType.Activator = Activate_8_FirstView;
+                userType.Activator = Activate_9_FirstView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 9:   //  Navigation.Views.SecondView
+            case 10:   //  Navigation.Views.SecondView
                 userType = new global::Navigation.Navigation_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Navigation.Views.Base.PageBase"));
-                userType.Activator = Activate_9_SecondView;
+                userType.Activator = Activate_10_SecondView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
