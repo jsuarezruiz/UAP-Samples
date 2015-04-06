@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+  </ReferenceAssemblyList>
+  <XamlSourceFileDataList>
+    <XamlSourceFileData XamlFileName="App.xaml" XamlFileTimeAtLastCompileInTicks="635638621146370902" ClassFullName="ExtensionsSDK.App" />
+    <XamlSourceFileData XamlFileName="Views\MainView.xaml" XamlFileTimeAtLastCompileInTicks="635638636499187404" ClassFullName="ExtensionsSDK.MainView" />
+  </XamlSourceFileDataList>
+</XamlCompilerSaveState>

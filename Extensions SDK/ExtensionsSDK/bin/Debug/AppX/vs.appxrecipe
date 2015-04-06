@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-ODC74DQ2N8P</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f4c02a2e-4e2a-41d9-bb57-75bb4d210cc1</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>74C936F092E1C4B140B7939E02B9CE40F04E1C940B5B75A622DACCC547560FE3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f4c02a2e-4e2a-41d9-bb57-75bb4d210cc1_1.0.0.0_neutral__j6j5z4mnvcpja</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f4c02a2e-4e2a-41d9-bb57-75bb4d210cc1_j6j5z4mnvcpja!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f4c02a2e-4e2a-41d9-bb57-75bb4d210cc1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Javier</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-04-05T18:43:49.086</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\bin\Debug\ExtensionsSDK.exe">
+      <PackagePath>ExtensionsSDK.exe</PackagePath>
+      <Modified>2015-04-05T18:47:30.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\packages\Microsoft.ApplicationInsights.RuntimeTelemetry.0.13.0-build26067\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.RuntimeTelemetry.winmd</PackagePath>
+      <Modified>2015-04-05T18:22:02.933</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\packages\Microsoft.ApplicationInsights.WindowsStore.0.13.0-build26067\lib\win81\Microsoft.ApplicationInsights.Extensibility.Windows.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.Extensibility.Windows.winmd</PackagePath>
+      <Modified>2015-04-05T18:22:03.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\packages\Microsoft.ApplicationInsights.0.13.0-build26067\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.winmd">
+      <PackagePath>Microsoft.ApplicationInsights.winmd</PackagePath>
+      <Modified>2015-04-05T18:22:01.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\packages\Microsoft.Diagnostics.Tracing.EventSource.Redist.1.1.14-beta\build\portable-net45+win8+wpa81\..\..\lib\net45\Microsoft.Diagnostics.Tracing.EventSource.dll">
+      <PackagePath>Microsoft.Diagnostics.Tracing.EventSource.dll</PackagePath>
+      <Modified>2015-04-05T18:21:59.730</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\obj\Debug\ApplicationInsights.config">
+      <PackagePath>ApplicationInsights.config</PackagePath>
+      <Modified>2015-04-05T18:43:42.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2015-04-05T18:21:54.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2015-01-07T13:21:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-04-05T18:43:42.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\bin\Debug\Views\MainView.xbf">
+      <PackagePath>Views\MainView.xbf</PackagePath>
+      <Modified>2015-04-05T18:47:30.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\bin\Debug\ExtensionsSDK.xr.xml">
+      <PackagePath>ExtensionsSDK.xr.xml</PackagePath>
+      <Modified>2015-04-05T18:47:30.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\\UnionMetadata\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2015-03-25T09:33:44.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\javier\documents\visual studio 2015\Projects\ExtensionsSDK\ExtensionsSDK\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-04-05T18:47:30.982</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
