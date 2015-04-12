@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+  </ReferenceAssemblyList>
+  <XamlSourceFileDataList>
+    <XamlSourceFileData XamlFileName="App.xaml" XamlFileTimeAtLastCompileInTicks="635644662898414966" ClassFullName="Speech.App" />
+    <XamlSourceFileData XamlFileName="Views\MainView.xaml" XamlFileTimeAtLastCompileInTicks="635644673445706852" ClassFullName="Speech.MainView" />
+  </XamlSourceFileDataList>
+</XamlCompilerSaveState>
