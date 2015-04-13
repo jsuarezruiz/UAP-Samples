@@ -1,0 +1,13 @@
+WinMetadata\Windows.winmd
+Assets\Logo.scale-100.png
+Assets\SmallLogo.scale-100.png
+Assets\SplashScreen.scale-100.png
+Assets\StoreLogo.scale-100.png
+Assets\WideLogo.scale-100.png
+App.xbf
+Navigation.xr.xml
+Views\FirstView.xbf
+Views\SecondView.xbf
+ApplicationInsights.config
+ApplicationInsights.config
+Properties\Default.rd.xml
