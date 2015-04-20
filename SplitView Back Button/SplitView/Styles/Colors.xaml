@@ -1,0 +1,21 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SplitView.Styles">
+
+	<Color x:Key="WhiteColor">#FFF</Color>
+	<SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource WhiteColor}"/>
+
+	<Color x:Key="BlackColor">#000</Color>
+	<SolidColorBrush x:Key="BlackBrush" Color="{StaticResource BlackColor}"/>
+
+	<Color x:Key="BackGroundColor">#FAFFF8</Color>
+	<SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackGroundColor}"/>
+
+	<Color x:Key="BackGroundPaneColor">#363537</Color>
+	<SolidColorBrush x:Key="BackgroundPaneBrush" Color="{StaticResource BackGroundPaneColor}"/>
+
+	<Color x:Key="AccentColor">Blue</Color>
+	<SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+	
+</ResourceDictionary>
