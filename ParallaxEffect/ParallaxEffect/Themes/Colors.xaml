@@ -1,0 +1,27 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="CustomApplicationBackgroundBrush" Color="#EDEDED" />
+    <SolidColorBrush x:Key="CustomApplicationTextBrush" Color="#484035" />
+    <SolidColorBrush x:Key="CustomHoverTextBrush" Color="#C0c33d27" />
+    <SolidColorBrush x:Key="CustomPressedTextBrush" Color="#CB393F" />
+    <SolidColorBrush x:Key="CustomGroupTitleBrush" Color="#CB393F" />
+    <SolidColorBrush x:Key="CustomListViewItemOverlayBackgroundBrush" Color="#c0faf3d6" />
+    <SolidColorBrush x:Key="CustomListViewItemOverlayTextBrush" Color="#362104" />
+    <SolidColorBrush x:Key="CustomListViewItemPlaceholderRectBrush" Color="#20484035" />
+    <SolidColorBrush x:Key="CustomBackButtonBackgroundBrush" Color="#f9f8e4" />
+    <SolidColorBrush x:Key="CustomBackButtonHoverBackgroundBrush" Color="#20c33d27" />
+    <SolidColorBrush x:Key="CustomBackButtonGlyphBrush" Color="#c33d27" />
+    <SolidColorBrush x:Key="CustomBackButtonHoverGlyphBrush" Color="#c33d27" />
+    <SolidColorBrush x:Key="CustomBackButtonPressedGlyphBrush" Color="#f9f8e4" />
+    <SolidColorBrush x:Key="CustomAppBarItemForegroundBrush" Color="#f9f8e4" />
+    <SolidColorBrush x:Key="CustomAppBarItemBackgroundBrush" Color="#c33d27" />
+    <SolidColorBrush x:Key="CustomAppBarItemDisabledForegroundBrush" Color="#f9f8e4" />
+    <SolidColorBrush x:Key="CustomAppBarItemPressedForegroundBrush" Color="#c33d27" />
+    <SolidColorBrush x:Key="CustomAppBarItemHoverForegroundBrush" Color="#f9f8e4" />
+    <SolidColorBrush x:Key="CustomAppBarItemHoverBackgroundBrush" Color="#40f9f8e4" />
+    <SolidColorBrush x:Key="CustomGroupTitleZoomedOutBrush" Color="#faf3d6" />
+    <SolidColorBrush x:Key="CustomPageBackgroundBrush" Color="#f9f8e4" />
+    
+</ResourceDictionary>

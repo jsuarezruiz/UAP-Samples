@@ -1,0 +1,101 @@
+﻿[
+
+{"group":{"key":"Carnes","title":"Carnes","recipesCount":4,"description":"El consumo moderado de carne y su equilibrio en las dietas es vital. Aquí podrás encontrar una gran variedad de recetas de carnes.","rank":"","backgroundImage":"ms-appx:///Assets/Carnes/Carnes.png", "groupImage":"ms-appx:///Carnes.png"},
+"key":1000,
+"title":"Pollo frito picante",
+"shortTitle" : "Pollo frito picante", 
+"preptime":45,
+"favorite":false,
+"rating": 3 , 
+"directions": "Trocear los pollos en pedazos hermosos (si no nos atrevemos a meterles cuchillo, pedirle al carnicero que nos los trocee) y ponerlos dentro de un bol con el zumo de limón, la salsa de soja y la salsa tabasco, el perejil picado y cuatro dientes de ajo aplastados. Dejar en reposo en la nevera durante un par de horas.",
+"backgroundImage":"ms-appx:///Assets/Carnes/Carnes_0.jpg",
+"extraAssets" : "ms-appx:///Assets/Carnes/Carnes_0.jpg", 
+"ingredients":["2 pollos medianos", "Zumo de 1 limón","Perejil picado","2 cucharillas de café de salsa de soja","3 cucharillas de café de salsa tabasco","Harina y sal","8 dientes de ajo","Aceite de oliva para freír"]},
+
+
+{"group":{"key":"Carnes","title":"Carnes","recipesCount":4,"description":"El consumo moderado de carne y su equilibrio en las dietas es vital. Aquí podrás encontrar una gran variedad de recetas de carnes.","rank":"","backgroundImage":"ms-appx:///Assets/Carnes/Carnes.png", "groupImage":"ms-appx:///Assets/Carnes/Carnes.png"},
+"key":1001,
+"title":"Entrecot de buey con setas",
+"shortTitle" : "Entrecot de buey con setas" , 
+"preptime":45,
+"favorite":false,
+"rating" :5 , 
+"directions":"Preparar la salsa. Dorar la escalonia en aceite y mantequilla. Mojarla con el vino tinto y reducirlo a seco. Añadir el caldo de ternera y dejar reducir el líquido hasta que adquiera consistencia de salsa. Salpimentar.",
+"backgroundImage":"ms-appx:///Assets/Carnes/Carnes_1.jpg",
+"ingredients":["600 g de entrecot de buey sin hueso","16 ceps tiernos (o setas variadas)","sal fina","sal gruesa","pimienta","2 escalonias","1 cucharada sopera de perejil picado","1 ajo"]},
+
+
+{"group":{"key":"Carnes","title":"Carnes","recipesCount":4,"description":"El consumo moderado de carne y su equilibrio en las dietas es vital. Aquí podrás encontrar una gran variedad de recetas de carnes.","rank":"","backgroundImage":"ms-appx:///Assets/Carnes/Carnes.png", "groupImage":"ms-appx:///Assets/Carnes/Carnes.png"},
+"key":1002,
+"title":"Pavo con relleno de berza",
+"shortTitle" : "Pavo con berza ",
+"preptime":90,
+"favorite":false,
+"rating" : 3, 
+"directions":"Lavar la col, deshechar las hojas externas que estén sucias o estropeadas y cortar el resto en láminas finas. Pasarlas en agua hirviendo 1 minuto; escurrir dejándole un poco del agua de cocción. Lavar y picar la cebolla finamente. Sofreir con 2 cucharadas de aceite, añadir la berza, el jamón de york y continuar la cocción 5 minutos más. Retirar del fuego. Ablandar el pan de molde en la leche, escurrir e incorporar a la berza junto con los huevos, el grana, el ajo, la salvia y el romero. Rellenar los filetes de pavo con la col creando un único rollo que ataremos con hilo de cocina. Dorar en la sartén con un poco de mantequila, sal, pimienta y bañar con medio dl de vino blanco. Dejar evaporar y continuar la cocción durante una hora bañando de vez en cuando con el caldo. Servir caliente cortado en rodajas sobre un lecho de rucola. ",
+"backgroundImage":"ms-appx:///Assets/Carnes/Carnes_2.jpg",
+"ingredients":["600 gr de pechuga de pavo en filetes grandes", "250 gr de col berza", "80 gr de jamón york en taquitos", "2 huevos, 60 gr de pan de molde", "un poco de leche", "30 gr de matequilla", "30 gr de grana padano rallado", "1 cucharada de ajo", "salvia y romero picados", "una cebolla", "vino blanco seco", "caldo, aceite de oliva extravirgen", "sal y pimienta."]},
+
+
+{"group":{"key":"Carnes","title":"Carnes","recipesCount":4,"description":"El consumo moderado de carne y su equilibrio en las dietas es vital. Aquí podrás encontrar una gran variedad de recetas de carnes.","rank":"","backgroundImage":"ms-appx:///Assets/Carnes/Carnes.png", "groupImage":"ms-appx:///Assets/Carnes/Carnes.png"},
+"key":1003,
+"title":"Picadillo a la habanera",
+"shortTitle" : "Picadillo a la habanera", 
+"preptime":60,
+"favorite":false,
+"rating": 4 , 
+"directions":"Dorar la cebolla y el ajo, finamente picados, en una cazuela con aceite de oliva, añadir el pimiento, cortado en trocitos, y saltear 5 minutos más. Incorporar la carne y saltearla hasta que cambie de color. Añadir los tomates, pelados y troceados, y el tomate triturado; remover y cocer durante 10 minutos. Agregar las pasas, las aceitunas, sin hueso y troceadas, el comino, el orégano, el vino blanco, la pimienta y la sal. Mezclar con cuidado, tapar y dejar cocer 20 minutos. Ajustar el punto de sal antes de servir. ",
+"backgroundImage":"ms-appx:///Assets/Carnes/Carnes_3.jpg",
+"ingredients":["600 gr de carne de cerdo picada", "3 tomates maduros", "70 gr de tomate natural triturado", "1 cebolla grande", "1 pimiento amarillo", "2 dientes de ajo", "50 gr de pasas", "30 gr de aceitunas", "1 cucharadita de orégano", "1 cucharadita de cominos", "1 vasito de vino blanco", "aceite de oliva virgen", "pimienta negra y sal"]},
+
+
+{"group":{"key":"Pastas","title":"Pastas","recipesCount":1,"description":"Aquí podrás encontrar una gran variedad de recetas de pastas.","rank":"","backgroundImage":"ms-appx:///Assets/Pastas/Pastas.png", "groupImage":"ms-appx:///Assets/Pastas/Pastas.png"},
+"key":2000,
+"title":"Macarrones al estilo hindú",
+"shortTitle" : "Macarrones hindú", 
+"preptime":20,
+"favorite":false,
+"rating": 4 , 
+"directions":"Reúne en un recipiente los siguientes ingredientes picados: cebolla, chile verde y hojas de curry. Calienta el aceite en una sartén grande y añade las semillas de mostaza con las 2 cucharaditas de Urad dhal. Ahora agrega todos los ingredientes picados que se combinaron en el mismo recipiente.Cuando la cebolla esté dorada, añade el tomate picado y remueve bien. Coloca la pimienta de cayena y un 1/4 cucharadita de Garam masala. Añade sal al gusto.Después de cocer la pasta y dejar que el agua drene, mezcla la pasta que hemos preparado y sirve en platos. Si deseas puedes agregar un poco de ketchup.",
+"backgroundImage":"ms-appx:///Assets/Pastas/Pastas_0.jpg",
+"ingredients":["1 y 1/2 taza macarrones en pasta","1/2 taza de tomate picado","1/2 taza de cebolla picada","1 y 1/2 cucharada de salsa de tomate","1/2 cucharadita de pimienta de cayena","1/4 cucharadita de Garam masala (mezcla de especias)","1 cucharadita de semillas de mostaza","2 cucharaditas de Urad dhal (lentejas negras)","10 hojas del curry (puede ser menos)","Hojas de cilantro picado","Sal al gusto","Vegetales (Mezcla verduras como zanahoria picada, col, guisantes y pimiento)"]},
+
+
+{"group":{"key":"Postres","title":"Postres","recipesCount":1,"description":"Aquí podrás encontrar una gran variedad de recetas de postres.","rank":"","backgroundImage":"ms-appx:///Assets/Postres/Postres.png", "groupImage":"ms-appx:///Assets/Postres/Postres.png"},
+"key":3000,
+"title":"Volcán de chocolate",
+"shortTitle" : "Volcán de chocolate", 
+"preptime":20,
+"favorite":false,
+"rating": 5 , 
+"directions":" Precalentar el horno a temperatura máxima.Colocar en un bowl los huevos, las yemas y el azúcar. Batir a blanco.Fundir a baño de maría el chocolate con la manteca. Incorporar la mezcla al batido de huevos, en forma envolvente.Tamizar la harina e integrarla con suavidad.Distribuir la preparación en moldes individuales enmantecados y enharinados, llenándolos hasta las 3/4 partes de su capacidad.Hornear durante 5 minutos. Retirar y desmoldar en caliente.",
+"backgroundImage":"ms-appx:///Assets/Postres/Postres_0.jpg",
+"extraAssets" : [ { "image" : "../Assets/Postres/Postres_0_0.jpg" }, { "image" : "ms-appx:///Assets/Postres/Postres_0_1.jpg" }],
+"ingredients":["Huevos 4 u.","Yemas 4 u.","Azúcar 80 grs.","Chocolate semi-amargo 220 grs.","Manteca 220 grs."]},
+
+
+{"group":{"key":"Pescados","title":"Pescados","recipesCount":2,"description":"Aquí podrás encontrar una gran variedad de recetas de pescados y mariscos.","rank":"","backgroundImage":"ms-appx:///Assets/Pescados/Pescados.png", "groupImage":"ms-appx:///Assets/Pescados/Pescados.png"},
+"key":4000,
+"title":"Salmón a la plancha con hierbas y sal gruesa",
+"shortTitle" : "Salmón a la plancha con hierbas", 
+"preptime":60,
+"favorite":false,
+"rating": 4 , 
+"directions": "Limpiamos el salmón, secamos con papel d...",
+"backgroundImage":"ms-appx:///Assets/Pescados/Pescados_0.jpg",
+"ingredients":["1.2 kg de salmón","75 gr de mantequilla","3 cucharadas de perejil","3 cucharadas de eneldo 3 cucharadas de cebollino","1 chalote gris","2 cucharadas soperas de aceita de oliva","sal gruesa"]},
+
+
+{"group":{"key":"Pescados","title":"Pescados","recipesCount":2,"description":"Aquí podrás encontrar una gran variedad de recetas de pescados y mariscos.","rank":"","backgroundImage":"ms-appx:///Assets/Pescados/Pescados.png", "groupImage":"ms-appx:///Assets/Pescados/Pescados.png"},
+"key":4001,
+"title":"Atún a la plancha",
+"shortTitle" : "Atún a la plancha",
+"preptime":30,
+"favorite":false,
+"rating": 4, 
+"directions":"Ehogamos la cebolla, el ajo y los pimientos en el aceite a fuego muy lento. Agregamos el tomate y dejamos cocer lentamente durante 15 minutos.Pasado este tiempo, incorporamos el calabací­n, la sal y la pimienta. Cocemos durante otros 15 minutos. Rectificamos de sal, apartar y reservar al calor.Aparte, preparamos la plancha muy caliente. Engrasamos el atún untándole con los dedos un poco de aceite y lo ponemos en la plancha. Doramos por ambas caras. Sazonamos al gusto y servimos en el plato.Agregamos el sofrito al lado del atún a modo de guarnición.",
+"backgroundImage":"ms-appx:///Assets/Pescados/Pescados_1.jpg",
+"ingredients":["720 g de atún rojo de almadraba","limpio de espinas y piel","250 g de cebolla cortada en cuadrados de 1 cm","250 g de tomate pelado y cortado en dados","125 g de pimiento","sin pepitas y cortado en cuadrados","150 g de calabací­n lavado y cortado en dados","4 dientes de ajo picados","½ vaso de aceite de oliva","1 pizca de sal","1 pizca de pimienta molida"]}
+
+
+]

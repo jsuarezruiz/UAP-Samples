@@ -1,0 +1,66 @@
+﻿<base:PageBase
+    x:Class="ParallaxEffect.RecipesView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ParallaxEffect"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:base="using:ParallaxEffect.Views.Base"
+    xmlns:controls="using:ParallaxEffect.Controls"
+    mc:Ignorable="d"
+    DataContext="{Binding Path=RecipesViewModel, Source={StaticResource ViewModelLocator}}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <controls:ParallaxHub 
+            VerticalAlignment="Stretch"              
+            Orientation="Horizontal"               
+            HorizontalAlignment="Stretch"  
+            Header="Parallax">
+            <Hub.Background>
+                <ImageBrush 
+                    ImageSource="ms-appx:///Assets/Recipes.jpg"      
+                    Stretch="UniformToFill" />
+            </Hub.Background>
+            <HubSection Width="500">
+                <DataTemplate>
+                    <Grid Background="{StaticResource CustomAppBarItemPressedForegroundBrush}"
+                          Padding="25"
+                          Opacity=".75">
+                    <TextBlock Text="Efecto Parallax utilizando las nuevas APIs Transform3D."
+                               Foreground="White"
+                               TextWrapping="Wrap"
+                               FontSize="24"
+                               Margin="24, 0" />
+                    </Grid>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Width="500">
+                <DataTemplate>
+                    <FlipView
+                        ItemsSource="{Binding Recipes}" 
+                        ItemTemplate="{StaticResource BigRecipeItemTemplate}"
+                        Background="Transparent">
+                        <FlipView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Vertical" />
+                            </ItemsPanelTemplate>
+                        </FlipView.ItemsPanel>
+                    </FlipView>
+                </DataTemplate>
+            </HubSection>
+            <HubSection>
+                <DataTemplate>
+                    <GridView                
+                        ItemsSource="{Binding Recipes}" 
+                        ItemTemplate="{StaticResource RecipeItemTemplate}"
+                        SelectedItem="{Binding SelectedRecipeDataItem, Mode=TwoWay}">
+                        <GridView.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapGrid MaximumRowsOrColumns="3" />
+                            </ItemsPanelTemplate>
+                        </GridView.ItemsPanel>
+                    </GridView>
+                </DataTemplate>
+            </HubSection>
+        </controls:ParallaxHub>
+    </Grid>
+</base:PageBase>
