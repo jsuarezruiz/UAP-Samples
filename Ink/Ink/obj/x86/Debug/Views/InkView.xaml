@@ -21,7 +21,7 @@
                 TextWrapping="Wrap">
                 En este ejemplo utilizamos todas las capacidades básicas del control InkCanvas con MVVM.
                 <LineBreak/>
-                NOTA: Para dinujar utiliza un pen, el ratón o los dedos en pantalla táctil.
+                NOTA: Para dibujar utiliza un pen, el ratón o los dedos en pantalla táctil.
                 <LineBreak/>
             </TextBlock>
         </StackPanel>

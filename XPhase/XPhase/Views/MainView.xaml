@@ -1,0 +1,105 @@
+﻿<Page
+    x:Class="XPhase.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XPhase"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"    
+    xmlns:model="using:XPhase.Models"
+    DataContext="{Binding Path=MainViewModel, Source={StaticResource ViewModelLocator}}">
+    <Page.Resources>
+
+        <DataTemplate x:Key="XPhaseHouseTemplate" x:DataType="model:House">
+            <Grid Width="200" 
+              Height="80">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image 
+                    Grid.RowSpan="2" 
+                    Source="{x:Bind Photo}" 
+                    x:Phase="2"
+                    MaxWidth="70" 
+                    MaxHeight="70" />
+                <TextBlock 
+                    Text="{x:Bind Place}"  
+                    Grid.Column="1" 
+                    FontSize="18"/>
+                <TextBlock 
+                    Text="{x:Bind Price}"  
+                    x:Phase="1"
+                    Grid.Column="1"  
+                    Grid.Row="1"
+                    FontSize="12" />
+            </Grid>
+        </DataTemplate>
+
+        <DataTemplate x:Key="XBindHouseTemplate" x:DataType="model:House">
+            <Grid Width="200" 
+              Height="80">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image Grid.RowSpan="2" 
+                   Source="{x:Bind Photo}" 
+                   MaxWidth="70" 
+                   MaxHeight="70" />
+                <TextBlock Text="{x:Bind Place}"    
+                       Grid.Column="1" 
+                       FontSize="18"/>
+                <TextBlock Text="{x:Bind Price}"  
+                       Grid.Column="1"  
+                       Grid.Row="1"
+                       FontSize="12" />
+            </Grid>
+        </DataTemplate>
+        
+        <DataTemplate x:Key="ClassicHouseTemplate">
+            <Grid Width="200" 
+              Height="80">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Image Grid.RowSpan="2" 
+                   Source="{Binding Mode=OneTime, Path=Photo}" 
+                   MaxWidth="70" 
+                   MaxHeight="70" />
+                <TextBlock Text="{Binding Mode=OneTime, Path=Place}"
+                       Grid.Column="1" 
+                       FontSize="18"/>
+                <TextBlock Text="{Binding Mode=OneTime, Path=Price}"  
+                       Grid.Column="1"  
+                       Grid.Row="1"
+                       FontSize="12" />
+            </Grid>
+        </DataTemplate>
+        
+    </Page.Resources>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock
+            Text="{Binding Time}"
+            FontSize="24"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top" />
+        <ListView
+            ItemsSource="{Binding Houses}"
+            ItemTemplate="{StaticResource XPhaseHouseTemplate}" 
+            Margin="24" />
+    </Grid>
+</Page>

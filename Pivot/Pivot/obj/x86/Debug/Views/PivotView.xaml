@@ -1,0 +1,29 @@
+﻿<base:PageBase
+    x:Class="Pivot.Views.PivotView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Pivot.Views"  
+    xmlns:base="using:Pivot.Views.Base"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding PivotViewModel, Source={StaticResource Locator}}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Pivot Margin="0, 40, 0, 0">
+            <PivotItem Header="Drivers">
+                <ListView	
+                    ItemsSource="{Binding DriverStanding}"	
+                    ItemTemplate="{StaticResource DriverDataTemplate}"
+                    Margin="0, 40, 0, 0" />
+            </PivotItem>
+            <PivotItem Header="Teams">
+                <ListView		
+                    ItemsSource="{Binding ConstructorStanding}"	
+                    ItemTemplate="{StaticResource ConstructorDataTemplate}"
+                    Margin="0, 40, 0, 0" />
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</base:PageBase>
+

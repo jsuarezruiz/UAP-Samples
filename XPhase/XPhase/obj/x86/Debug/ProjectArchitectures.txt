@@ -1,0 +1,1 @@
+C:\Users\Javier\Documents\GitHub\UAP-Samples\XPhase\XPhase\XPhase.csproj;x86

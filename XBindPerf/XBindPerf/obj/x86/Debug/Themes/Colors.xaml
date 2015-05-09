@@ -1,0 +1,12 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XBindPerf.Themes">
+    
+    <SolidColorBrush x:Key="BackgroundA" Color="Red" />
+    <SolidColorBrush x:Key="BackgroundB" Color="Blue" />
+    <SolidColorBrush x:Key="BackgroundC" Color="Green" />
+    <SolidColorBrush x:Key="BackgroundD" Color="Yellow" />
+    
+</ResourceDictionary>
+

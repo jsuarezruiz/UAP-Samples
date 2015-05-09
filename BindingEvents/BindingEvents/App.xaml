@@ -1,0 +1,15 @@
+﻿<Application
+    x:Class="BindingEvents.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BindingEvents"
+    RequestedTheme="Light"
+    xmlns:locator="using:BindingEvents.ViewModels.Base">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <locator:ViewModelLocator x:Key="ViewModelLocator"/>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

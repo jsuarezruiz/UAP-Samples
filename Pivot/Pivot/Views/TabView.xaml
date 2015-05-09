@@ -1,0 +1,38 @@
+﻿<base:PageBase
+    x:Class="Pivot.Views.TabView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Pivot.Controls" 
+    xmlns:base="using:Pivot.Views.Base"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding TabViewModel, Source={StaticResource Locator}}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Pivot Style="{StaticResource TabsPivotStyle}"
+               Margin="0, 40, 0, 0">
+            <PivotItem>
+                <PivotItem.Header>
+                    <controls:TabHeader 
+                        Label="drivers"  
+                        Glyph="&#xE719;" />
+                </PivotItem.Header>
+                <ListView	
+                    ItemsSource="{Binding DriverStanding}"	
+                    ItemTemplate="{StaticResource DriverDataTemplate}"
+                    Margin="0, 40, 0, 0" />
+            </PivotItem>
+            <PivotItem>
+                <PivotItem.Header>
+                    <controls:TabHeader
+                        Label="teams"                                   
+                        Glyph="&#xE721;" />
+                </PivotItem.Header>
+                <ListView	
+                    ItemsSource="{Binding ConstructorStanding}"	
+                    ItemTemplate="{StaticResource ConstructorDataTemplate}"
+                    Margin="0, 40, 0, 0" />
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</base:PageBase>

@@ -1,0 +1,56 @@
+﻿<Page
+    x:Class="BindingEvents.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BindingEvents"
+    xmlns:model="using:BindingEvents.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding Path=MainViewModel, Source={StaticResource ViewModelLocator}}">
+    <Page.Resources>
+        
+        <DataTemplate
+            x:Key="HouseDataTemplate"
+            x:DataType="model:House">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBlock 
+                    Text="{x:Bind Name}"
+                    VerticalAlignment="Center" />
+                <Button 
+                    Grid.Column="1"
+                    Content="Click me!"
+                    Click="{x:Bind Click}" />
+            </Grid>
+        </DataTemplate>
+        
+    </Page.Resources>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel
+            Grid.Row="0"
+            Orientation="Horizontal"  
+            Margin="10">
+            <Button 
+                Content="Regular Arguments"
+                Click="{x:Bind Click_RegularArgs}" />
+            <Button 
+                Content="No Arguments"
+                Click="{x:Bind Click_NoArgs}" />
+            <Button
+                Content="Base Arguments"
+                Click="{x:Bind Click_BaseArgs}" />
+        </StackPanel>
+        <ListView
+            Grid.Row="1"
+            ItemsSource="{Binding Houses}"
+            ItemTemplate="{StaticResource HouseDataTemplate}" />      
+    </Grid>
+</Page>

@@ -1,0 +1,57 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="BindingEvents.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BindingEvents"
+    xmlns:model="using:BindingEvents.Models"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding Path=MainViewModel, Source={StaticResource ViewModelLocator}}">
+    <Page.Resources>
+        
+        <DataTemplate
+            x:Key="HouseDataTemplate"
+                                    >
+            <Grid x:ConnectionId='2'>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <TextBlock x:ConnectionId='3' 
+                                        
+                    VerticalAlignment="Center" />
+                <Button x:ConnectionId='4' 
+                    Grid.Column="1"
+                    Content="Click me!"
+                                           />
+            </Grid>
+        </DataTemplate>
+        
+    </Page.Resources>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel
+            Grid.Row="0"
+            Orientation="Horizontal"  
+            Margin="10">
+            <Button x:ConnectionId='5' 
+                Content="Regular Arguments"
+                                                   />
+            <Button x:ConnectionId='6' 
+                Content="No Arguments"
+                                              />
+            <Button x:ConnectionId='7'
+                Content="Base Arguments"
+                                                />
+        </StackPanel>
+        <ListView
+            Grid.Row="1"
+            ItemsSource="{Binding Houses}"
+            ItemTemplate="{StaticResource HouseDataTemplate}" />      
+    </Grid>
+</Page>
+

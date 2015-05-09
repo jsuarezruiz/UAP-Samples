@@ -1,0 +1,13 @@
+App.xbf
+Controls\TabHeader.xbf
+Themes\Colors.xbf
+Themes\Converters.xbf
+Themes\Fonts.xbf
+Themes\ListViewStyles.xbf
+Themes\PivotStyles.xbf
+Themes\RadioButtonStyles.xbf
+Themes\TextStyles.xbf
+Themes\ToggleButtonStyles.xbf
+Views\MainView.xbf
+Views\PivotView.xbf
+Views\TabView.xbf
