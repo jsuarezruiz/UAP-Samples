@@ -15,7 +15,7 @@
                 <PivotItem.Header>
                     <controls:TabHeader 
                         Label="drivers"  
-                        Glyph="&#xE719;" />
+                        Glyph="" />
                 </PivotItem.Header>
                 <ListView	
                     ItemsSource="{Binding DriverStanding}"	
@@ -26,7 +26,7 @@
                 <PivotItem.Header>
                     <controls:TabHeader
                         Label="teams"                                   
-                        Glyph="&#xE721;" />
+                        Glyph="" />
                 </PivotItem.Header>
                 <ListView	
                     ItemsSource="{Binding ConstructorStanding}"	

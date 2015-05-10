@@ -20,7 +20,7 @@
     <AppXManifest Include="C:\Users\Javier\Documents\GitHub\UAP-Samples\Pivot\Pivot\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-09T17:34:43.576</Modified>
+      <Modified>2015-05-10T09:31:32.923</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -114,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Javier\Documents\GitHub\UAP-Samples\Pivot\Pivot\bin\x86\Debug\Core\Pivot.exe">
       <PackagePath>Pivot.exe</PackagePath>
-      <Modified>2015-05-09T17:34:42.746</Modified>
+      <Modified>2015-05-10T09:31:32.011</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Javier\Documents\GitHub\UAP-Samples\Pivot\Pivot\bin\x86\Debug\Core\Pivot.xr.xml">
       <PackagePath>Pivot.xr.xml</PackagePath>
@@ -126,7 +126,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Javier\Documents\GitHub\UAP-Samples\Pivot\Pivot\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-09T17:34:44.120</Modified>
+      <Modified>2015-05-10T09:31:33.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Javier\Documents\GitHub\UAP-Samples\Pivot\Pivot\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>

@@ -87,13 +87,13 @@
             {
                 new MenuItem
                 {
-                    Icon = "",
+                    Icon = "",
                     Title = "Pivot",
                     View = typeof(PivotView)
                 },
                 new MenuItem
                 {
-                    Icon = "",
+                    Icon = "",
                     Title = "Tab",
                     View = typeof(TabView)
                 }
