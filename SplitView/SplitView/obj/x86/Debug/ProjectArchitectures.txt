@@ -1,0 +1,1 @@
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\SplitView\SplitView\SplitView.csproj;x86

@@ -1,0 +1,64 @@
+﻿<Page
+    x:Class="AdaptiveTriggers.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AdaptiveTriggers"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:customStateTriggers="using:AdaptiveTriggers.CustomStateTriggers"
+    mc:Ignorable="d">
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<TextBlock x:ConnectionId='1' x:Name="Info" 
+				   HorizontalAlignment="Center" 
+				   VerticalAlignment="Center" />
+		<VisualStateManager.VisualStateGroups>
+			<VisualStateGroup>
+				<!-- Using AdaptiveTrigger -->
+				<!--
+				<VisualState x:Name="Small">
+					<VisualState.StateTriggers>
+						<AdaptiveTrigger MinWindowWidth="0" />
+					</VisualState.StateTriggers>
+					<VisualState.Setters>
+						<Setter Target="Info.Text" Value="Pantalla pequeña" />
+						<Setter Target="Info.FontSize" Value="32" />
+						<Setter Target="Info.Foreground" Value="Red" />
+					</VisualState.Setters>
+				</VisualState>
+				<VisualState x:Name="Big">
+					<VisualState.StateTriggers>
+						<AdaptiveTrigger MinWindowWidth="600" />
+					</VisualState.StateTriggers>
+					<VisualState.Setters>
+						<Setter Target="Info.Text" Value="Pantalla grande" />
+						<Setter Target="Info.FontSize" Value="48" />
+						<Setter Target="Info.Foreground" Value="Blue" />
+					</VisualState.Setters>
+				</VisualState>
+				-->
+				<!-- Custom State Triggers -->
+				<VisualState x:ConnectionId='2' x:Name="WindowsPhone">
+					<VisualState.StateTriggers>
+                        <customStateTriggers:PlatformStateTrigger DeviceFamily="Mobile" />
+					</VisualState.StateTriggers>
+					<VisualState.Setters>
+						<Setter Target="Info.Text" Value="Windows Phone" />
+						<Setter Target="Info.FontSize" Value="32" />
+						<Setter Target="Info.Foreground" Value="Red" />
+					</VisualState.Setters>
+				</VisualState>
+				<VisualState x:ConnectionId='3' x:Name="Windows">
+					<VisualState.StateTriggers>
+                        <customStateTriggers:PlatformStateTrigger DeviceFamily="Desktop" />
+					</VisualState.StateTriggers>
+					<VisualState.Setters>
+						<Setter Target="Info.Text" Value="Windows" />
+						<Setter Target="Info.FontSize" Value="48" />
+						<Setter Target="Info.Foreground" Value="Blue" />
+					</VisualState.Setters>
+				</VisualState>
+			</VisualStateGroup>
+		</VisualStateManager.VisualStateGroups>
+	</Grid>
+</Page>
+

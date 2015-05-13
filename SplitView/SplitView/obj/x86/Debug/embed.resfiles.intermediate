@@ -1,0 +1,12 @@
+App.xbf
+Styles\Colors.xbf
+Styles\Converters.xbf
+Styles\FlipViewStyles.xbf
+Styles\Fonts.xbf
+Styles\ListViewStyles.xbf
+Styles\TextStyles.xbf
+Styles\ToggleButtonStyles.xbf
+Views\AboutView.xbf
+Views\HomeView.xbf
+Views\MainView.xbf
+Views\StandingsView.xbf

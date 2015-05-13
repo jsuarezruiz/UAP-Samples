@@ -1,0 +1,1 @@
+C:\Users\Javier\Documents\Visual Studio 2015\Projects\DeviceFamily View\DeviceFamily View\DeviceFamily View.csproj;x86

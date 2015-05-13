@@ -1,1 +1,0 @@
-C:\Users\Javier\Documents\GitHub\UAP-Samples\Ink Hand Writing Recognition\Ink\Ink.csproj;x86
