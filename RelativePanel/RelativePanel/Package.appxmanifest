@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="cfa77c48-830e-4a1e-85bb-8f18071e0488"
+    Name="ca9e97a2-3e71-4908-ab83-0dc0c2259acc"
     Publisher="CN=Javier"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="cfa77c48-830e-4a1e-85bb-8f18071e0488" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="ca9e97a2-3e71-4908-ab83-0dc0c2259acc" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>RelativePanel</DisplayName>
@@ -20,7 +20,7 @@
   </Properties>
 
   <Dependencies>
-    <TargetPlatform Name="Windows.Universal" MinVersion="10.0.10030.0" MaxVersionTested="10.0.10030.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10069.0" MaxVersionTested="10.0.10069.0" />
   </Dependencies>
 
   <Resources>
@@ -36,7 +36,6 @@
         Square150x150Logo="Assets\Logo.png"
         Square44x44Logo="Assets\SmallLogo.png"
         Description="RelativePanel"
-        ForegroundText="light"
         BackgroundColor="#464646">
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>

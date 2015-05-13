@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="RelativePanel.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RelativePanel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<RelativePanel>
+			<Rectangle x:ConnectionId='1' x:Name="BlueRect"
+					   Height="100" 
+					   Width="200" 
+					   Fill="Blue" />
+			<Rectangle x:ConnectionId='2' x:Name="GreenRect"
+					   Height="100" 
+					   Width="100" 
+					   Fill="Green"
+					   RelativePanel.RightOf="BlueRect"
+					   RelativePanel.AlignVerticalCenterWith="BlueRect" />
+			<Rectangle x:ConnectionId='3' x:Name="YellowRect"
+					   Height="100" 
+					   Width="100" 
+					   Fill="Yellow"
+					   RelativePanel.Below="BlueRect"
+					   RelativePanel.AlignHorizontalCenterWith="BlueRect" />
+
+			<Rectangle x:ConnectionId='4' x:Name="RedRect"
+					   Height="100" 
+					   Width="100" 
+					   Fill="Red"
+					   RelativePanel.AlignHorizontalCenterWithPanel="True"
+					   RelativePanel.AlignVerticalCenterWithPanel="True" />
+		</RelativePanel>
+	</Grid>
+</Page>
+
