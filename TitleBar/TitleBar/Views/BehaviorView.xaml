@@ -1,0 +1,28 @@
+﻿<base:PageBase
+    x:Class="TitleBar.Views.BehaviorView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TitleBar.Views"
+    xmlns:base="using:TitleBar.Views.Base"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="using:Microsoft.Xaml.Interactivity"
+    xmlns:behaviors="using:TitleBar.Behaviors"
+    mc:Ignorable="d"
+    DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
+    <i:Interaction.Behaviors>
+        <behaviors:TitleBarBehavior
+            Title="Changed from Behavior!"
+            BackgroundColor="{StaticResource RedColor}"
+            ForegroundColor="{StaticResource WhiteColor}"
+            ButtonBackgroundColor="{StaticResource BlueColor}"
+            ButtonForegroundColor="{StaticResource WhiteColor}"/>
+    </i:Interaction.Behaviors>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <TextBlock Text="Using Behaviors SDK!" />
+        </StackPanel>
+    </Grid>
+</base:PageBase>
