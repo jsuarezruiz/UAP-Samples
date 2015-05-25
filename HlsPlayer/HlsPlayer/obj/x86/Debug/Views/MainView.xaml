@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="HlsPlayer.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HlsPlayer"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"    
+    xmlns:i="using:Microsoft.Xaml.Interactivity"
+    xmlns:behaviors="using:HlsPlayer.Behaviors"
+    mc:Ignorable="d"
+    DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <MediaElement 
+            AutoPlay="True">
+            <i:Interaction.Behaviors>
+                <behaviors:MediaStreamSourceBehavior 
+                    Media="{Binding MediaSource}"/>
+            </i:Interaction.Behaviors>
+        </MediaElement>
+        <Button
+            Grid.Row="1"
+            HorizontalAlignment="Center"
+            Content="Play"
+            Command="{Binding PlayCommand}"/>
+    </Grid>
+</Page>
+
