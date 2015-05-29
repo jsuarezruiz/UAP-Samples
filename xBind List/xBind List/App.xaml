@@ -1,0 +1,16 @@
+﻿<Application
+    x:Class="xBind_List.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:xBind_List"
+    RequestedTheme="Light"
+    xmlns:locator="using:xBind_List.ViewModels.Base">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- ViewModelLocator -->
+            <locator:ViewModelLocator x:Key="Locator" />
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
