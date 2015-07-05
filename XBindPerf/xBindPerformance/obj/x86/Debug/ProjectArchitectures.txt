@@ -1,0 +1,1 @@
+C:\Users\Javier\Documents\GitHub\Events\xBindPerformance\xBindPerformance\xBindPerformance.csproj;x86
