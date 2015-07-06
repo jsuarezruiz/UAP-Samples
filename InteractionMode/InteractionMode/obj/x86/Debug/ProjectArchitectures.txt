@@ -1,0 +1,1 @@
+C:\Users\Javier\Documents\GitHub\UAP-Samples\InteractionMode\InteractionMode\InteractionMode.csproj;x86
