@@ -1,0 +1,42 @@
+﻿<base:PageBase
+    x:Class="FullScreenMode.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FullScreenMode.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"  
+    xmlns:base="using:FullScreenMode.Views.Base"
+    mc:Ignorable="d" 
+    DataContext="{Binding Path=MainViewModel, Source={StaticResource Locator}}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <TextBlock Text="Ejemplo modo Full Screen"
+                       FontSize="32" />
+            <TextBlock
+                TextWrapping="Wrap">
+                Pulsa el botón inferior para entrar y salir del modo pantalla completa.
+            </TextBlock>
+            <Button
+                Content="Modo Pantalla Completa"
+                Command="{Binding FullScreenModeCommand}" />
+            <TextBlock
+                TextWrapping="Wrap">
+                Cuando estamos modo pantalla completa podemos hacer una petición para mostrar los elementos de superposición del sistema.
+            </TextBlock>
+            <Button
+                Content="Mostrar controles superpuestos del sistema"
+                Command="{Binding ShowOverlayControlsCommand}"/>
+            <TextBlock>
+                Una App puede ser lanzada en modo ventana o Pantalla completa.
+                Marca o desmarca la caja inferior y cierra y abre la App para probar.
+            </TextBlock>
+            <CheckBox x:ConnectionId='1'
+                x:Name="FullScreenModeCheck"
+                Content="Lanzar en modo Pantalla Completa"
+                IsChecked="{Binding IsFullScreenMode}"
+                Command="{Binding SetFullScreenModeCommand}"
+                CommandParameter="{Binding ElementName=FullScreenModeCheck, Path=IsChecked}"/>
+        </StackPanel>
+    </Grid>
+</base:PageBase>
+
