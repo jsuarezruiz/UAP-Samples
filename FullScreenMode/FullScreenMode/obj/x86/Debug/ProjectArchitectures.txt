@@ -1,1 +1,1 @@
-C:\Users\Javier\Documents\GitHub\Events\FullScreenMode\FullScreenMode\FullScreenMode.csproj;x86
+C:\Users\javie\Documents\GitHub\UAP-Samples\FullScreenMode\FullScreenMode\FullScreenMode.csproj;x86
