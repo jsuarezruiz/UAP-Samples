@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AIO</Machine>
+    <WindowsUser>Javier</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>75b1e004-e541-48fa-9ed8-d6801bfccb70</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Javier\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>B40188FC1DAD470431A00C865F75B5B40E9806A5E9627AC15E97F701910FF440</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>75b1e004-e541-48fa-9ed8-d6801bfccb70_1.0.0.0_neutral__j6j5z4mnvcpja</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>75b1e004-e541-48fa-9ed8-d6801bfccb70_j6j5z4mnvcpja!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>75b1e004-e541-48fa-9ed8-d6801bfccb70</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Javier</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Javier\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-04T16:26:25.747</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <Modified>2015-04-02T15:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <Modified>2015-04-02T15:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <Modified>2015-04-02T15:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <Modified>2015-04-02T15:55:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Javier\Documents\Visual Studio 2015\Projects\WestminsterSample\WestminsterSample\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-08-04T16:26:25.640</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
