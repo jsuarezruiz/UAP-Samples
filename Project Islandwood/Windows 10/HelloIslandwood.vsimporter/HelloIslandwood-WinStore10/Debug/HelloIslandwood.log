@@ -1,0 +1,28 @@
+﻿Compilación iniciada a las 07/08/2015 19:15:36.
+     1>Proyecto "C:\Users\javie\Documents\WinObjc\Migration\HelloWinObjc\Sample\HelloIslandwood.vsimporter\HelloIslandwood-WinStore10\HelloIslandwood.vcxproj" en el nodo 2 (Build destinos).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\javie\Documents\WinObjc\Migration\HelloWinObjc\Sample\Debug\HelloIslandwood\HelloIslandwood.exe" /NOLOGO /LIBPATH:"C:\Users\javie\Documents\WinObjc\msvc\..\build\Win32\Debug\Universal Windows" /LIBPATH:"C:\Users\javie\Documents\WinObjc\msvc\..\deps\prebuilt\Universal Windows\x86" WindowsApp.lib UIKit.lib Foundation.lib CoreGraphics.lib /MANIFEST:NO /Debug /PDB:"C:\Users\javie\Documents\WinObjc\Migration\HelloWinObjc\Sample\Debug\HelloIslandwood\HelloIslandwood.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /APPCONTAINER /WINMD /WINMDFILE:"C:\Users\javie\Documents\WinObjc\Migration\HelloWinObjc\Sample\Debug\HelloIslandwood\HelloIslandwood.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH Debug\ConsumeRuntimeComponent.obj
+         Debug\main_E2E0E86C.obj
+         Debug\AppDelegate_6D8D64F0.obj
+         Debug\MainViewController_EF211E2B.obj
+         StarboardXaml.lib
+         Starboard.lib
+         objcrt.lib
+         Foundation.lib
+         CoreFoundation.lib
+         UIKit.lib
+         QuartzCore.lib
+         CoreGraphics.lib
+         objcuwp.lib
+         HelloIslandwood.vcxproj -> C:\Users\javie\Documents\WinObjc\Migration\HelloWinObjc\Sample\Debug\HelloIslandwood\HelloIslandwood.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\10\bin\x64\MakePri.exe New -ProjectRoot C:\Users\javie\Documents\WinObjc\Migration\HelloWinObjc\Sample\HelloIslandwood.vsimporter\HelloIslandwood-WinStore10\ -ConfigXml Debug\priconfig.xml -OutputFile C:\Users\javie\Documents\WinObjc\Migration\HelloWinObjc\Sample\Debug\HelloIslandwood\resources.pri -IndexName 69f66aef-ffec-40ae-91b9-cb30a00955cd -Verbose -Overwrite  
+       _ExpandPriFiles:
+         C:\Program Files (x86)\Windows Kits\10\bin\x64\MakePri.exe Dump -IndexFile "C:\Users\javie\Documents\WinObjc\msvc\..\build\Win32\Debug\Universal Windows\XamlCompositorCS.pri" -OutputFile Debug\XamlCompositorCS.pri.xml -Verbose -Overwrite  
+     1>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\AppxPackage\Microsoft.AppXPackage.Targets(1673,5): warning APPX0104: No se encuentra el archivo de certificado 'HelloIslandwood_TemporaryKey.pfx'.
+     1>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\AppxPackage\Microsoft.AppXPackage.Targets(1673,5): warning APPX0107: El certificado especificado no es válido para firmar. Para obtener más información acerca de los certificados válidos, consulte http://go.microsoft.com/fwlink/?LinkID=241478.
+     1>Compilación del proyecto terminada "C:\Users\javie\Documents\WinObjc\Migration\HelloWinObjc\Sample\HelloIslandwood.vsimporter\HelloIslandwood-WinStore10\HelloIslandwood.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:08.38

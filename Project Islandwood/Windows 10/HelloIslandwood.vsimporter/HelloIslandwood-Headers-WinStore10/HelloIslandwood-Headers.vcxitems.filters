@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HelloIslandwood">
+      <UniqueIdentifier>{2FFDB5E0-8FE3-4D3C-999C-B9FFADF1B80D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HelloIslandwood\Supporting Files">
+      <UniqueIdentifier>{CCA2B711-8145-4D86-8D91-EA8F40C7CD89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HelloIslandwoodTests">
+      <UniqueIdentifier>{5EB641C1-08EB-4335-A258-5CE804A1FC6A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\HelloIslandwood\AppDelegate.h">
+      <Filter>HelloIslandwood</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\HelloIslandwood\MainViewController.h">
+      <Filter>HelloIslandwood</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\HelloIslandwood\HelloIslandwood-Prefix.pch">
+      <Filter>HelloIslandwood\Supporting Files</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\HelloIslandwoodTests\HelloIslandwoodTests.h">
+      <Filter>HelloIslandwoodTests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

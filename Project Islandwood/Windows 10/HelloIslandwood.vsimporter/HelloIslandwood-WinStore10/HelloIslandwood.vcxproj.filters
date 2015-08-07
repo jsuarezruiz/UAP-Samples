@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{4b9068ec-6549-419e-9b7b-d51e37db9724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{7b2ba956-5d93-4398-bba1-3d9fab3512e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HelloIslandwood">
+      <UniqueIdentifier>{8CAFAA81-20D5-4878-B604-33DC47E58B66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HelloIslandwood\Supporting Files">
+      <UniqueIdentifier>{443B7106-165D-4756-B14D-FA823D63F65F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HelloIslandwood\Supporting Files\en">
+      <UniqueIdentifier>{A66088E2-A06C-4BA3-A290-0B3C8D42E2F7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xcode Variable Files">
+      <UniqueIdentifier>{6D4C6DB9-741D-434B-A897-6DC44C22CDA4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <ClangCompile Include="..\..\HelloIslandwood\main.m">
+      <Filter>HelloIslandwood\Supporting Files</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\HelloIslandwood\AppDelegate.m">
+      <Filter>HelloIslandwood</Filter>
+    </ClangCompile>
+    <ClangCompile Include="..\..\HelloIslandwood\MainViewController.m">
+      <Filter>HelloIslandwood</Filter>
+    </ClangCompile>
+    <ClInclude Include="..\..\HelloIslandwood\HelloIslandwood-Prefix.pch" />
+    <SBResourceCopy Include="..\..\HelloIslandwood\en.lproj\InfoPlist.strings">
+      <Filter>HelloIslandwood\Supporting Files\en</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\HelloIslandwood\Default.png">
+      <Filter>HelloIslandwood\Supporting Files</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\HelloIslandwood\Default@2x.png">
+      <Filter>HelloIslandwood\Supporting Files</Filter>
+    </SBResourceCopy>
+    <SBResourceCopy Include="..\..\HelloIslandwood\Default-568h@2x.png">
+      <Filter>HelloIslandwood\Supporting Files</Filter>
+    </SBResourceCopy>
+    <SBInfoPlistCopy Include="..\..\HelloIslandwood\HelloIslandwood-Info.plist" />
+    <Text Include="HelloIslandwood-Debug-xcvars.txt">
+      <Filter>Xcode Variable Files</Filter>
+    </Text>
+    <Text Include="HelloIslandwood-Release-xcvars.txt">
+      <Filter>Xcode Variable Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

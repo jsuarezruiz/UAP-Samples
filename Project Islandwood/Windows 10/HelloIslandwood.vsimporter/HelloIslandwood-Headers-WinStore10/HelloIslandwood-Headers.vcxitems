@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsRootNamespace>HelloIslandwood_Headers</ItemsRootNamespace>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <ItemsProjectGuid>{B3C61D6D-5A53-461F-A5EC-19E771356F6E}</ItemsProjectGuid>
+    <SharedGUID>{258E32C0-9821-440B-B5B1-8B3CD4E0758E}</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\HelloIslandwood\AppDelegate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\HelloIslandwood\MainViewController.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\HelloIslandwood\HelloIslandwood-Prefix.pch" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\HelloIslandwoodTests\HelloIslandwoodTests.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+</Project>
