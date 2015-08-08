@@ -7,22 +7,23 @@
 
     Para obtener más información acerca de los archivos de manifiesto del paquete, vea http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="75b1e004-e541-48fa-9ed8-d6801bfccb70" Version="1.0.0.0" Publisher="CN=Javier" ProcessorArchitecture="neutral" />
-  <mp:PhoneIdentity PhoneProductId="75b1e004-e541-48fa-9ed8-d6801bfccb70" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="c4727e28-6505-472f-8e8f-308703f54a8e" Version="1.0.0.0" Publisher="CN=javie" ProcessorArchitecture="neutral" />
+  <mp:PhoneIdentity PhoneProductId="c4727e28-6505-472f-8e8f-308703f54a8e" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>WestminsterSample</DisplayName>
-    <PublisherDisplayName>Javier</PublisherDisplayName>
+    <PublisherDisplayName>javie</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10069.0" MaxVersionTested="10.0.10069.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />
   </Dependencies>
   <Resources>
     <Resource Language="ES-ES" />
   </Resources>
   <Applications>
     <Application Id="App" StartPage="http://geeks.ms/blogs/jsuarez/">
-      <uap:VisualElements DisplayName="WestminsterSample" Description="WestminsterSample" BackgroundColor="#464646" Square150x150Logo="images\Logo.png" Square44x44Logo="images\SmallLogo.png">
+      <uap:VisualElements DisplayName="WestminsterSample" Description="WestminsterSample" BackgroundColor="transparent" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png"></uap:DefaultTile>
         <uap:SplashScreen Image="images\splashscreen.png" />
       </uap:VisualElements>
       <uap:ApplicationContentUriRules>
@@ -35,13 +36,12 @@
   </Capabilities>
   <build:Metadata>
     <build:Item Name="VisualStudio" Version="14.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015 RC" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.10240.16384 (th1.150709-1700)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.22823.1" />
-    <build:Item Name="ProjectGUID" Value="75b1e004-e541-48fa-9ed8-d6801bfccb70" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.23121.0" />
+    <build:Item Name="ProjectGUID" Value="c4727e28-6505-472f-8e8f-308703f54a8e" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="AppHost" />
-    <build:Item Name="ilc.exe" Version="1.0.22816.00 built by: PROJECTNREL" />
-    <build:Item Name="MakePri.exe" Version="10.0.10069.0 (fbl_impressive.150419-0022)" />
+    <build:Item Name="MakePri.exe" Version="10.0.10240.16384 (th1.150709-1700)" />
   </build:Metadata>
 </Package>
