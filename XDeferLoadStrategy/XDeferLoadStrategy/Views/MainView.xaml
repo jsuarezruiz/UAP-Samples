@@ -11,7 +11,9 @@
         <StackPanel Margin="12">
             <TextBlock 
                 Text="x:DefeLoadStrategy"
-                HorizontalAlignment="Left" 
+                FontWeight="Black"/>
+            <TextBlock 
+                Text="x:DeferLoadStrategy nos permite retrasar la creación de un elemento y sus elementos hijos lo que reduce los tiempos necesarios para la creación de la UI y por lo tanto de carga. Sin embargo, nada en la vida es gratis. A cambio, incrementamos levemente el consumo de memoria."
                 TextWrapping="WrapWholeWords" />
             <Grid x:Name="DeferredPanel"  
                   x:DeferLoadStrategy="Lazy">
@@ -20,7 +22,7 @@
                     Source="ms-appx:///Assets/NinjaCat.jpg" />
            </Grid>
             <Button 
-                Content="Realize Elements" 
+                Content="Crear" 
                 Command="{Binding RealizeElementsCommand}"/>
         </StackPanel>
     </Grid>
