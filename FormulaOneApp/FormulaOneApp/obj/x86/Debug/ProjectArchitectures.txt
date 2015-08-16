@@ -1,1 +1,0 @@
-C:\Users\javie\Documents\GitHub\UAP-Samples\FormulaOneApp\FormulaOneApp\FormulaOneApp.csproj;x86

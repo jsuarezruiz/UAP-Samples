@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="PasswordVaultSample.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PasswordVaultSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="12">
+            <StackPanel
+                Margin="0, 12">
+                <TextBlock
+                    Text="PasswordVault"
+                    FontSize="32" />
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <TextBox Text="{Binding Source, Mode=TwoWay}" 
+                         Header="Source" 
+                         PlaceholderText="https://facebook.com" />
+                <TextBox Text="{Binding User, Mode=TwoWay}" 
+                         Header="User" 
+                         PlaceholderText="user@mail.com" />
+                <PasswordBox Password="{Binding Password, Mode=TwoWay}" 
+                             Header="Password" 
+                             PlaceholderText="1234abcd" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" 
+                        HorizontalAlignment="Center"
+                        Margin="0, 12">
+                <Button Content="Save" Command="{Binding SaveCommand}" />
+                <Button Content="Read" Margin="12, 0" Command="{Binding ReadCommand}" />
+                <Button Content="Delete" Command="{Binding DeleteCommand}" />
+            </StackPanel>
+            <ScrollViewer>
+                <TextBlock Text="{Binding Info}"/>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Page>
