@@ -1,0 +1,26 @@
+﻿<base:PageBase
+    x:Class="AppViewBackButton.Views.FirstView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppViewBackButton"
+	xmlns:base="using:AppViewBackButton.Views.Base"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+	DataContext="{Binding FirstViewModel, Source={StaticResource Locator}}">
+    <Grid
+		Background="LightBlue">
+        <StackPanel 
+			HorizontalAlignment="Center"
+			VerticalAlignment="Center">
+            <Button 
+				Content="Go to Second View"
+				Command="{Binding GoToSecondCommand}" />
+            <Button 
+				Content="Pass parameter"
+				Command="{Binding ParameterCommand}"
+				Margin="0, 10"/>
+        </StackPanel>
+    </Grid>
+</base:PageBase>
+
