@@ -1,8 +1,8 @@
-﻿using Windows.UI.Xaml.Controls;
-
-namespace PasswordVaultSample
+﻿namespace PasswordVaultSample
 {
-    public sealed partial class MainView : Page
+    using Views.Base;
+
+    public sealed partial class MainView : PageBase
     {
         public MainView()
         {
