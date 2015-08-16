@@ -1,1 +1,1 @@
-C:\Users\javie\Documents\Visual Studio 2015\Projects\PasswordVaultSample\PasswordVaultSample\PasswordVaultSample.csproj;x86
+C:\Users\javie\Documents\GitHub\UAP-Samples\PasswordVault\PasswordVaultSample\PasswordVaultSample.csproj;x86

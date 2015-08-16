@@ -1,0 +1,23 @@
+﻿<base:PageBase
+    x:Class="MultipleViews.Views.SecondaryView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MultipleViews.Views"
+    xmlns:base="using:MultipleViews.Views.Base"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding SecondaryViewModel, Source={StaticResource Locator}}">
+    <Grid Background="LightPink">
+        <StackPanel
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <Button
+                Content="Switch to Main View"
+                Command="{Binding SwitchViewCommand}"/>
+            <Button
+                Content="Switch to Main View and Hide"
+                Command="{Binding HideViewCommand}"/>
+        </StackPanel>
+    </Grid>
+</base:PageBase>
