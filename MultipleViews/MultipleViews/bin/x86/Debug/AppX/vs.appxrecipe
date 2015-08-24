@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\javie\Documents\Visual Studio 2015\Projects\MultipleViews\MultipleViews\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-16T18:45:19.093</Modified>
+      <Modified>2015-08-21T19:41:32.390</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -64,7 +64,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\Visual Studio 2015\Projects\MultipleViews\MultipleViews\bin\x86\Debug\Core\entrypoint\MultipleViews.exe">
       <PackagePath>entrypoint\MultipleViews.exe</PackagePath>
-      <Modified>2015-08-16T18:45:17.727</Modified>
+      <Modified>2015-08-21T19:41:31.281</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\Visual Studio 2015\Projects\MultipleViews\MultipleViews\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -104,7 +104,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\Visual Studio 2015\Projects\MultipleViews\MultipleViews\bin\x86\Debug\Core\MultipleViews.exe">
       <PackagePath>MultipleViews.exe</PackagePath>
-      <Modified>2015-08-16T18:45:19.088</Modified>
+      <Modified>2015-08-21T19:41:32.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\Visual Studio 2015\Projects\MultipleViews\MultipleViews\bin\x86\Debug\Core\MultipleViews.xr.xml">
       <PackagePath>MultipleViews.xr.xml</PackagePath>

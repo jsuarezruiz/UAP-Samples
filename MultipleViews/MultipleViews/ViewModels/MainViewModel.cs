@@ -22,7 +22,7 @@
 
         public ICommand CreateSecondaryViewCommand
         {
-            get { return _createSecondaryViewCommand = _createSecondaryViewCommand ?? new DelegateCommand(CreateSecondaryViewCommandExecute); }
+            get { return _createSecondaryViewCommand = _createSecondaryViewCommand ?? new DelegateCommandAsync(CreateSecondaryViewCommandExecute); }
         }
 
         public override Task OnNavigatedTo(NavigationEventArgs args)
@@ -38,7 +38,7 @@
             return null;
         }
 
-        private async void CreateSecondaryViewCommandExecute()
+        private async Task CreateSecondaryViewCommandExecute()
         {
             var newView = CoreApplication.CreateNewView();
             int newViewId = 0;

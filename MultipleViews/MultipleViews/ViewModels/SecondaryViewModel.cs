@@ -25,20 +25,20 @@
 
         public ICommand SwitchViewCommand
         {
-            get { return _switchViewCommand = _switchViewCommand ?? new DelegateCommand(SwitchViewCommandExecute); }
+            get { return _switchViewCommand = _switchViewCommand ?? new DelegateCommandAsync(SwitchViewCommandExecute); }
         }
 
         public ICommand HideViewCommand
         {
-            get { return _hideViewCommand = _hideViewCommand ?? new DelegateCommand(HideViewCommandExecute); }
+            get { return _hideViewCommand = _hideViewCommand ?? new DelegateCommandAsync(HideViewCommandExecute); }
         }
 
-        private async void SwitchViewCommandExecute()
+        private async Task SwitchViewCommandExecute()
         {
             await ApplicationViewSwitcher.SwitchAsync(App.MainViewId);
         }
 
-        private async void HideViewCommandExecute()
+        private async Task HideViewCommandExecute()
         {
             await ApplicationViewSwitcher.SwitchAsync(App.MainViewId,
                 ApplicationView.GetForCurrentView().Id,
