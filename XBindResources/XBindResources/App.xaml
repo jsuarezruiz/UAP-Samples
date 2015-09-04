@@ -1,0 +1,23 @@
+﻿<Application
+    x:Class="XBindResources.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XBindResources"
+    RequestedTheme="Light"
+    xmlns:locator="using:XBindResources.ViewModels.Base"
+    xmlns:resources="using:XBindResources.Resources">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- ViewModelLocator -->
+            <locator:ViewModelLocator x:Key="Locator" />
+
+            <ResourceDictionary.MergedDictionaries>
+                
+                <!-- Resources -->
+                <resources:AppResourceDictionary />      
+                
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

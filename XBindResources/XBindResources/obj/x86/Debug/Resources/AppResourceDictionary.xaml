@@ -1,0 +1,33 @@
+﻿<ResourceDictionary
+    x:Class="XBindResources.Resources.AppResourceDictionary"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:model="using:XBindResources.Models">
+
+    <DataTemplate x:Key="HouseTemplate"                         >
+        <Grid x:ConnectionId='1' Width="200" 
+              Height="80">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Image x:ConnectionId='2' Grid.RowSpan="2" 
+                                           
+                   MaxWidth="70" 
+                   MaxHeight="70" />
+            <TextBlock x:ConnectionId='3'                          
+                       Grid.Column="1" 
+                       FontSize="18"/>
+            <TextBlock x:ConnectionId='4'                        
+                       Grid.Column="1"  
+                       Grid.Row="1"
+                       FontSize="12" />
+        </Grid>
+    </DataTemplate>
+    
+</ResourceDictionary>
+
