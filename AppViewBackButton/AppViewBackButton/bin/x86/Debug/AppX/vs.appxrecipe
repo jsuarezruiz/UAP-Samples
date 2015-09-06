@@ -22,7 +22,7 @@
     <AppXManifest Include="C:\Users\javie\Documents\Visual Studio 2015\Projects\AppViewBackButton\AppViewBackButton\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-16T11:48:17.312</Modified>
+      <Modified>2015-08-21T19:30:36.982</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -32,7 +32,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\Visual Studio 2015\Projects\AppViewBackButton\AppViewBackButton\bin\x86\Debug\Core\AppViewBackButton.exe">
       <PackagePath>AppViewBackButton.exe</PackagePath>
-      <Modified>2015-08-16T11:48:17.296</Modified>
+      <Modified>2015-08-21T19:30:36.967</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\Visual Studio 2015\Projects\AppViewBackButton\AppViewBackButton\bin\x86\Debug\Core\AppViewBackButton.xr.xml">
       <PackagePath>AppViewBackButton.xr.xml</PackagePath>
@@ -72,7 +72,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\Visual Studio 2015\Projects\AppViewBackButton\AppViewBackButton\bin\x86\Debug\Core\entrypoint\AppViewBackButton.exe">
       <PackagePath>entrypoint\AppViewBackButton.exe</PackagePath>
-      <Modified>2015-08-16T11:48:16.562</Modified>
+      <Modified>2015-08-21T19:30:35.467</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\javie\Documents\Visual Studio 2015\Projects\AppViewBackButton\AppViewBackButton\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
