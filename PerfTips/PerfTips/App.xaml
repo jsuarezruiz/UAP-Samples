@@ -1,0 +1,15 @@
+﻿<Application
+    x:Class="PerfTips.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:locator="using:PerfTips.ViewModels.Base"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- ViewModelLocator -->
+            <locator:ViewModelLocator x:Key="Locator" />
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

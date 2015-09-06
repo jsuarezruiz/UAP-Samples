@@ -1,8 +1,8 @@
-﻿using Windows.UI.Xaml.Controls;
-
-namespace XBindResources
+﻿namespace XBindResources.Views
 {
-    public sealed partial class MainPage : Page
+    using Base;
+
+    public sealed partial class MainPage : PageBase
     {
         public MainPage()
         {

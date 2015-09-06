@@ -1,10 +1,10 @@
-﻿<Page
-    x:Class="XBindResources.MainPage"
+﻿<base:PageBase
+    x:Class="XBindResources.Views.MainPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:XBindResources"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:base="using:XBindResources.Views.Base"
     mc:Ignorable="d"
     DataContext="{Binding Path=MainViewModel, Source={StaticResource Locator}}">
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -12,4 +12,4 @@
             ItemsSource="{Binding Houses}"
             ItemTemplate="{StaticResource HouseTemplate}" />
     </Grid>
-</Page>
+</base:PageBase>
