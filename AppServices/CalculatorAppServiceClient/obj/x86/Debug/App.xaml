@@ -1,0 +1,19 @@
+﻿<Application
+    x:Class="CalculatorAppServiceClient.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:base="using:CalculatorAppServiceClient.ViewModels.Base"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Themes/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- ViewModelLocator -->
+            <base:ViewModelLocator x:Key="Locator" />
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+

@@ -1,0 +1,2 @@
+c:\users\javie\documents\visual studio 2015\Projects\AppServices\CalculatorAppService\CalculatorAppService.csproj;x86
+c:\users\javie\documents\visual studio 2015\Projects\AppServices\CalculatorAppServiceProvider\CalculatorAppServiceProvider.csproj;x86

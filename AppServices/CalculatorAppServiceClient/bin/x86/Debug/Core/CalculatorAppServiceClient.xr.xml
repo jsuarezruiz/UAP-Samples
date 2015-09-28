@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="MainViewModel" />
+    <RootPropertyPathName Name="Result" />
+    <RootPropertyPathName Name="MultiplyCommand" />
+    <RootPropertyPathName Name="SubstractCommand" />
+    <RootPropertyPathName Name="AddCommand" />
+    <RootPropertyPathName Name="Value2" />
+    <RootPropertyPathName Name="Value1" />
+    <RootPropertyPathName Name="Status" />
+    <RootPropertyPathName Name="CloseCommand" />
+    <RootPropertyPathName Name="OpenCommand" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="RequestedTheme" />
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.ResourceDictionary">
+      <RootProperty Name="MergedDictionaries" />
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="CalculatorAppServiceClient.ViewModels.Base.ViewModelLocator" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Style" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="Text" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Command" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="CalculatorAppServiceClient.Views.Base.PageBase">
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Source" />
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Children" />
+      <RootProperty Name="Orientation" />
+    </RootType>
+    <RootType FullName="CalculatorAppServiceClient.Views.MainView" />
+  </Roots.RootTypes>
+</Roots>
