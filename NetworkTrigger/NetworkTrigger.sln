@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkTrigger", "NetworkTrigger\NetworkTrigger.csproj", "{A1915F41-DDF2-4B72-91A5-70D598BC003B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Debug|ARM.Build.0 = Debug|ARM
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Debug|ARM.Deploy.0 = Debug|ARM
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Debug|x64.ActiveCfg = Debug|x64
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Debug|x64.Build.0 = Debug|x64
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Debug|x64.Deploy.0 = Debug|x64
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Debug|x86.ActiveCfg = Debug|x86
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Debug|x86.Build.0 = Debug|x86
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Debug|x86.Deploy.0 = Debug|x86
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Release|ARM.ActiveCfg = Release|ARM
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Release|ARM.Build.0 = Release|ARM
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Release|ARM.Deploy.0 = Release|ARM
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Release|x64.ActiveCfg = Release|x64
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Release|x64.Build.0 = Release|x64
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Release|x64.Deploy.0 = Release|x64
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Release|x86.ActiveCfg = Release|x86
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Release|x86.Build.0 = Release|x86
+		{A1915F41-DDF2-4B72-91A5-70D598BC003B}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
