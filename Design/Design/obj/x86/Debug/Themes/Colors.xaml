@@ -1,0 +1,27 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Color x:Key="WhiteColor">#FFF</Color>
+    <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource WhiteColor}"/>
+
+    <Color x:Key="BlackColor">#000</Color>
+    <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource BlackColor}"/>
+
+    <Color x:Key="BackgroundColor">#F7F7F7</Color>
+    <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}"/>
+
+    <Color x:Key="PivotBackgroundColor">#34323F</Color>
+    <SolidColorBrush x:Key="PivotBackgroundBrush" Color="{StaticResource PivotBackgroundColor}"/>
+ 
+    <Color x:Key="AccentColor">#39B54A</Color>
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+
+    <Color x:Key="LightAccentColor">#4DBD5C</Color>
+    <SolidColorBrush x:Key="LightAccentBrush" Color="{StaticResource LightAccentColor}"/>
+
+    <Color x:Key="LightGreenColor">#8BD495</Color>
+    <SolidColorBrush x:Key="LightGreenBrush" Color="{StaticResource LightGreenColor}"/>
+    
+</ResourceDictionary>
+

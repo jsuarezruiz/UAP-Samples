@@ -1,0 +1,12 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:converters="using:Design.Converters">
+    
+    <!-- Converters -->
+    <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+    <converters:StringToImageConverter x:Key="StringToImageConverter" />
+    <converters:ToUpperCaseConverter x:Key="ToUpperCaseConverter" />
+    
+</ResourceDictionary>
+

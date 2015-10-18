@@ -1,0 +1,275 @@
+﻿<base:PageBase
+    x:Class="Design.Views.RestaurantView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:base="using:Design.Views.Base"
+    xmlns:maps="using:Windows.UI.Xaml.Controls.Maps"
+    xmlns:controls="using:Design.Controls"
+    xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+    xmlns:behaviors="using:Design.Behaviors"
+    mc:Ignorable="d"
+    DataContext="{Binding RestaurantViewModel, Source={StaticResource Locator}}">
+    <interactivity:Interaction.Behaviors>
+        <behaviors:TitleBarBehavior
+            BackgroundColor="{StaticResource PivotBackgroundColor}"
+            ForegroundColor="{StaticResource WhiteColor}"
+            ButtonBackgroundColor="{StaticResource PivotBackgroundColor}"
+            ButtonForegroundColor="{StaticResource WhiteColor}"/>
+    </interactivity:Interaction.Behaviors>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:ConnectionId='1' x:Name="Small">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="InfoPanel.(RelativePanel.AlignLeftWithPanel)" Value="True"/>
+                        <Setter Target="InfoPanel.(RelativePanel.RightOf)" Value="{x:Null}"/>
+                        <Setter Target="InfoPanel.Width" Value="Auto"/>
+                        <Setter Target="CheckinsPanel.(RelativePanel.AlignLeftWithPanel)" Value="True"/>
+                        <Setter Target="CheckinsPanel.(RelativePanel.RightOf)" Value="{x:Null}"/>
+                        <Setter Target="CheckinsPanel.(RelativePanel.Below)" Value="InfoPanel"/>
+                        <Setter Target="CheckinsPanel.Width" Value="Auto"/>
+                        <Setter Target="MapPanel.Visibility" Value="Collapsed"/>
+                        <Setter Target="ReviewsPanel.(RelativePanel.AlignLeftWithPanel)" Value="True"/>
+                        <Setter Target="ReviewsPanel.Width" Value="Auto"/>
+                        <Setter Target="GalleryPanel.Visibility" Value="Collapsed"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:ConnectionId='2' x:Name="Big">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="MapPanel.(RelativePanel.AlignTopWithPanel)" Value="True"/>
+                        <Setter Target="MapPanel.(RelativePanel.AlignLeftWithPanel)" Value="True"/>
+                        <Setter Target="InfoPanel.(RelativePanel.AlignTopWithPanel)" Value="False"/>
+                        <Setter Target="InfoPanel.(RelativePanel.AlignLeftWithPanel)" Value="False"/>
+                        <Setter Target="InfoPanel.(RelativePanel.RightOf)" Value="MapPanel"/>
+                        <Setter Target="CheckinsPanel.(RelativePanel.RightOf)" Value="MapPanel"/>
+                        <Setter Target="CheckinsPanel.(RelativePanel.Below)" Value="InfoPanel"/>
+                        <Setter Target="ReviewsPanel.(RelativePanel.RightOf)" Value="MapPanel"/>
+                        <Setter Target="ReviewsPanel.(RelativePanel.Below)" Value="CheckinsPanel"/>
+                        <Setter Target="ReviewsPanel.Width" Value="Auto"/>
+                        <Setter Target="GalleryPanel.(RelativePanel.RightOf)" Value="InfoPanel"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <Pivot
+            Style="{StaticResource TabsStylePivotStyle}">
+            <!-- All -->
+            <PivotItem>
+                <PivotItem.Header>
+                    <controls:TabHeader 
+                        Label="All" 
+                        Glyph="&#xE80F;" />
+                </PivotItem.Header>
+                <RelativePanel>
+                    <!-- Map -->
+                    <Grid x:ConnectionId='3' 
+                        x:Name="MapPanel"
+                        Style="{StaticResource MapPanelStyle}"
+                        RelativePanel.AlignTopWithPanel="True"
+                        RelativePanel.AlignLeftWithPanel="True">
+                        <maps:MapControl x:ConnectionId='9'
+                            x:Name="Map" 
+                            MinHeight="1024"
+                            Height="{Binding ElementName=MapPanel, Path=ActualHeight}"
+                            MinWidth="400"
+                            Width="{Binding ElementName=MapPanel, Path=ActualWidth}"
+                            Center="{Binding Current.GeoLocation}"
+                            ZoomLevel="17"
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"/>
+                    </Grid>
+                    <!-- Restaurant General Info -->
+                    <Grid x:ConnectionId='4'
+                        x:Name="InfoPanel"
+                        Style="{StaticResource InfoPanelStyle}"
+                        RelativePanel.RightOf="MapPanel">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel
+                            Grid.Column="0"
+                            Background="{StaticResource AccentBrush}">
+                            <TextBlock
+                                Text="{Binding Current.Name}"
+                                Style="{StaticResource TitleTextStyle}"/>
+                            <TextBlock
+                                Text="{Binding Current.Address}"
+                                Style="{StaticResource SubTitleTextStyle}"/>
+                            <TextBlock
+                                Text="{Binding Current.Category, Converter={StaticResource ToUpperCaseConverter}}"
+                                Style="{StaticResource LightTextStyle}"/>
+                            <TextBlock
+                                Text="View menu"
+                                Style="{StaticResource ViewMenuTextStyle}"/>
+                            <TextBlock />
+                        </StackPanel>
+                        <Grid
+                            Grid.Column="1"
+                            Background="{StaticResource AccentBrush}">
+                            <Image 
+                                Source="{Binding Current.Image, Converter={StaticResource StringToImageConverter}}"
+                                Style="{StaticResource RestaurantImageStyle}"/>
+                        </Grid>
+                    </Grid>
+                    <!-- Checkins -->
+                    <Grid x:ConnectionId='5'
+                        x:Name="CheckinsPanel"
+                        RelativePanel.RightOf="MapPanel"
+                        RelativePanel.Below="InfoPanel"
+                        Style="{StaticResource CheckinsPanelStyle}">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="218" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Canvas
+                            Grid.Column="0">
+                            <Ellipse
+                                Style="{StaticResource CircularElementStyle}"
+                                Canvas.Left="25"
+                                Canvas.ZIndex="3">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="ms-appx:///Assets/Client1.jpg"
+                                                Stretch="UniformToFill"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                            <Ellipse
+                                Style="{StaticResource CircularElementStyle}"
+                                Canvas.Left="75"
+                                Canvas.ZIndex="2">
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="ms-appx:///Assets/Client2.jpg"
+                                                Stretch="UniformToFill"/>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                            <Grid
+                                Canvas.Left="125"
+                                Canvas.ZIndex="1">
+                                <Ellipse
+                                    Style="{StaticResource CircularElementStyle}"
+                                    Fill="{StaticResource WhiteBrush}"/>
+                                <TextBlock 
+                                    Text="+4"
+                                    FontSize="{StaticResource FontSizeMedium}"
+                                    Foreground="{StaticResource AccentBrush}"
+                                    HorizontalAlignment="Center"
+                                    VerticalAlignment="Center"
+                                    Canvas.ZIndex="4"/>
+                            </Grid>
+                        </Canvas>
+                        <Image
+                            Grid.Column="1"
+                            Source="ms-appx:///Assets/PushPin.png"
+                            Style="{StaticResource PushPinStyle}"/>
+                        <StackPanel
+                            Grid.Column="2"
+                            VerticalAlignment="Center">
+                            <StackPanel
+                                Orientation="Horizontal">
+                                <TextBlock
+                                    Text="TODAY'S CHECKINS"
+                                    Foreground="{StaticResource LightGreenBrush}"/>
+                                <TextBlock
+                                    Text="{Binding Current.Checkin.Today}"
+                                    Foreground="{StaticResource WhiteBrush}"
+                                    Margin="6,0,0,0"/>
+                            </StackPanel>
+                            <StackPanel
+                                Orientation="Horizontal">
+                                <TextBlock
+                                    Text="TOTAL CHECKINGS"
+                                    Foreground="{StaticResource LightGreenBrush}"/>
+                                <TextBlock
+                                    Text="{Binding Current.Checkin.Total}"
+                                    Foreground="{StaticResource WhiteBrush}"
+                                    Margin="6,0,0,0"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Grid>
+                    <!-- Reviews -->
+                    <Grid x:ConnectionId='6'
+                        x:Name="ReviewsPanel"
+                        RelativePanel.RightOf="MapPanel" 
+                        RelativePanel.LeftOf="GalleryPanel"
+                        RelativePanel.Below="CheckinsPanel"
+                        Style="{StaticResource ReviewsPanelStyle}">
+                        <GridView
+                            ItemsSource="{Binding Current.Reviews}"
+                            ItemTemplate="{StaticResource ReviewDataTemplate}"
+                            HorizontalAlignment="Stretch"
+                            SelectionMode="None"
+                            IsItemClickEnabled="True">
+                            <GridView.ItemContainerStyle>
+                                <Style TargetType="GridViewItem">
+                                    <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                                </Style>
+                            </GridView.ItemContainerStyle>
+                            <GridView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <VirtualizingStackPanel />
+                                </ItemsPanelTemplate>
+                            </GridView.ItemsPanel>
+                        </GridView>
+                    </Grid>
+                    <!-- SlideShow -->
+                    <Grid x:ConnectionId='7'
+                        x:Name="GalleryPanel"
+                        RelativePanel.RightOf="InfoPanel"
+                        Style="{StaticResource GalleryPanelStyle}">
+                        <FlipView x:ConnectionId='8'
+                            x:Name="GalleryFlipView"
+                            ItemsSource="{Binding Current.Images}"
+                            ItemTemplate="{StaticResource GalleryimageItem}"
+                            SelectedIndex="{Binding SelectedImage, Mode=TwoWay}"/>
+                        <!-- Indicator -->
+                        <ListView
+                            ItemsSource="{Binding Current.Images}"
+                            SelectedItem="{Binding ElementName=GalleryFlipView, Path=SelectedItem}"
+                            Style="{StaticResource ListViewIndicatorStyle}"
+                            ItemContainerStyle="{StaticResource ListViewIndicatorItemStyle}"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Bottom"
+                            Margin="12"/>
+                    </Grid>
+                </RelativePanel>
+            </PivotItem>
+            <!-- Popular -->
+            <PivotItem>
+                <PivotItem.Header>
+                    <controls:TabHeader 
+                        Label="Popular" 
+                        Glyph="&#xE8E1;" />
+                </PivotItem.Header>
+                <Grid/>
+            </PivotItem>
+            <!-- Favorites -->
+            <PivotItem>
+                <PivotItem.Header>
+                    <controls:TabHeader 
+                        Label="Favorites" 
+                        Glyph="&#59176;" />
+                </PivotItem.Header>
+                <Grid/>
+            </PivotItem>
+            <!-- Schedule -->
+            <PivotItem>
+                <PivotItem.Header>
+                    <controls:TabHeader 
+                        Label="Schedule" 
+                        Glyph="&#xE787;" />
+                </PivotItem.Header>
+                <Grid/>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</base:PageBase>
+
