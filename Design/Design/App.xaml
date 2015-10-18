@@ -10,6 +10,7 @@
                 <ResourceDictionary Source="/Themes/Colors.xaml" />
                 <ResourceDictionary Source="/Themes/Converters.xaml" />
                 <ResourceDictionary Source="/Themes/Fonts.xaml" />
+                <ResourceDictionary Source="/Themes/GridView.xaml" />
                 <ResourceDictionary Source="/Themes/Pivot.xaml" />
                 <ResourceDictionary Source="/Themes/Restaurant.xaml" />
             </ResourceDictionary.MergedDictionaries>

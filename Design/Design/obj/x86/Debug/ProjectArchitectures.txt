@@ -1,1 +1,1 @@
-C:\Users\javie\documents\visual studio 2015\Projects\Design\Design\Design.csproj;x86
+C:\Users\javie\Documents\GitHub\UAP-Samples\Design\Design\Design.csproj;x86

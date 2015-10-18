@@ -132,7 +132,7 @@ namespace Design.Design_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[21];
+            _typeNameTable = new string[22];
             _typeNameTable[0] = "Design.ViewModels.Base.ViewModelLocator";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "Design.ViewModels.RestaurantViewModel";
@@ -144,18 +144,19 @@ namespace Design.Design_XamlTypeInfo
             _typeNameTable[8] = "System.ValueType";
             _typeNameTable[9] = "Byte";
             _typeNameTable[10] = "Design.Converters.BoolToVisibilityConverter";
-            _typeNameTable[11] = "Design.Converters.StringToImageConverter";
-            _typeNameTable[12] = "Design.Converters.ToUpperCaseConverter";
-            _typeNameTable[13] = "Design.Views.Base.PageBase";
-            _typeNameTable[14] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[15] = "Microsoft.Xaml.Interactivity.Interaction";
-            _typeNameTable[16] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
-            _typeNameTable[17] = "Windows.UI.Xaml.DependencyObjectCollection";
-            _typeNameTable[18] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[19] = "Design.Behaviors.TitleBarBehavior";
-            _typeNameTable[20] = "Design.Views.RestaurantView";
+            _typeNameTable[11] = "Design.Converters.InverseBoolToVisibilityConverter";
+            _typeNameTable[12] = "Design.Converters.StringToImageConverter";
+            _typeNameTable[13] = "Design.Converters.ToUpperCaseConverter";
+            _typeNameTable[14] = "Design.Views.Base.PageBase";
+            _typeNameTable[15] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[16] = "Microsoft.Xaml.Interactivity.Interaction";
+            _typeNameTable[17] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
+            _typeNameTable[18] = "Windows.UI.Xaml.DependencyObjectCollection";
+            _typeNameTable[19] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[20] = "Design.Behaviors.TitleBarBehavior";
+            _typeNameTable[21] = "Design.Views.RestaurantView";
 
-            _typeTable = new global::System.Type[21];
+            _typeTable = new global::System.Type[22];
             _typeTable[0] = typeof(global::Design.ViewModels.Base.ViewModelLocator);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::Design.ViewModels.RestaurantViewModel);
@@ -167,16 +168,17 @@ namespace Design.Design_XamlTypeInfo
             _typeTable[8] = typeof(global::System.ValueType);
             _typeTable[9] = typeof(global::System.Byte);
             _typeTable[10] = typeof(global::Design.Converters.BoolToVisibilityConverter);
-            _typeTable[11] = typeof(global::Design.Converters.StringToImageConverter);
-            _typeTable[12] = typeof(global::Design.Converters.ToUpperCaseConverter);
-            _typeTable[13] = typeof(global::Design.Views.Base.PageBase);
-            _typeTable[14] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[15] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
-            _typeTable[16] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
-            _typeTable[17] = typeof(global::Windows.UI.Xaml.DependencyObjectCollection);
-            _typeTable[18] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[19] = typeof(global::Design.Behaviors.TitleBarBehavior);
-            _typeTable[20] = typeof(global::Design.Views.RestaurantView);
+            _typeTable[11] = typeof(global::Design.Converters.InverseBoolToVisibilityConverter);
+            _typeTable[12] = typeof(global::Design.Converters.StringToImageConverter);
+            _typeTable[13] = typeof(global::Design.Converters.ToUpperCaseConverter);
+            _typeTable[14] = typeof(global::Design.Views.Base.PageBase);
+            _typeTable[15] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[16] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
+            _typeTable[17] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
+            _typeTable[18] = typeof(global::Windows.UI.Xaml.DependencyObjectCollection);
+            _typeTable[19] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[20] = typeof(global::Design.Behaviors.TitleBarBehavior);
+            _typeTable[21] = typeof(global::Design.Views.RestaurantView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -215,13 +217,14 @@ namespace Design.Design_XamlTypeInfo
         private object Activate_2_RestaurantViewModel() { return new global::Design.ViewModels.RestaurantViewModel(); }
         private object Activate_4_TabHeader() { return new global::Design.Controls.TabHeader(); }
         private object Activate_10_BoolToVisibilityConverter() { return new global::Design.Converters.BoolToVisibilityConverter(); }
-        private object Activate_11_StringToImageConverter() { return new global::Design.Converters.StringToImageConverter(); }
-        private object Activate_12_ToUpperCaseConverter() { return new global::Design.Converters.ToUpperCaseConverter(); }
-        private object Activate_13_PageBase() { return new global::Design.Views.Base.PageBase(); }
-        private object Activate_16_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
-        private object Activate_19_TitleBarBehavior() { return new global::Design.Behaviors.TitleBarBehavior(); }
-        private object Activate_20_RestaurantView() { return new global::Design.Views.RestaurantView(); }
-        private void VectorAdd_16_BehaviorCollection(object instance, object item)
+        private object Activate_11_InverseBoolToVisibilityConverter() { return new global::Design.Converters.InverseBoolToVisibilityConverter(); }
+        private object Activate_12_StringToImageConverter() { return new global::Design.Converters.StringToImageConverter(); }
+        private object Activate_13_ToUpperCaseConverter() { return new global::Design.Converters.ToUpperCaseConverter(); }
+        private object Activate_14_PageBase() { return new global::Design.Views.Base.PageBase(); }
+        private object Activate_17_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
+        private object Activate_20_TitleBarBehavior() { return new global::Design.Behaviors.TitleBarBehavior(); }
+        private object Activate_21_RestaurantView() { return new global::Design.Views.RestaurantView(); }
+        private void VectorAdd_17_BehaviorCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
             var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
@@ -307,55 +310,62 @@ namespace Design.Design_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 11:   //  Design.Converters.StringToImageConverter
+            case 11:   //  Design.Converters.InverseBoolToVisibilityConverter
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_11_StringToImageConverter;
+                userType.Activator = Activate_11_InverseBoolToVisibilityConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  Design.Converters.ToUpperCaseConverter
+            case 12:   //  Design.Converters.StringToImageConverter
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_12_ToUpperCaseConverter;
+                userType.Activator = Activate_12_StringToImageConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  Design.Views.Base.PageBase
+            case 13:   //  Design.Converters.ToUpperCaseConverter
+                userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_13_ToUpperCaseConverter;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  Design.Views.Base.PageBase
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_PageBase;
+                userType.Activator = Activate_14_PageBase;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  Windows.UI.Xaml.Controls.Page
+            case 15:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::Design.Design_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 15:   //  Microsoft.Xaml.Interactivity.Interaction
+            case 16:   //  Microsoft.Xaml.Interactivity.Interaction
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Behaviors");
                 xamlType = userType;
                 break;
 
-            case 16:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
+            case 17:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObjectCollection"));
-                userType.CollectionAdd = VectorAdd_16_BehaviorCollection;
+                userType.CollectionAdd = VectorAdd_17_BehaviorCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 17:   //  Windows.UI.Xaml.DependencyObjectCollection
+            case 18:   //  Windows.UI.Xaml.DependencyObjectCollection
                 xamlType = new global::Design.Design_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 18:   //  Windows.UI.Xaml.DependencyObject
+            case 19:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::Design.Design_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 19:   //  Design.Behaviors.TitleBarBehavior
+            case 20:   //  Design.Behaviors.TitleBarBehavior
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_19_TitleBarBehavior;
+                userType.Activator = Activate_20_TitleBarBehavior;
                 userType.AddMemberName("BackgroundColor");
                 userType.AddMemberName("ForegroundColor");
                 userType.AddMemberName("ButtonBackgroundColor");
@@ -366,9 +376,9 @@ namespace Design.Design_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 20:   //  Design.Views.RestaurantView
+            case 21:   //  Design.Views.RestaurantView
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Design.Views.Base.PageBase"));
-                userType.Activator = Activate_20_RestaurantView;
+                userType.Activator = Activate_21_RestaurantView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

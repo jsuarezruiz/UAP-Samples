@@ -5,9 +5,9 @@
     <Style x:Key="MapPanelStyle" TargetType="Grid">
         <Setter Property="Background" Value="{StaticResource BackgroundBrush}" />
     </Style>
-    
+
     <Style x:Key="InfoPanelStyle" TargetType="Grid">
-        <Setter Property="Background" Value="{StaticResource BackgroundBrush}" />        
+        <Setter Property="Background" Value="{StaticResource BackgroundBrush}" />
         <Setter Property="HorizontalAlignment" Value="Center" />
         <Setter Property="VerticalAlignment" Value="Center" />
     </Style>
@@ -28,7 +28,7 @@
         <Setter Property="HorizontalAlignment" Value="Stretch" />
         <Setter Property="VerticalAlignment" Value="Stretch" />
     </Style>
- 
+
     <Style x:Key="TitleTextStyle" TargetType="TextBlock">
         <Setter Property="Foreground" Value="{StaticResource WhiteBrush}" />
         <Setter Property="FontSize" Value="{StaticResource FontSizeLarge}" />
@@ -50,14 +50,14 @@
         <Setter Property="FontWeight" Value="Normal" />
         <Setter Property="Margin" Value="12, 2" />
     </Style>
-    
+
     <Style x:Key="ViewMenuTextStyle" TargetType="TextBlock">
         <Setter Property="Foreground" Value="{StaticResource BlackBrush}" />
         <Setter Property="FontSize" Value="{StaticResource FontSizeExtraSmall}" />
         <Setter Property="FontWeight" Value="Normal" />
         <Setter Property="Margin" Value="12, 0" />
     </Style>
-    
+
     <Style x:Key="RestaurantImageStyle" TargetType="Image">
         <Setter Property="Stretch" Value="UniformToFill" />
         <Setter Property="HorizontalAlignment" Value="Right" />
@@ -80,7 +80,7 @@
         <Setter Property="Width" Value="75" />
         <Setter Property="Margin" Value="12" />
     </Style>
-    
+
     <DataTemplate x:Key="ReviewDataTemplate">
         <Grid
             HorizontalAlignment="Stretch"
@@ -112,7 +112,7 @@
             </StackPanel>
         </Grid>
     </DataTemplate>
-    
+
     <DataTemplate x:Key="GalleryimageItem">
         <Image
             Source="{Binding Converter={StaticResource StringToImageConverter}}"
@@ -121,115 +121,20 @@
             VerticalAlignment="Stretch"/>
     </DataTemplate>
 
-    <Style x:Key="ListViewIndicatorStyle" TargetType="ListView">
-        <Setter Property="HorizontalAlignment" Value="Center"/>
-        <Setter Property="Height" Value="30"/>
-        <Setter Property="IsTabStop" Value="False"/>
-        <Setter Property="TabNavigation" Value="Once"/>
-        <Setter Property="IsSwipeEnabled" Value="True"/>
-        <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Disabled"/>
-        <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Disabled"/>
-        <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Disabled"/>
-        <Setter Property="ScrollViewer.IsHorizontalRailEnabled" Value="False"/>
-        <Setter Property="ScrollViewer.VerticalScrollMode" Value="Enabled"/>
-        <Setter Property="ScrollViewer.IsVerticalRailEnabled" Value="False"/>
-        <Setter Property="ScrollViewer.ZoomMode" Value="Disabled"/>
-        <Setter Property="ScrollViewer.IsDeferredScrollingEnabled" Value="False"/>
-        <Setter Property="ScrollViewer.BringIntoViewOnFocusChange" Value="True"/>
-        <Setter Property="ItemContainerTransitions">
-            <Setter.Value>
-                <TransitionCollection>
-                    <AddDeleteThemeTransition/>
-                    <ReorderThemeTransition/>
-                    <EntranceThemeTransition IsStaggeringEnabled="False"/>
-                </TransitionCollection>
-            </Setter.Value>
-        </Setter>
-        <Setter Property="ItemsPanel">
-            <Setter.Value>
-                <ItemsPanelTemplate>
-                    <ItemsWrapGrid ItemWidth="30" 
-                        Orientation="Horizontal"/>
-                </ItemsPanelTemplate>
-            </Setter.Value>
-        </Setter>
-        <Setter Property="Template">
-            <Setter.Value>
-                <ControlTemplate TargetType="ListView">
-                    <Border BorderBrush="{TemplateBinding BorderBrush}" 
-                            BorderThickness="{TemplateBinding BorderThickness}" 
-                            Background="{TemplateBinding Background}">
-                        <ScrollViewer x:Name="ScrollViewer" 
-                                      BringIntoViewOnFocusChange="{TemplateBinding ScrollViewer.BringIntoViewOnFocusChange}" 
-                                      HorizontalScrollMode="{TemplateBinding ScrollViewer.HorizontalScrollMode}" 
-                                      HorizontalScrollBarVisibility="{TemplateBinding ScrollViewer.HorizontalScrollBarVisibility}" 
-                                      IsHorizontalRailEnabled="{TemplateBinding ScrollViewer.IsHorizontalRailEnabled}" 
-                                      IsHorizontalScrollChainingEnabled="{TemplateBinding ScrollViewer.IsHorizontalScrollChainingEnabled}" 
-                                      IsVerticalScrollChainingEnabled="{TemplateBinding ScrollViewer.IsVerticalScrollChainingEnabled}" 
-                                      IsVerticalRailEnabled="{TemplateBinding ScrollViewer.IsVerticalRailEnabled}" 
-                                      IsDeferredScrollingEnabled="{TemplateBinding ScrollViewer.IsDeferredScrollingEnabled}" TabNavigation="{TemplateBinding TabNavigation}"
-                                      VerticalScrollBarVisibility="{TemplateBinding ScrollViewer.VerticalScrollBarVisibility}"
-                                      VerticalScrollMode="{TemplateBinding ScrollViewer.VerticalScrollMode}" ZoomMode="{TemplateBinding ScrollViewer.ZoomMode}">
-                            <ItemsPresenter
-                                HeaderTemplate="{TemplateBinding HeaderTemplate}" 
-                                Header="{TemplateBinding Header}"                                   
-                                HeaderTransitions="{TemplateBinding HeaderTransitions}" 
-                                Padding="{TemplateBinding Padding}"/>
-                        </ScrollViewer>
-                    </Border>
-                </ControlTemplate>
-            </Setter.Value>
-        </Setter>
-    </Style>
-    
-    <Style x:Key="ListViewIndicatorItemStyle" TargetType="ListViewItem">
-        <Setter Property="FontFamily" Value="{StaticResource ContentControlThemeFontFamily}"/>
-        <Setter Property="FontSize" Value="{StaticResource ControlContentThemeFontSize}"/>
-        <Setter Property="Background" Value="Transparent"/>
-        <Setter Property="TabNavigation" Value="Local"/>
-        <Setter Property="IsHoldingEnabled" Value="True"/>
-        <Setter Property="HorizontalContentAlignment" Value="Left"/>
-        <Setter Property="VerticalContentAlignment" Value="Top"/>
-        <Setter Property="Padding" Value="0"/>
-        <Setter Property="Width" Value="30"/>
-        <Setter Property="Template">
-            <Setter.Value>
-                <ControlTemplate TargetType="ListViewItem">
-                    <Border x:Name="OuterContainer">
-                        <VisualStateManager.VisualStateGroups>
-                            <VisualStateGroup x:Name="SelectionStates">
-                                <VisualState x:Name="Unselecting" />
-                                <VisualState x:Name="Unselected"/>
-                                <VisualState x:Name="UnselectedPointerOver"/>
-                                <VisualState x:Name="UnselectedSwiping" />
-                                <VisualState x:Name="Selecting"/>
-                                <VisualState x:Name="Selected" />
-                                <VisualState x:Name="SelectedSwiping"/>
-                                <VisualState x:Name="SelectedUnfocused">
-                                    <Storyboard>
-                                        <ObjectAnimationUsingKeyFrames 
-                                            Storyboard.TargetProperty="Fill"                                                                 
-                                            Storyboard.TargetName="SelectionBrush">
-                                            <DiscreteObjectKeyFrame KeyTime="0" 
-                                                                    Value="{StaticResource AccentBrush}"/>
-                                        </ObjectAnimationUsingKeyFrames>
-                                    </Storyboard>
-                                </VisualState>
-                            </VisualStateGroup>
-                        </VisualStateManager.VisualStateGroups>
-                        <Grid Background="Transparent" 
-                              HorizontalAlignment="Left"
-                              Margin="0,0,5,0">
-                            <Ellipse x:Name="SelectionBrush" 
-                                     Width="10" 
-                                     Height="10" 
-                                     Fill="{StaticResource BackgroundBrush}" />
-                        </Grid>
-                    </Border>
-                </ControlTemplate>
-            </Setter.Value>
-        </Setter>
-    </Style>
+    <DataTemplate x:Key="IndicatorDataTemplate">
+        <Grid>
+            <Ellipse                              
+                Width="10"                                      
+                Height="10"                      
+                Fill="{StaticResource BackgroundBrush}"                         
+                Visibility="{Binding Tag, Converter={StaticResource InverseBoolToVisibilityConverter}, Mode=TwoWay, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+            <Ellipse                              
+                Width="10"                                      
+                Height="10"                      
+                Fill="{StaticResource AccentBrush}"                                
+                Visibility="{Binding Tag, Converter={StaticResource BoolToVisibilityConverter}, Mode=TwoWay, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+        </Grid>
+    </DataTemplate>
 
 </ResourceDictionary>
 

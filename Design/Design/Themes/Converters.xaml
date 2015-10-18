@@ -5,6 +5,7 @@
     
     <!-- Converters -->
     <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+    <converters:InverseBoolToVisibilityConverter x:Key="InverseBoolToVisibilityConverter" />
     <converters:StringToImageConverter x:Key="StringToImageConverter" />
     <converters:ToUpperCaseConverter x:Key="ToUpperCaseConverter" />
     

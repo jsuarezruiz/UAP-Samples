@@ -230,11 +230,11 @@
                             ItemTemplate="{StaticResource GalleryimageItem}"
                             SelectedIndex="{Binding SelectedImage, Mode=TwoWay}"/>
                         <!-- Indicator -->
-                        <ListView
+                        <GridView
                             ItemsSource="{Binding Current.Images}"
                             SelectedItem="{Binding ElementName=GalleryFlipView, Path=SelectedItem, Mode=TwoWay}"
-                            Style="{StaticResource ListViewIndicatorStyle}"
-                            ItemContainerStyle="{StaticResource ListViewIndicatorItemStyle}"
+                            ItemContainerStyle="{StaticResource GridViewItemStyle}"
+                            ItemTemplate="{StaticResource IndicatorDataTemplate}"
                             HorizontalAlignment="Left"
                             VerticalAlignment="Bottom"
                             Margin="12"/>
