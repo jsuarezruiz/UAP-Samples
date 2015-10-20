@@ -132,53 +132,75 @@ namespace Design.Design_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[22];
-            _typeNameTable[0] = "Design.ViewModels.Base.ViewModelLocator";
-            _typeNameTable[1] = "Object";
-            _typeNameTable[2] = "Design.ViewModels.RestaurantViewModel";
-            _typeNameTable[3] = "Design.ViewModels.Base.ViewModelBase";
-            _typeNameTable[4] = "Design.Controls.TabHeader";
-            _typeNameTable[5] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[6] = "String";
-            _typeNameTable[7] = "Windows.UI.Color";
-            _typeNameTable[8] = "System.ValueType";
-            _typeNameTable[9] = "Byte";
-            _typeNameTable[10] = "Design.Converters.BoolToVisibilityConverter";
-            _typeNameTable[11] = "Design.Converters.InverseBoolToVisibilityConverter";
-            _typeNameTable[12] = "Design.Converters.StringToImageConverter";
-            _typeNameTable[13] = "Design.Converters.ToUpperCaseConverter";
-            _typeNameTable[14] = "Design.Views.Base.PageBase";
-            _typeNameTable[15] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[16] = "Microsoft.Xaml.Interactivity.Interaction";
-            _typeNameTable[17] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
-            _typeNameTable[18] = "Windows.UI.Xaml.DependencyObjectCollection";
-            _typeNameTable[19] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[20] = "Design.Behaviors.TitleBarBehavior";
-            _typeNameTable[21] = "Design.Views.RestaurantView";
+            _typeNameTable = new string[33];
+            _typeNameTable[0] = "Design.Themes.Restaurant";
+            _typeNameTable[1] = "Windows.UI.Xaml.ResourceDictionary";
+            _typeNameTable[2] = "Object";
+            _typeNameTable[3] = "Design.Themes.Shell";
+            _typeNameTable[4] = "Design.ViewModels.Base.ViewModelLocator";
+            _typeNameTable[5] = "Design.ViewModels.ShellViewModel";
+            _typeNameTable[6] = "Design.ViewModels.Base.ViewModelBase";
+            _typeNameTable[7] = "Design.ViewModels.RestaurantViewModel";
+            _typeNameTable[8] = "Design.Controls.TabHeader";
+            _typeNameTable[9] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[10] = "String";
+            _typeNameTable[11] = "Windows.UI.Color";
+            _typeNameTable[12] = "System.ValueType";
+            _typeNameTable[13] = "Byte";
+            _typeNameTable[14] = "Design.Converters.BoolToVisibilityConverter";
+            _typeNameTable[15] = "Design.Converters.InverseBoolToVisibilityConverter";
+            _typeNameTable[16] = "Design.Converters.StringToImageConverter";
+            _typeNameTable[17] = "Design.Converters.ToUpperCaseConverter";
+            _typeNameTable[18] = "Design.Views.Base.PageBase";
+            _typeNameTable[19] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[20] = "Microsoft.Xaml.Interactivity.Interaction";
+            _typeNameTable[21] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
+            _typeNameTable[22] = "Windows.UI.Xaml.DependencyObjectCollection";
+            _typeNameTable[23] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[24] = "Design.Behaviors.TitleBarBehavior";
+            _typeNameTable[25] = "Design.StateTriggers.PlatformStateTrigger";
+            _typeNameTable[26] = "Windows.UI.Xaml.StateTriggerBase";
+            _typeNameTable[27] = "Design.StateTriggers.DeviceFamily";
+            _typeNameTable[28] = "System.Enum";
+            _typeNameTable[29] = "Design.Views.RestaurantView";
+            _typeNameTable[30] = "Design.Behaviors.ItemClickCommandBehavior";
+            _typeNameTable[31] = "System.Windows.Input.ICommand";
+            _typeNameTable[32] = "Design.Views.ShellView";
 
-            _typeTable = new global::System.Type[22];
-            _typeTable[0] = typeof(global::Design.ViewModels.Base.ViewModelLocator);
-            _typeTable[1] = typeof(global::System.Object);
-            _typeTable[2] = typeof(global::Design.ViewModels.RestaurantViewModel);
-            _typeTable[3] = typeof(global::Design.ViewModels.Base.ViewModelBase);
-            _typeTable[4] = typeof(global::Design.Controls.TabHeader);
-            _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[6] = typeof(global::System.String);
-            _typeTable[7] = typeof(global::Windows.UI.Color);
-            _typeTable[8] = typeof(global::System.ValueType);
-            _typeTable[9] = typeof(global::System.Byte);
-            _typeTable[10] = typeof(global::Design.Converters.BoolToVisibilityConverter);
-            _typeTable[11] = typeof(global::Design.Converters.InverseBoolToVisibilityConverter);
-            _typeTable[12] = typeof(global::Design.Converters.StringToImageConverter);
-            _typeTable[13] = typeof(global::Design.Converters.ToUpperCaseConverter);
-            _typeTable[14] = typeof(global::Design.Views.Base.PageBase);
-            _typeTable[15] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[16] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
-            _typeTable[17] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
-            _typeTable[18] = typeof(global::Windows.UI.Xaml.DependencyObjectCollection);
-            _typeTable[19] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[20] = typeof(global::Design.Behaviors.TitleBarBehavior);
-            _typeTable[21] = typeof(global::Design.Views.RestaurantView);
+            _typeTable = new global::System.Type[33];
+            _typeTable[0] = typeof(global::Design.Themes.Restaurant);
+            _typeTable[1] = typeof(global::Windows.UI.Xaml.ResourceDictionary);
+            _typeTable[2] = typeof(global::System.Object);
+            _typeTable[3] = typeof(global::Design.Themes.Shell);
+            _typeTable[4] = typeof(global::Design.ViewModels.Base.ViewModelLocator);
+            _typeTable[5] = typeof(global::Design.ViewModels.ShellViewModel);
+            _typeTable[6] = typeof(global::Design.ViewModels.Base.ViewModelBase);
+            _typeTable[7] = typeof(global::Design.ViewModels.RestaurantViewModel);
+            _typeTable[8] = typeof(global::Design.Controls.TabHeader);
+            _typeTable[9] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[10] = typeof(global::System.String);
+            _typeTable[11] = typeof(global::Windows.UI.Color);
+            _typeTable[12] = typeof(global::System.ValueType);
+            _typeTable[13] = typeof(global::System.Byte);
+            _typeTable[14] = typeof(global::Design.Converters.BoolToVisibilityConverter);
+            _typeTable[15] = typeof(global::Design.Converters.InverseBoolToVisibilityConverter);
+            _typeTable[16] = typeof(global::Design.Converters.StringToImageConverter);
+            _typeTable[17] = typeof(global::Design.Converters.ToUpperCaseConverter);
+            _typeTable[18] = typeof(global::Design.Views.Base.PageBase);
+            _typeTable[19] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[20] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
+            _typeTable[21] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
+            _typeTable[22] = typeof(global::Windows.UI.Xaml.DependencyObjectCollection);
+            _typeTable[23] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[24] = typeof(global::Design.Behaviors.TitleBarBehavior);
+            _typeTable[25] = typeof(global::Design.StateTriggers.PlatformStateTrigger);
+            _typeTable[26] = typeof(global::Windows.UI.Xaml.StateTriggerBase);
+            _typeTable[27] = typeof(global::Design.StateTriggers.DeviceFamily);
+            _typeTable[28] = typeof(global::System.Enum);
+            _typeTable[29] = typeof(global::Design.Views.RestaurantView);
+            _typeTable[30] = typeof(global::Design.Behaviors.ItemClickCommandBehavior);
+            _typeTable[31] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[32] = typeof(global::Design.Views.ShellView);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -213,18 +235,37 @@ namespace Design.Design_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_ViewModelLocator() { return new global::Design.ViewModels.Base.ViewModelLocator(); }
-        private object Activate_2_RestaurantViewModel() { return new global::Design.ViewModels.RestaurantViewModel(); }
-        private object Activate_4_TabHeader() { return new global::Design.Controls.TabHeader(); }
-        private object Activate_10_BoolToVisibilityConverter() { return new global::Design.Converters.BoolToVisibilityConverter(); }
-        private object Activate_11_InverseBoolToVisibilityConverter() { return new global::Design.Converters.InverseBoolToVisibilityConverter(); }
-        private object Activate_12_StringToImageConverter() { return new global::Design.Converters.StringToImageConverter(); }
-        private object Activate_13_ToUpperCaseConverter() { return new global::Design.Converters.ToUpperCaseConverter(); }
-        private object Activate_14_PageBase() { return new global::Design.Views.Base.PageBase(); }
-        private object Activate_17_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
-        private object Activate_20_TitleBarBehavior() { return new global::Design.Behaviors.TitleBarBehavior(); }
-        private object Activate_21_RestaurantView() { return new global::Design.Views.RestaurantView(); }
-        private void VectorAdd_17_BehaviorCollection(object instance, object item)
+        private object Activate_0_Restaurant() { return new global::Design.Themes.Restaurant(); }
+        private object Activate_3_Shell() { return new global::Design.Themes.Shell(); }
+        private object Activate_4_ViewModelLocator() { return new global::Design.ViewModels.Base.ViewModelLocator(); }
+        private object Activate_5_ShellViewModel() { return new global::Design.ViewModels.ShellViewModel(); }
+        private object Activate_7_RestaurantViewModel() { return new global::Design.ViewModels.RestaurantViewModel(); }
+        private object Activate_8_TabHeader() { return new global::Design.Controls.TabHeader(); }
+        private object Activate_14_BoolToVisibilityConverter() { return new global::Design.Converters.BoolToVisibilityConverter(); }
+        private object Activate_15_InverseBoolToVisibilityConverter() { return new global::Design.Converters.InverseBoolToVisibilityConverter(); }
+        private object Activate_16_StringToImageConverter() { return new global::Design.Converters.StringToImageConverter(); }
+        private object Activate_17_ToUpperCaseConverter() { return new global::Design.Converters.ToUpperCaseConverter(); }
+        private object Activate_18_PageBase() { return new global::Design.Views.Base.PageBase(); }
+        private object Activate_21_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
+        private object Activate_24_TitleBarBehavior() { return new global::Design.Behaviors.TitleBarBehavior(); }
+        private object Activate_25_PlatformStateTrigger() { return new global::Design.StateTriggers.PlatformStateTrigger(); }
+        private object Activate_29_RestaurantView() { return new global::Design.Views.RestaurantView(); }
+        private object Activate_32_ShellView() { return new global::Design.Views.ShellView(); }
+        private void MapAdd_0_Restaurant(object instance, object key, object item)
+        {
+            var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
+            var newKey = (global::System.Object)key;
+            var newItem = (global::System.Object)item;
+            collection.Add(newKey, newItem);
+        }
+        private void MapAdd_3_Shell(object instance, object key, object item)
+        {
+            var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
+            var newKey = (global::System.Object)key;
+            var newItem = (global::System.Object)item;
+            collection.Add(newKey, newItem);
+        }
+        private void VectorAdd_21_BehaviorCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
             var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
@@ -241,49 +282,77 @@ namespace Design.Design_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Design.ViewModels.Base.ViewModelLocator
+            case 0:   //  Design.Themes.Restaurant
+                userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.ResourceDictionary"));
+                userType.Activator = Activate_0_Restaurant;
+                userType.DictionaryAdd = MapAdd_0_Restaurant;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 1:   //  Windows.UI.Xaml.ResourceDictionary
+                xamlType = new global::Design.Design_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 2:   //  Object
+                xamlType = new global::Design.Design_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  Design.Themes.Shell
+                userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.ResourceDictionary"));
+                userType.Activator = Activate_3_Shell;
+                userType.DictionaryAdd = MapAdd_3_Shell;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  Design.ViewModels.Base.ViewModelLocator
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_0_ViewModelLocator;
+                userType.Activator = Activate_4_ViewModelLocator;
+                userType.AddMemberName("ShellViewModel");
                 userType.AddMemberName("RestaurantViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 1:   //  Object
-                xamlType = new global::Design.Design_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 2:   //  Design.ViewModels.RestaurantViewModel
+            case 5:   //  Design.ViewModels.ShellViewModel
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Design.ViewModels.Base.ViewModelBase"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 3:   //  Design.ViewModels.Base.ViewModelBase
+            case 6:   //  Design.ViewModels.Base.ViewModelBase
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  Design.Controls.TabHeader
+            case 7:   //  Design.ViewModels.RestaurantViewModel
+                userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Design.ViewModels.Base.ViewModelBase"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  Design.Controls.TabHeader
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_4_TabHeader;
+                userType.Activator = Activate_8_TabHeader;
                 userType.AddMemberName("Glyph");
                 userType.AddMemberName("Label");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  Windows.UI.Xaml.Controls.UserControl
+            case 9:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::Design.Design_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  String
+            case 10:   //  String
                 xamlType = new global::Design.Design_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 7:   //  Windows.UI.Color
+            case 11:   //  Windows.UI.Color
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.AddMemberName("A");
                 userType.AddMemberName("B");
@@ -292,80 +361,80 @@ namespace Design.Design_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 8:   //  System.ValueType
+            case 12:   //  System.ValueType
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 9:   //  Byte
+            case 13:   //  Byte
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 10:   //  Design.Converters.BoolToVisibilityConverter
+            case 14:   //  Design.Converters.BoolToVisibilityConverter
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_10_BoolToVisibilityConverter;
+                userType.Activator = Activate_14_BoolToVisibilityConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 11:   //  Design.Converters.InverseBoolToVisibilityConverter
+            case 15:   //  Design.Converters.InverseBoolToVisibilityConverter
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_11_InverseBoolToVisibilityConverter;
+                userType.Activator = Activate_15_InverseBoolToVisibilityConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 12:   //  Design.Converters.StringToImageConverter
+            case 16:   //  Design.Converters.StringToImageConverter
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_12_StringToImageConverter;
+                userType.Activator = Activate_16_StringToImageConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  Design.Converters.ToUpperCaseConverter
+            case 17:   //  Design.Converters.ToUpperCaseConverter
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_13_ToUpperCaseConverter;
+                userType.Activator = Activate_17_ToUpperCaseConverter;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 14:   //  Design.Views.Base.PageBase
+            case 18:   //  Design.Views.Base.PageBase
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_14_PageBase;
+                userType.Activator = Activate_18_PageBase;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 15:   //  Windows.UI.Xaml.Controls.Page
+            case 19:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::Design.Design_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 16:   //  Microsoft.Xaml.Interactivity.Interaction
+            case 20:   //  Microsoft.Xaml.Interactivity.Interaction
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Behaviors");
                 xamlType = userType;
                 break;
 
-            case 17:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
+            case 21:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObjectCollection"));
-                userType.CollectionAdd = VectorAdd_17_BehaviorCollection;
+                userType.CollectionAdd = VectorAdd_21_BehaviorCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 18:   //  Windows.UI.Xaml.DependencyObjectCollection
+            case 22:   //  Windows.UI.Xaml.DependencyObjectCollection
                 xamlType = new global::Design.Design_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 19:   //  Windows.UI.Xaml.DependencyObject
+            case 23:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::Design.Design_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 20:   //  Design.Behaviors.TitleBarBehavior
+            case 24:   //  Design.Behaviors.TitleBarBehavior
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_20_TitleBarBehavior;
+                userType.Activator = Activate_24_TitleBarBehavior;
                 userType.AddMemberName("BackgroundColor");
                 userType.AddMemberName("ForegroundColor");
                 userType.AddMemberName("ButtonBackgroundColor");
@@ -376,9 +445,55 @@ namespace Design.Design_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 21:   //  Design.Views.RestaurantView
+            case 25:   //  Design.StateTriggers.PlatformStateTrigger
+                userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.StateTriggerBase"));
+                userType.Activator = Activate_25_PlatformStateTrigger;
+                userType.AddMemberName("DeviceFamily");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 26:   //  Windows.UI.Xaml.StateTriggerBase
+                xamlType = new global::Design.Design_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 27:   //  Design.StateTriggers.DeviceFamily
+                userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
+                userType.AddEnumValue("Unknown", global::Design.StateTriggers.DeviceFamily.Unknown);
+                userType.AddEnumValue("Desktop", global::Design.StateTriggers.DeviceFamily.Desktop);
+                userType.AddEnumValue("Mobile", global::Design.StateTriggers.DeviceFamily.Mobile);
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 28:   //  System.Enum
+                userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                xamlType = userType;
+                break;
+
+            case 29:   //  Design.Views.RestaurantView
                 userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Design.Views.Base.PageBase"));
-                userType.Activator = Activate_21_RestaurantView;
+                userType.Activator = Activate_29_RestaurantView;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 30:   //  Design.Behaviors.ItemClickCommandBehavior
+                userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.AddMemberName("Command");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 31:   //  System.Windows.Input.ICommand
+                userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 32:   //  Design.Views.ShellView
+                userType = new global::Design.Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Design.Views.Base.PageBase"));
+                userType.Activator = Activate_32_ShellView;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -387,133 +502,156 @@ namespace Design.Design_XamlTypeInfo
         }
 
 
-        private object get_0_ViewModelLocator_RestaurantViewModel(object instance)
+        private object get_0_ViewModelLocator_ShellViewModel(object instance)
+        {
+            var that = (global::Design.ViewModels.Base.ViewModelLocator)instance;
+            return that.ShellViewModel;
+        }
+        private object get_1_ViewModelLocator_RestaurantViewModel(object instance)
         {
             var that = (global::Design.ViewModels.Base.ViewModelLocator)instance;
             return that.RestaurantViewModel;
         }
-        private object get_1_TabHeader_Glyph(object instance)
+        private object get_2_TabHeader_Glyph(object instance)
         {
             var that = (global::Design.Controls.TabHeader)instance;
             return that.Glyph;
         }
-        private void set_1_TabHeader_Glyph(object instance, object Value)
+        private void set_2_TabHeader_Glyph(object instance, object Value)
         {
             var that = (global::Design.Controls.TabHeader)instance;
             that.Glyph = (global::System.String)Value;
         }
-        private object get_2_TabHeader_Label(object instance)
+        private object get_3_TabHeader_Label(object instance)
         {
             var that = (global::Design.Controls.TabHeader)instance;
             return that.Label;
         }
-        private void set_2_TabHeader_Label(object instance, object Value)
+        private void set_3_TabHeader_Label(object instance, object Value)
         {
             var that = (global::Design.Controls.TabHeader)instance;
             that.Label = (global::System.String)Value;
         }
-        private object get_3_Color_A(object instance)
+        private object get_4_Color_A(object instance)
         {
             var that = (global::Windows.UI.Color)instance;
             return that.A;
         }
-        private void set_3_Color_A(object instance, object Value)
+        private void set_4_Color_A(object instance, object Value)
         {
             var that = (global::Windows.UI.Color)instance;
             that.A = (global::System.Byte)Value;
         }
-        private object get_4_Color_B(object instance)
+        private object get_5_Color_B(object instance)
         {
             var that = (global::Windows.UI.Color)instance;
             return that.B;
         }
-        private void set_4_Color_B(object instance, object Value)
+        private void set_5_Color_B(object instance, object Value)
         {
             var that = (global::Windows.UI.Color)instance;
             that.B = (global::System.Byte)Value;
         }
-        private object get_5_Color_G(object instance)
+        private object get_6_Color_G(object instance)
         {
             var that = (global::Windows.UI.Color)instance;
             return that.G;
         }
-        private void set_5_Color_G(object instance, object Value)
+        private void set_6_Color_G(object instance, object Value)
         {
             var that = (global::Windows.UI.Color)instance;
             that.G = (global::System.Byte)Value;
         }
-        private object get_6_Color_R(object instance)
+        private object get_7_Color_R(object instance)
         {
             var that = (global::Windows.UI.Color)instance;
             return that.R;
         }
-        private void set_6_Color_R(object instance, object Value)
+        private void set_7_Color_R(object instance, object Value)
         {
             var that = (global::Windows.UI.Color)instance;
             that.R = (global::System.Byte)Value;
         }
-        private object get_7_Interaction_Behaviors(object instance)
+        private object get_8_Interaction_Behaviors(object instance)
         {
             return global::Microsoft.Xaml.Interactivity.Interaction.GetBehaviors((global::Windows.UI.Xaml.DependencyObject)instance);
         }
-        private void set_7_Interaction_Behaviors(object instance, object Value)
+        private void set_8_Interaction_Behaviors(object instance, object Value)
         {
             global::Microsoft.Xaml.Interactivity.Interaction.SetBehaviors((global::Windows.UI.Xaml.DependencyObject)instance, (global::Microsoft.Xaml.Interactivity.BehaviorCollection)Value);
         }
-        private object get_8_TitleBarBehavior_BackgroundColor(object instance)
+        private object get_9_TitleBarBehavior_BackgroundColor(object instance)
         {
             var that = (global::Design.Behaviors.TitleBarBehavior)instance;
             return that.BackgroundColor;
         }
-        private void set_8_TitleBarBehavior_BackgroundColor(object instance, object Value)
+        private void set_9_TitleBarBehavior_BackgroundColor(object instance, object Value)
         {
             var that = (global::Design.Behaviors.TitleBarBehavior)instance;
             that.BackgroundColor = (global::Windows.UI.Color)Value;
         }
-        private object get_9_TitleBarBehavior_ForegroundColor(object instance)
+        private object get_10_TitleBarBehavior_ForegroundColor(object instance)
         {
             var that = (global::Design.Behaviors.TitleBarBehavior)instance;
             return that.ForegroundColor;
         }
-        private void set_9_TitleBarBehavior_ForegroundColor(object instance, object Value)
+        private void set_10_TitleBarBehavior_ForegroundColor(object instance, object Value)
         {
             var that = (global::Design.Behaviors.TitleBarBehavior)instance;
             that.ForegroundColor = (global::Windows.UI.Color)Value;
         }
-        private object get_10_TitleBarBehavior_ButtonBackgroundColor(object instance)
+        private object get_11_TitleBarBehavior_ButtonBackgroundColor(object instance)
         {
             var that = (global::Design.Behaviors.TitleBarBehavior)instance;
             return that.ButtonBackgroundColor;
         }
-        private void set_10_TitleBarBehavior_ButtonBackgroundColor(object instance, object Value)
+        private void set_11_TitleBarBehavior_ButtonBackgroundColor(object instance, object Value)
         {
             var that = (global::Design.Behaviors.TitleBarBehavior)instance;
             that.ButtonBackgroundColor = (global::Windows.UI.Color)Value;
         }
-        private object get_11_TitleBarBehavior_ButtonForegroundColor(object instance)
+        private object get_12_TitleBarBehavior_ButtonForegroundColor(object instance)
         {
             var that = (global::Design.Behaviors.TitleBarBehavior)instance;
             return that.ButtonForegroundColor;
         }
-        private void set_11_TitleBarBehavior_ButtonForegroundColor(object instance, object Value)
+        private void set_12_TitleBarBehavior_ButtonForegroundColor(object instance, object Value)
         {
             var that = (global::Design.Behaviors.TitleBarBehavior)instance;
             that.ButtonForegroundColor = (global::Windows.UI.Color)Value;
         }
-        private object get_12_TitleBarBehavior_AssociatedObject(object instance)
+        private object get_13_TitleBarBehavior_AssociatedObject(object instance)
         {
             var that = (global::Design.Behaviors.TitleBarBehavior)instance;
             return that.AssociatedObject;
         }
-        private object get_13_TitleBarBehavior_Title(object instance)
+        private object get_14_TitleBarBehavior_Title(object instance)
         {
             var that = (global::Design.Behaviors.TitleBarBehavior)instance;
             return that.Title;
         }
-        private void set_13_TitleBarBehavior_Title(object instance, object Value)
+        private void set_14_TitleBarBehavior_Title(object instance, object Value)
         {
             var that = (global::Design.Behaviors.TitleBarBehavior)instance;
             that.Title = (global::System.String)Value;
+        }
+        private object get_15_PlatformStateTrigger_DeviceFamily(object instance)
+        {
+            var that = (global::Design.StateTriggers.PlatformStateTrigger)instance;
+            return that.DeviceFamily;
+        }
+        private void set_15_PlatformStateTrigger_DeviceFamily(object instance, object Value)
+        {
+            var that = (global::Design.StateTriggers.PlatformStateTrigger)instance;
+            that.DeviceFamily = (global::Design.StateTriggers.DeviceFamily)Value;
+        }
+        private object get_16_ItemClickCommandBehavior_Command(object instance)
+        {
+            return global::Design.Behaviors.ItemClickCommandBehavior.GetCommand((global::Windows.UI.Xaml.DependencyObject)instance);
+        }
+        private void set_16_ItemClickCommandBehavior_Command(object instance, object Value)
+        {
+            global::Design.Behaviors.ItemClickCommandBehavior.SetCommand((global::Windows.UI.Xaml.DependencyObject)instance, (global::System.Windows.Input.ICommand)Value);
         }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
@@ -523,98 +661,119 @@ namespace Design.Design_XamlTypeInfo
 
             switch (longMemberName)
             {
+            case "Design.ViewModels.Base.ViewModelLocator.ShellViewModel":
+                userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Design.ViewModels.Base.ViewModelLocator");
+                xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "ShellViewModel", "Design.ViewModels.ShellViewModel");
+                xamlMember.Getter = get_0_ViewModelLocator_ShellViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Design.ViewModels.Base.ViewModelLocator.RestaurantViewModel":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Design.ViewModels.Base.ViewModelLocator");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "RestaurantViewModel", "Design.ViewModels.RestaurantViewModel");
-                xamlMember.Getter = get_0_ViewModelLocator_RestaurantViewModel;
+                xamlMember.Getter = get_1_ViewModelLocator_RestaurantViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Design.Controls.TabHeader.Glyph":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Design.Controls.TabHeader");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "Glyph", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_1_TabHeader_Glyph;
-                xamlMember.Setter = set_1_TabHeader_Glyph;
+                xamlMember.Getter = get_2_TabHeader_Glyph;
+                xamlMember.Setter = set_2_TabHeader_Glyph;
                 break;
             case "Design.Controls.TabHeader.Label":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Design.Controls.TabHeader");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "Label", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_2_TabHeader_Label;
-                xamlMember.Setter = set_2_TabHeader_Label;
+                xamlMember.Getter = get_3_TabHeader_Label;
+                xamlMember.Setter = set_3_TabHeader_Label;
                 break;
             case "Windows.UI.Color.A":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "A", "Byte");
-                xamlMember.Getter = get_3_Color_A;
-                xamlMember.Setter = set_3_Color_A;
+                xamlMember.Getter = get_4_Color_A;
+                xamlMember.Setter = set_4_Color_A;
                 break;
             case "Windows.UI.Color.B":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "B", "Byte");
-                xamlMember.Getter = get_4_Color_B;
-                xamlMember.Setter = set_4_Color_B;
+                xamlMember.Getter = get_5_Color_B;
+                xamlMember.Setter = set_5_Color_B;
                 break;
             case "Windows.UI.Color.G":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "G", "Byte");
-                xamlMember.Getter = get_5_Color_G;
-                xamlMember.Setter = set_5_Color_G;
+                xamlMember.Getter = get_6_Color_G;
+                xamlMember.Setter = set_6_Color_G;
                 break;
             case "Windows.UI.Color.R":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Windows.UI.Color");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "R", "Byte");
-                xamlMember.Getter = get_6_Color_R;
-                xamlMember.Setter = set_6_Color_R;
+                xamlMember.Getter = get_7_Color_R;
+                xamlMember.Setter = set_7_Color_R;
                 break;
             case "Microsoft.Xaml.Interactivity.Interaction.Behaviors":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactivity.Interaction");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "Behaviors", "Microsoft.Xaml.Interactivity.BehaviorCollection");
                 xamlMember.SetTargetTypeName("Windows.UI.Xaml.DependencyObject");
                 xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_7_Interaction_Behaviors;
-                xamlMember.Setter = set_7_Interaction_Behaviors;
+                xamlMember.Getter = get_8_Interaction_Behaviors;
+                xamlMember.Setter = set_8_Interaction_Behaviors;
                 break;
             case "Design.Behaviors.TitleBarBehavior.BackgroundColor":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Design.Behaviors.TitleBarBehavior");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "BackgroundColor", "Windows.UI.Color");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_8_TitleBarBehavior_BackgroundColor;
-                xamlMember.Setter = set_8_TitleBarBehavior_BackgroundColor;
+                xamlMember.Getter = get_9_TitleBarBehavior_BackgroundColor;
+                xamlMember.Setter = set_9_TitleBarBehavior_BackgroundColor;
                 break;
             case "Design.Behaviors.TitleBarBehavior.ForegroundColor":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Design.Behaviors.TitleBarBehavior");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "ForegroundColor", "Windows.UI.Color");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_9_TitleBarBehavior_ForegroundColor;
-                xamlMember.Setter = set_9_TitleBarBehavior_ForegroundColor;
+                xamlMember.Getter = get_10_TitleBarBehavior_ForegroundColor;
+                xamlMember.Setter = set_10_TitleBarBehavior_ForegroundColor;
                 break;
             case "Design.Behaviors.TitleBarBehavior.ButtonBackgroundColor":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Design.Behaviors.TitleBarBehavior");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "ButtonBackgroundColor", "Windows.UI.Color");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_10_TitleBarBehavior_ButtonBackgroundColor;
-                xamlMember.Setter = set_10_TitleBarBehavior_ButtonBackgroundColor;
+                xamlMember.Getter = get_11_TitleBarBehavior_ButtonBackgroundColor;
+                xamlMember.Setter = set_11_TitleBarBehavior_ButtonBackgroundColor;
                 break;
             case "Design.Behaviors.TitleBarBehavior.ButtonForegroundColor":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Design.Behaviors.TitleBarBehavior");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "ButtonForegroundColor", "Windows.UI.Color");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_11_TitleBarBehavior_ButtonForegroundColor;
-                xamlMember.Setter = set_11_TitleBarBehavior_ButtonForegroundColor;
+                xamlMember.Getter = get_12_TitleBarBehavior_ButtonForegroundColor;
+                xamlMember.Setter = set_12_TitleBarBehavior_ButtonForegroundColor;
                 break;
             case "Design.Behaviors.TitleBarBehavior.AssociatedObject":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Design.Behaviors.TitleBarBehavior");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "AssociatedObject", "Windows.UI.Xaml.DependencyObject");
-                xamlMember.Getter = get_12_TitleBarBehavior_AssociatedObject;
+                xamlMember.Getter = get_13_TitleBarBehavior_AssociatedObject;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Design.Behaviors.TitleBarBehavior.Title":
                 userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Design.Behaviors.TitleBarBehavior");
                 xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "Title", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_13_TitleBarBehavior_Title;
-                xamlMember.Setter = set_13_TitleBarBehavior_Title;
+                xamlMember.Getter = get_14_TitleBarBehavior_Title;
+                xamlMember.Setter = set_14_TitleBarBehavior_Title;
+                break;
+            case "Design.StateTriggers.PlatformStateTrigger.DeviceFamily":
+                userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Design.StateTriggers.PlatformStateTrigger");
+                xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "DeviceFamily", "Design.StateTriggers.DeviceFamily");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_15_PlatformStateTrigger_DeviceFamily;
+                xamlMember.Setter = set_15_PlatformStateTrigger_DeviceFamily;
+                break;
+            case "Design.Behaviors.ItemClickCommandBehavior.Command":
+                userType = (global::Design.Design_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Design.Behaviors.ItemClickCommandBehavior");
+                xamlMember = new global::Design.Design_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
+                xamlMember.SetTargetTypeName("Windows.UI.Xaml.DependencyObject");
+                xamlMember.SetIsAttachable();
+                xamlMember.Getter = get_16_ItemClickCommandBehavior_Command;
+                xamlMember.Setter = set_16_ItemClickCommandBehavior_Command;
                 break;
             }
             return xamlMember;

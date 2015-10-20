@@ -9,9 +9,12 @@
     public abstract class ViewModelBase : INotifyPropertyChanged
     {
         private Frame _appFrame;
-		private bool _isBusy;
+        private Frame _splitViewFrame;
+        private bool _isBusy;
 
         public Frame AppFrame => _appFrame;
+
+        public Frame SplitViewFrame => _splitViewFrame;
 
         public bool IsBusy
         {
@@ -39,5 +42,10 @@
         {
             _appFrame = viewFrame;
         }
-	}
+
+        internal void SetSplitFrame(Frame viewFrame)
+        {
+            _splitViewFrame = viewFrame;
+        }
+    }
 }

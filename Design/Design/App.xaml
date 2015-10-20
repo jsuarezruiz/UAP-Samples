@@ -3,6 +3,7 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:base="using:Design.ViewModels.Base"
+    xmlns:themes="using:Design.Themes"
     RequestedTheme="Light">
     <Application.Resources>
         <ResourceDictionary>
@@ -12,7 +13,9 @@
                 <ResourceDictionary Source="/Themes/Fonts.xaml" />
                 <ResourceDictionary Source="/Themes/GridView.xaml" />
                 <ResourceDictionary Source="/Themes/Pivot.xaml" />
-                <ResourceDictionary Source="/Themes/Restaurant.xaml" />
+                <ResourceDictionary Source="/Themes/ToggleButton.xaml" />
+                <themes:Restaurant />
+                <themes:Shell />
             </ResourceDictionary.MergedDictionaries>
             
             <!-- ViewModelLocator -->

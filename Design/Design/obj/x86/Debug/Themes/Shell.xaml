@@ -1,0 +1,61 @@
+﻿<ResourceDictionary
+    x:Class="Design.Themes.Shell"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:Design.Models">
+
+    <DataTemplate x:Key="MenuItemDataTemplate"                             >
+        <Grid x:ConnectionId='1'
+			Width="250">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Border 
+				Grid.Column="0"
+				Background="Transparent" 
+			    Width="40" 
+				Height="40">
+                <FontIcon x:ConnectionId='3' 
+					FontFamily="Segoe MDL2 Assets" 
+					Foreground="{StaticResource WhiteBrush}"
+					                      />
+            </Border>
+            <TextBlock x:ConnectionId='2' 
+				Grid.Column="1"
+				                                                                      
+				Foreground="{StaticResource WhiteBrush}"
+				VerticalAlignment="Center"
+				Margin="10, 0" />
+        </Grid>
+    </DataTemplate>
+
+    <Style x:Key="BigUserStyle" TargetType="Ellipse">
+        <Setter Property="Height" Value="125" />
+        <Setter Property="Width" Value="125" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="SmallUserStyle" TargetType="Ellipse">
+        <Setter Property="Height" Value="40" />
+        <Setter Property="Width" Value="40" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="Margin" Value="10, 12, 10, 0" />
+    </Style>
+
+    <Style x:Key="UserNameStyle" TargetType="TextBlock">
+        <Setter Property="FontWeight" Value="SemiBold" />
+        <Setter Property="FontSize" Value="{StaticResource FontSizeMedium}" />
+        <Setter Property="Foreground" Value="{StaticResource WhiteBrush}" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+
+    <Style x:Key="CloseSessionStyle" TargetType="HyperlinkButton">
+        <Setter Property="FontWeight" Value="SemiLight" />
+        <Setter Property="FontSize" Value="{StaticResource FontSizeExtraSmall}" />
+        <Setter Property="Foreground" Value="{StaticResource WhiteBrush}" />
+        <Setter Property="HorizontalAlignment" Value="Center" />
+    </Style>
+    
+</ResourceDictionary>
+

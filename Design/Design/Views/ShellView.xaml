@@ -1,0 +1,103 @@
+﻿<base:PageBase
+    x:Class="Design.Views.ShellView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:base="using:Design.Views.Base"
+    xmlns:behaviors="using:Design.Behaviors"
+    mc:Ignorable="d"
+    DataContext="{Binding ShellViewModel, Source={StaticResource Locator}}">
+    <Grid>
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState x:Name="Big">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="600" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Splitter.DisplayMode" Value="CompactInline"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:Name="Small">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Splitter.DisplayMode" Value="Overlay"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+        <SplitView 
+            x:Name="Splitter" 	  
+            DisplayMode="CompactInline"
+            Background="{StaticResource BackgroundBrush}"  
+            PaneBackground="{StaticResource PivotBackgroundBrush}" 
+            PanePlacement="Left"	
+            CompactPaneLength="60"	
+            OpenPaneLength="240"	
+            IsPaneOpen="{Binding IsPaneOpen}">
+            <SplitView.Pane>
+                <StackPanel
+                    Margin="0,50,0,0">
+                    <StackPanel
+                        Visibility="{Binding ElementName=Splitter, Path=IsPaneOpen, Converter={StaticResource BoolToVisibilityConverter}}">
+                        <Ellipse
+                            Style="{StaticResource BigUserStyle}">
+                            <Ellipse.Fill>
+                                <ImageBrush
+                                    ImageSource="ms-appx:///Assets/JavierSuarez.png"
+                                    Stretch="UniformToFill"/>
+                            </Ellipse.Fill>
+                        </Ellipse>
+                        <TextBlock 
+                            Text="Javier Suarez"
+                            Style="{StaticResource UserNameStyle}"/>
+                        <HyperlinkButton
+                            Content="close session"
+                            Style="{StaticResource CloseSessionStyle}"/>
+                    </StackPanel>
+                    <Ellipse                    
+                        Style="{StaticResource SmallUserStyle}"
+                        Visibility="{Binding ElementName=Splitter, Path=IsPaneOpen, Converter={StaticResource InverseBoolToVisibilityConverter}}">
+                        <Ellipse.Fill>
+                            <ImageBrush                                
+                                ImageSource="ms-appx:///Assets/JavierSuarez.png"                             
+                                Stretch="UniformToFill"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                    <ListView	                     
+                        ItemsSource="{Binding MenuItems}"
+                        SelectedItem="{Binding SelectedMenuItem, Mode=TwoWay}"
+                        ItemTemplate="{StaticResource MenuItemDataTemplate}"
+                        behaviors:ItemClickCommandBehavior.Command="{Binding NavigateCommand}"
+                        SelectionMode="Single" 
+                        IsItemClickEnabled="True"
+                        Margin="0,50,0,0"/>
+                </StackPanel>
+            </SplitView.Pane>
+            <Frame/>
+        </SplitView>
+
+        <ToggleButton 				
+            x:Name="HamburguerButton"
+	        Style="{StaticResource SymbolButton}"	    
+			Command="{Binding HamburgerCommand}"
+			VerticalAlignment="Top" 
+			Foreground="{StaticResource WhiteBrush}" 
+			Margin="0,5,0,0">
+            <ToggleButton.Content>
+                <Border 
+                    Background="Transparent" 
+					Width="40" 
+					Height="40">
+                    <FontIcon 
+                        x:Name="Hamburger" 
+				        FontFamily="Segoe MDL2 Assets" 
+					    Glyph="&#xE700;" />
+                </Border>
+            </ToggleButton.Content>
+        </ToggleButton>
+    </Grid>
+</base:PageBase>

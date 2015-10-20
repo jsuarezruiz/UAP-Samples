@@ -9,6 +9,7 @@
     xmlns:controls="using:Design.Controls"
     xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
     xmlns:behaviors="using:Design.Behaviors"
+    xmlns:stateTriggers="using:Design.StateTriggers"
     mc:Ignorable="d"
     DataContext="{Binding RestaurantViewModel, Source={StaticResource Locator}}">
     <interactivity:Interaction.Behaviors>
@@ -56,6 +57,24 @@
                         <Setter Target="GalleryPanel.(RelativePanel.RightOf)" Value="InfoPanel"/>
                     </VisualState.Setters>
                 </VisualState>
+                <!-- Custom State Triggers -->
+                <VisualState x:ConnectionId='3' x:Name="WindowsMobile">
+                    <VisualState.StateTriggers>
+                        <stateTriggers:PlatformStateTrigger DeviceFamily="Mobile" />
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="InfoPanel.(RelativePanel.AlignLeftWithPanel)" Value="True"/>
+                        <Setter Target="InfoPanel.(RelativePanel.AlignRightWithPanel)" Value="True"/>
+                        <Setter Target="InfoPanel.(RelativePanel.RightOf)" Value="{x:Null}"/>
+                        <Setter Target="CheckinsPanel.(RelativePanel.AlignLeftWithPanel)" Value="True"/>
+                        <Setter Target="CheckinsPanel.(RelativePanel.AlignRightWithPanel)" Value="True"/>
+                        <Setter Target="CheckinsPanel.(RelativePanel.RightOf)" Value="{x:Null}"/>
+                        <Setter Target="CheckinsPanel.(RelativePanel.Below)" Value="InfoPanel"/>
+                        <Setter Target="MapPanel.Visibility" Value="Collapsed"/>
+                        <Setter Target="ReviewsPanel.(RelativePanel.AlignLeftWithPanel)" Value="True"/>
+                        <Setter Target="GalleryPanel.Visibility" Value="Collapsed"/>
+                    </VisualState.Setters>
+                </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
         <Pivot
@@ -69,12 +88,12 @@
                 </PivotItem.Header>
                 <RelativePanel>
                     <!-- Map -->
-                    <Grid x:ConnectionId='3' 
+                    <Grid x:ConnectionId='7' 
                         x:Name="MapPanel"
                         Style="{StaticResource MapPanelStyle}"
                         RelativePanel.AlignTopWithPanel="True"
                         RelativePanel.AlignLeftWithPanel="True">
-                        <maps:MapControl x:ConnectionId='9'
+                        <maps:MapControl x:ConnectionId='13'
                             x:Name="Map" 
                             MinHeight="1024"
                             Height="{Binding ElementName=MapPanel, Path=ActualHeight}"
@@ -86,7 +105,7 @@
                             VerticalAlignment="Stretch"/>
                     </Grid>
                     <!-- Restaurant General Info -->
-                    <Grid x:ConnectionId='4'
+                    <Grid x:ConnectionId='8'
                         x:Name="InfoPanel"
                         Style="{StaticResource InfoPanelStyle}"
                         RelativePanel.RightOf="MapPanel">
@@ -120,7 +139,7 @@
                         </Grid>
                     </Grid>
                     <!-- Checkins -->
-                    <Grid x:ConnectionId='5'
+                    <Grid x:ConnectionId='9'
                         x:Name="CheckinsPanel"
                         RelativePanel.RightOf="MapPanel"
                         RelativePanel.Below="InfoPanel"
@@ -195,7 +214,7 @@
                         </StackPanel>
                     </Grid>
                     <!-- Reviews -->
-                    <Grid x:ConnectionId='6'
+                    <Grid x:ConnectionId='10'
                         x:Name="ReviewsPanel"
                         RelativePanel.RightOf="MapPanel" 
                         RelativePanel.LeftOf="GalleryPanel"
@@ -220,11 +239,11 @@
                         </GridView>
                     </Grid>
                     <!-- SlideShow -->
-                    <Grid x:ConnectionId='7'
+                    <Grid x:ConnectionId='11'
                         x:Name="GalleryPanel"
                         RelativePanel.RightOf="InfoPanel"
                         Style="{StaticResource GalleryPanelStyle}">
-                        <FlipView x:ConnectionId='8'
+                        <FlipView x:ConnectionId='12'
                             x:Name="GalleryFlipView"
                             ItemsSource="{Binding Current.Images}"
                             ItemTemplate="{StaticResource GalleryimageItem}"
@@ -248,7 +267,9 @@
                         Label="Popular" 
                         Glyph="&#xE8E1;" />
                 </PivotItem.Header>
-                <Grid/>
+                <Grid x:ConnectionId='6'
+                    x:Name="PopularContent"
+                    x:DeferLoadStrategy="Lazy"/>
             </PivotItem>
             <!-- Favorites -->
             <PivotItem>
@@ -257,7 +278,9 @@
                         Label="Favorites" 
                         Glyph="&#59176;" />
                 </PivotItem.Header>
-                <Grid/>
+                <Grid x:ConnectionId='5'
+                    x:Name="FavoritesContent"
+                    x:DeferLoadStrategy="Lazy"/>
             </PivotItem>
             <!-- Schedule -->
             <PivotItem>
@@ -266,7 +289,9 @@
                         Label="Schedule" 
                         Glyph="&#xE787;" />
                 </PivotItem.Header>
-                <Grid/>
+                <Grid x:ConnectionId='4'
+                    x:Name="ScheduleContent"
+                    x:DeferLoadStrategy="Lazy"/>
             </PivotItem>
         </Pivot>
     </Grid>

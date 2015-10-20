@@ -7,8 +7,6 @@
     <RootPropertyPathName Name="Label" />
     <RootPropertyPathName Name="Glyph" />
     <RootPropertyPathName Name="Tag" />
-    <RootPropertyPathName Name="Date" />
-    <RootPropertyPathName Name="Description" />
     <RootPropertyPathName Name="Client" />
     <RootPropertyPathName Name="Photo" />
     <RootPropertyPathName Name="RestaurantViewModel" />
@@ -27,6 +25,12 @@
     <RootPropertyPathName Name="ActualHeight" />
     <RootPropertyPathName Name="ActualWidth" />
     <RootPropertyPathName Name="GeoLocation" />
+    <RootPropertyPathName Name="ShellViewModel" />
+    <RootPropertyPathName Name="HamburgerCommand" />
+    <RootPropertyPathName Name="IsPaneOpen" />
+    <RootPropertyPathName Name="MenuItems" />
+    <RootPropertyPathName Name="SelectedMenuItem" />
+    <RootPropertyPathName Name="NavigateCommand" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -38,6 +42,8 @@
       <RootProperty Name="Source" />
       <RootProperty Name="ThemeDictionaries" />
     </RootType>
+    <RootType FullName="Design.Themes.Restaurant" />
+    <RootType FullName="Design.Themes.Shell" />
     <RootType FullName="Design.ViewModels.Base.ViewModelLocator" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Width" />
@@ -52,6 +58,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Orientation" />
       <RootProperty Name="Background" />
+      <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.VisualStateManager">
       <RootMethod Name="GetVisualStateGroups" />
@@ -131,6 +138,9 @@
       <RootProperty Name="Template" />
       <RootProperty Name="Padding" />
       <RootProperty Name="FontWeight" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
       <RootProperty Name="HorizontalContentAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.UIElement">
@@ -173,6 +183,7 @@
       <RootProperty Name="Children" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RenderTransform" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Style" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
@@ -216,6 +227,8 @@
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Child" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootProperty Name="Margin" />
@@ -292,9 +305,40 @@
     <RootType FullName="Windows.UI.Xaml.Data.RelativeSource">
       <RootProperty Name="Mode" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
+      <RootProperty Name="Converter" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
       <RootProperty Name="Stretch" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
+      <RootProperty Name="Content" />
+      <RootProperty Name="Style" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Primitives.ToggleButton">
+      <RootProperty Name="Style" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimation">
+      <RootProperty Name="Duration" />
+      <RootProperty Name="To" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
+      <RootMethod Name="GetAccessibilityView" />
+      <RootMethod Name="SetAccessibilityView" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
+      <RootProperty Name="IsHitTestVisible" />
+      <RootProperty Name="Opacity" />
+      <RootProperty Name="StrokeDashOffset" />
+      <RootProperty Name="StrokeEndLineCap" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeDashArray" />
     </RootType>
     <RootType FullName="Design.Views.Base.PageBase">
       <RootProperty Name="DataContext" />
@@ -309,6 +353,9 @@
       <RootProperty Name="ForegroundColor" />
       <RootProperty Name="ButtonBackgroundColor" />
       <RootProperty Name="ButtonForegroundColor" />
+    </RootType>
+    <RootType FullName="Design.StateTriggers.PlatformStateTrigger">
+      <RootProperty Name="DeviceFamily" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.NullExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.PivotItem">
@@ -367,5 +414,30 @@
       <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Design.Views.RestaurantView" />
+    <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
+      <RootProperty Name="DisplayMode" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="PaneBackground" />
+      <RootProperty Name="PanePlacement" />
+      <RootProperty Name="CompactPaneLength" />
+      <RootProperty Name="OpenPaneLength" />
+      <RootProperty Name="IsPaneOpen" />
+      <RootProperty Name="Pane" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="Margin" />
+    </RootType>
+    <RootType FullName="Design.Behaviors.ItemClickCommandBehavior">
+      <RootMethod Name="GetCommand" />
+      <RootMethod Name="SetCommand" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
+    <RootType FullName="Design.Views.ShellView" />
   </Roots.RootTypes>
 </Roots>

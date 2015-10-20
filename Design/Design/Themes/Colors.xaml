@@ -22,5 +22,8 @@
 
     <Color x:Key="LightGreenColor">#8BD495</Color>
     <SolidColorBrush x:Key="LightGreenBrush" Color="{StaticResource LightGreenColor}"/>
+
+    <Color x:Key="SelectedColor">#3F3F46</Color>
+    <SolidColorBrush x:Key="SelectedBrush" Color="{StaticResource SelectedColor}"/>
     
 </ResourceDictionary>

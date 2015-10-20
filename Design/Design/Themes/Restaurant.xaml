@@ -1,6 +1,8 @@
 ﻿<ResourceDictionary
+    x:Class="Design.Themes.Restaurant"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:models="using:Design.Models">
 
     <Style x:Key="MapPanelStyle" TargetType="Grid">
         <Setter Property="Background" Value="{StaticResource BackgroundBrush}" />
@@ -81,7 +83,7 @@
         <Setter Property="Margin" Value="12" />
     </Style>
 
-    <DataTemplate x:Key="ReviewDataTemplate">
+    <DataTemplate x:Key="ReviewDataTemplate" x:DataType="models:Review">
         <Grid
             HorizontalAlignment="Stretch"
             VerticalAlignment="Stretch">
@@ -104,10 +106,11 @@
                 HorizontalAlignment="Left"
                 Margin="12">
                 <TextBlock 
-                    Text="{Binding Description}"
+                    Text="{x:Bind Description}"
                     TextWrapping="Wrap"/>
                 <TextBlock 
-                    Text="{Binding Date}"
+                    Text="{x:Bind Date}"
+                    x:Phase="1"
                     Foreground="{StaticResource AccentBrush}"/>
             </StackPanel>
         </Grid>

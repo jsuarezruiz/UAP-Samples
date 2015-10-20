@@ -10,10 +10,12 @@
         {
             _container = new UnityContainer();
 
-			// ViewModels
+            // ViewModels
+            _container.RegisterType<ShellViewModel>();
             _container.RegisterType<RestaurantViewModel>();
 		}
 
+        public ShellViewModel ShellViewModel => _container.Resolve<ShellViewModel>();
         public RestaurantViewModel RestaurantViewModel => _container.Resolve<RestaurantViewModel>();
 	}
 }
