@@ -1,0 +1,167 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <DataTemplate x:Key="ContactTemplate">
+        <Grid>
+            <TextBlock
+                Text="{Binding FullName}"
+                FontSize="{StaticResource FontSizeMedium}"
+                HorizontalAlignment="Left"
+                Margin="0, 12, 0, 0"/>
+        </Grid>
+    </DataTemplate>
+    
+    <JumpListItemBackgroundConverter x:Key="JumpListItemBackgroundConverter" />
+    <JumpListItemForegroundConverter x:Key="JumpListItemForegroundConverter" />
+
+    <Thickness x:Key="JumpListItemBorderThickness">0</Thickness>
+    <Thickness x:Key="AlphaJumpListGroupTextMargin">5.5,0,0,9.5</Thickness>
+    <Thickness x:Key="JumpListItemTextMargin">9.5,0,0,9.5</Thickness>
+
+    <SolidColorBrush x:Key="JumpListItemBackgroundBrush"    
+                     Color="{ThemeResource SystemColorControlAccentColor}" />
+    <SolidColorBrush x:Key="JumpListItemTextForegroundBrush"                     
+                     Color="White" />
+
+    <Style x:Key="AlphaJumpListStyle"
+           TargetType="SemanticZoom">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="SemanticZoom">
+                    <Grid>
+                        <Border BorderBrush="{TemplateBinding BorderBrush}"
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                Background="{TemplateBinding Background}">
+                            <Grid Margin="{TemplateBinding Padding}">
+                                <ContentPresenter x:Name="ZoomedInPresenter"
+                                                  Content="{TemplateBinding ZoomedInView}"
+                                                  HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                  VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                <Popup x:Name="Popup">
+                                    <Popup.ChildTransitions>
+                                        <TransitionCollection>
+                                            <PopupThemeTransition />
+                                        </TransitionCollection>
+                                    </Popup.ChildTransitions>
+                                    <Grid>
+                                        <Rectangle Fill="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                                                   Opacity=".67" />
+                                        <Border x:Name="PopupBorder">
+                                            <Viewbox Stretch="Uniform"
+                                                     VerticalAlignment="Top">
+                                                <ContentPresenter x:Name="ZoomedOutPresenter"
+                                                                  Height="625"
+                                                                  Width="364"
+                                                                  Content="{TemplateBinding ZoomedOutView}"
+                                                                  HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                                  VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                                                  Margin="19,15,0,-57.5" />
+                                            </Viewbox>
+                                        </Border>
+                                    </Grid>
+                                </Popup>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <DataTemplate x:Key="AlphaGroupHeaderTemplate">
+        <Border Background="{ThemeResource JumpListItemBackgroundBrush}"
+                BorderBrush="{ThemeResource JumpListItemBackgroundBrush}"
+                BorderThickness="{ThemeResource JumpListItemBorderThickness}"
+                Width="49.5"
+                Height="49.5"
+                HorizontalAlignment="Left"
+                Margin="0,0,0,9.5">
+            <TextBlock Text="{Binding Key}"
+                       Foreground="{ThemeResource JumpListItemTextForegroundBrush}"
+                       FontSize="39"
+                       TextLineBounds="Tight"
+                       OpticalMarginAlignment="TrimSideBearings"
+                       IsColorFontEnabled="False"
+                       IsTextScaleFactorEnabled="False"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Bottom"
+                       Margin="{ThemeResource AlphaJumpListGroupTextMargin}" />
+        </Border>
+    </DataTemplate>
+
+    <Style x:Key="JumpListListHeaderContainerStyle"
+           TargetType="ListViewHeaderItem">
+        <Setter Property="HorizontalContentAlignment"
+                Value="Stretch" />
+        <Setter Property="VerticalContentAlignment"
+                Value="Stretch" />
+    </Style>
+
+    <DataTemplate x:Key="AlphaJumpListPickerItemTemplate">
+        <Border Background="{Binding Converter={StaticResource JumpListItemBackgroundConverter}}"
+                BorderBrush="{Binding Converter={StaticResource JumpListItemForegroundConverter}}"
+                BorderThickness="{ThemeResource JumpListItemBorderThickness}"
+                Height="59"
+                Width="59"
+                HorizontalAlignment="Left"
+                Margin="0,0,9.5,9.5">
+            <TextBlock Text="{Binding Group.Key}"
+                       Foreground="{Binding Converter={StaticResource JumpListItemForegroundConverter}}"
+                       FontSize="32"
+                       FontWeight="SemiBold"
+                       TextLineBounds="Tight"
+                       OpticalMarginAlignment="TrimSideBearings"
+                       IsColorFontEnabled="False"
+                       IsTextScaleFactorEnabled="False"
+                       HorizontalAlignment="Left"
+                       VerticalAlignment="Bottom"
+                       Margin="{ThemeResource JumpListItemTextMargin}" />
+        </Border>
+    </DataTemplate>
+
+    <Style x:Key="AlphaJumpListPickerStyle"
+           TargetType="GridView">
+        <Setter Property="ItemTemplate"
+                Value="{StaticResource AlphaJumpListPickerItemTemplate}" />
+        <Setter Property="ItemContainerStyle">
+            <Setter.Value>
+                <Style TargetType="GridViewItem">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="GridViewItem">
+                                <Border x:Name="TiltContainer">
+                                    <VisualStateManager.VisualStateGroups>
+                                        <VisualStateGroup x:Name="CommonStates">
+                                            <VisualState x:Name="Normal" />
+                                            <VisualState x:Name="Pressed">
+                                                <Storyboard>
+                                                    <PointerDownThemeAnimation Storyboard.TargetName="TiltContainer" />
+                                                </Storyboard>
+                                            </VisualState>
+                                            <VisualStateGroup.Transitions>
+                                                <VisualTransition From="Pressed"
+                                                                  To="Normal">
+                                                    <Storyboard>
+                                                        <PointerUpThemeAnimation Storyboard.TargetName="TiltContainer" />
+                                                    </Storyboard>
+                                                </VisualTransition>
+                                            </VisualStateGroup.Transitions>
+                                        </VisualStateGroup>
+                                    </VisualStateManager.VisualStateGroups>
+                                    <ContentPresenter ContentTransitions="{TemplateBinding ContentTransitions}"
+                                                      ContentTemplate="{TemplateBinding ContentTemplate}"
+                                                      Content="{TemplateBinding Content}"
+                                                      HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                      VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                                      Margin="{TemplateBinding Padding}" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>

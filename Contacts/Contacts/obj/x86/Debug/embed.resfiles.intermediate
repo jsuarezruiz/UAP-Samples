@@ -1,0 +1,12 @@
+App.xbf
+Themes\Colors.xbf
+Themes\Contacts.xbf
+Themes\Converters.xbf
+Themes\Fonts.xbf
+Themes\Shell.xbf
+Themes\ToggleButton.xbf
+Views\AddContact.xbf
+Views\ContactChangesView.xbf
+Views\ContactsView.xbf
+Views\PickView.xbf
+Views\ShellView.xbf

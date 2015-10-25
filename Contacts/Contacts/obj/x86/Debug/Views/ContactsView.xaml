@@ -1,0 +1,39 @@
+﻿<base:PageBase x:ConnectionId='1'
+    x:Name="Contacts"
+    x:Class="Contacts.Views.ContactsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:base="using:Contacts.Views.Base"
+    mc:Ignorable="d"
+    DataContext="{Binding ContactsViewModel, Source={StaticResource Locator}}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <SemanticZoom 
+            Style="{StaticResource AlphaJumpListStyle}"  
+            Margin="19,0,0,0">
+            <SemanticZoom.ZoomedInView>
+                <ListView ItemsSource="{Binding Contacts.View}"
+                          ItemTemplate="{StaticResource ContactTemplate}"
+                          Width="{Binding ElementName=Contacts, Path=ActualWidth}"
+                          SelectionMode="None"
+                          IsItemClickEnabled="True" 
+                          IsSwipeEnabled="False">
+                    <ListView.GroupStyle>
+                        <GroupStyle                                 
+                            HeaderTemplate="{StaticResource AlphaGroupHeaderTemplate}"  
+                            HeaderContainerStyle="{StaticResource JumpListListHeaderContainerStyle}"
+                            HidesIfEmpty="True" />
+                    </ListView.GroupStyle>
+                </ListView>
+            </SemanticZoom.ZoomedInView>
+            <SemanticZoom.ZoomedOutView>
+                <GridView                         
+                    ItemsSource="{Binding Contacts.View.CollectionGroups}"             
+                    Style="{StaticResource AlphaJumpListPickerStyle}">
+                </GridView>
+            </SemanticZoom.ZoomedOutView>
+        </SemanticZoom>
+    </Grid>
+</base:PageBase>
+
