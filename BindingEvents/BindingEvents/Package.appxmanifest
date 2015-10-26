@@ -7,20 +7,20 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="fbe9bbf4-b438-4103-8f8c-63d9facd8a3f"
-    Publisher="CN=Javier"
+    Name="f3741012-0318-49c4-ac0a-1757b503b6ba"
+    Publisher="CN=javie"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="fbe9bbf4-b438-4103-8f8c-63d9facd8a3f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="f3741012-0318-49c4-ac0a-1757b503b6ba" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>BindingEvents</DisplayName>
-    <PublisherDisplayName>Javier</PublisherDisplayName>
+    <PublisherDisplayName>javie</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10069.0" MaxVersionTested="10.0.10069.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
   </Dependencies>
 
   <Resources>
@@ -33,10 +33,11 @@
       EntryPoint="BindingEvents.App">
       <uap:VisualElements
         DisplayName="BindingEvents"
-        Square150x150Logo="Assets\Logo.png"
-        Square44x44Logo="Assets\SmallLogo.png"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png"
         Description="BindingEvents"
-        BackgroundColor="#464646">
+        BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>

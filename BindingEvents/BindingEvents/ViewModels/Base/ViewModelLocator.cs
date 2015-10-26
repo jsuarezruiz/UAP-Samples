@@ -2,7 +2,7 @@
 {
     using Services.Dialog;
     using Microsoft.Practices.Unity;
-    using BindingEvents.Models;
+    using Models;
 
     public class ViewModelLocator
     {
@@ -22,9 +22,6 @@
             _container.RegisterType<IDialogService, DialogService>(new ContainerControlledLifetimeManager());
         }
 
-        public MainViewModel MainViewModel
-        {
-            get { return _container.Resolve<MainViewModel>(); }
-        }
+        public MainViewModel MainViewModel => _container.Resolve<MainViewModel>();
     }
 }

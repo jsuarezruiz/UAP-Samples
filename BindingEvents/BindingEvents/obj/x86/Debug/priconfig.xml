@@ -4,7 +4,7 @@
     <default>
       <qualifier name="Language" value="es-ES" />
       <qualifier name="Contrast" value="standard" />
-      <qualifier name="Scale" value="100" />
+      <qualifier name="Scale" value="200" />
       <qualifier name="HomeRegion" value="001" />
       <qualifier name="TargetSize" value="256" />
       <qualifier name="LayoutDirection" value="LTR" />
@@ -19,7 +19,7 @@
     <default>
       <qualifier name="Language" value="es-ES" />
       <qualifier name="Contrast" value="standard" />
-      <qualifier name="Scale" value="100" />
+      <qualifier name="Scale" value="200" />
       <qualifier name="HomeRegion" value="001" />
       <qualifier name="TargetSize" value="256" />
       <qualifier name="LayoutDirection" value="LTR" />
@@ -36,7 +36,7 @@
     <default>
       <qualifier name="Language" value="es-ES" />
       <qualifier name="Contrast" value="standard" />
-      <qualifier name="Scale" value="100" />
+      <qualifier name="Scale" value="200" />
       <qualifier name="HomeRegion" value="001" />
       <qualifier name="TargetSize" value="256" />
       <qualifier name="LayoutDirection" value="LTR" />
@@ -52,7 +52,7 @@
     <default>
       <qualifier name="Language" value="es-ES" />
       <qualifier name="Contrast" value="standard" />
-      <qualifier name="Scale" value="100" />
+      <qualifier name="Scale" value="200" />
       <qualifier name="HomeRegion" value="001" />
       <qualifier name="TargetSize" value="256" />
       <qualifier name="LayoutDirection" value="LTR" />

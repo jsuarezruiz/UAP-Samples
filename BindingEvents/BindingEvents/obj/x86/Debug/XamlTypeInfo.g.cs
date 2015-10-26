@@ -13,7 +13,7 @@ namespace BindingEvents
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::BindingEvents.BindingEvents_XamlTypeInfo.XamlTypeInfoProvider _provider;
+    private global::BindingEvents.BindingEvents_XamlTypeInfo.XamlTypeInfoProvider _provider;
 
         /// <summary>
         /// GetXamlType(Type)
@@ -137,7 +137,7 @@ namespace BindingEvents.BindingEvents_XamlTypeInfo
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "BindingEvents.ViewModels.MainViewModel";
             _typeNameTable[3] = "BindingEvents.ViewModels.Base.ViewModelBase";
-            _typeNameTable[4] = "BindingEvents.MainView";
+            _typeNameTable[4] = "BindingEvents.Views.MainView";
             _typeNameTable[5] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[6] = "Windows.UI.Xaml.Controls.UserControl";
 
@@ -146,7 +146,7 @@ namespace BindingEvents.BindingEvents_XamlTypeInfo
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::BindingEvents.ViewModels.MainViewModel);
             _typeTable[3] = typeof(global::BindingEvents.ViewModels.Base.ViewModelBase);
-            _typeTable[4] = typeof(global::BindingEvents.MainView);
+            _typeTable[4] = typeof(global::BindingEvents.Views.MainView);
             _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
         }
@@ -184,7 +184,7 @@ namespace BindingEvents.BindingEvents_XamlTypeInfo
         }
 
         private object Activate_0_ViewModelLocator() { return new global::BindingEvents.ViewModels.Base.ViewModelLocator(); }
-        private object Activate_4_MainView() { return new global::BindingEvents.MainView(); }
+        private object Activate_4_MainView() { return new global::BindingEvents.Views.MainView(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -221,7 +221,7 @@ namespace BindingEvents.BindingEvents_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 4:   //  BindingEvents.MainView
+            case 4:   //  BindingEvents.Views.MainView
                 userType = new global::BindingEvents.BindingEvents_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_4_MainView;
                 userType.SetIsLocalType();

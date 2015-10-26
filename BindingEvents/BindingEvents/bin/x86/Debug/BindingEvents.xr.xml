@@ -57,6 +57,6 @@
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="ItemTemplate" />
     </RootType>
-    <RootType FullName="BindingEvents.MainView" />
+    <RootType FullName="BindingEvents.Views.MainView" />
   </Roots.RootTypes>
 </Roots>

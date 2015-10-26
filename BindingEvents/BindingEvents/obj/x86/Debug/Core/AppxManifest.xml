@@ -7,22 +7,25 @@
 
     Para obtener más información acerca de los archivos de manifiesto del paquete, vea http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="fbe9bbf4-b438-4103-8f8c-63d9facd8a3f" Publisher="CN=Javier" Version="1.0.0.0" ProcessorArchitecture="x86" />
-  <mp:PhoneIdentity PhoneProductId="fbe9bbf4-b438-4103-8f8c-63d9facd8a3f" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Identity Name="f3741012-0318-49c4-ac0a-1757b503b6ba" Publisher="CN=javie" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <mp:PhoneIdentity PhoneProductId="f3741012-0318-49c4-ac0a-1757b503b6ba" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>BindingEvents</DisplayName>
-    <PublisherDisplayName>Javier</PublisherDisplayName>
+    <PublisherDisplayName>javie</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10069.0" MaxVersionTested="10.0.10069.0" />
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />
   </Dependencies>
   <Resources>
     <Resource Language="ES-ES" />
+    <Resource Language="EN" />
+    <Resource Language="EN-US" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="BindingEvents.exe" EntryPoint="BindingEvents.App">
-      <uap:VisualElements DisplayName="BindingEvents" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="BindingEvents" BackgroundColor="#464646">
+      <uap:VisualElements DisplayName="BindingEvents" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="BindingEvents" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
@@ -31,16 +34,15 @@
     <Capability Name="internetClient" />
   </Capabilities>
   <build:Metadata>
-    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v4.5.1" />
+    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
     <build:Item Name="VisualStudio" Version="14.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015 RC" />
-    <build:Item Name="OperatingSystem" Version="10.0.10074.0 (fbl_impressive.150424-1350)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.22823.1" />
-    <build:Item Name="ProjectGUID" Value="{166C1DEA-B6D0-4A83-BBDB-2EC80FBA8B30}" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015" />
+    <build:Item Name="OperatingSystem" Version="10.0.10240.16384 (th1.150709-1700)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.23311.4" />
+    <build:Item Name="ProjectGUID" Value="{5BDCA260-64C4-415F-A9B3-B00015BFC0C1}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="ilc.exe" Version="1.0.22816.00 built by: PROJECTNREL" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.22823.1" />
-    <build:Item Name="MakePri.exe" Version="10.0.10069.0 (fbl_impressive.150419-0022)" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.23309.0" />
+    <build:Item Name="MakePri.exe" Version="10.0.10240.16384 (th1.150709-1700)" />
   </build:Metadata>
 </Package>

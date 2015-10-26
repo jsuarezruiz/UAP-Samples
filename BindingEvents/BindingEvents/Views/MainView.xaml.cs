@@ -1,39 +1,36 @@
-﻿namespace BindingEvents
-{
-    using ViewModels;
-    using Windows.UI.Xaml;
-    using Windows.UI.Xaml.Controls;
+﻿using Windows.UI.Xaml;
+using Windows.UI.Xaml.Controls;
+using BindingEvents.ViewModels;
 
+namespace BindingEvents.Views
+{
     public sealed partial class MainView : Page
     {
-        public RoutedEventHandler clickDelegate;
+        public RoutedEventHandler ClickDelegate;
 
         public MainView()
         {
             this.InitializeComponent();
 
-            clickDelegate = this.Click_RegularArgs;
+            ClickDelegate = this.Click_RegularArgs;
         }
 
         private void Click_RegularArgs(object sender, RoutedEventArgs e)
         {
             var vm = DataContext as MainViewModel;
-            if (vm != null)
-                vm.Show("Regular Args");
+            vm?.Show("Regular Args");
         }
 
         private void Click_NoArgs()
         {
             var vm = DataContext as MainViewModel;
-            if (vm != null)
-                vm.Show("No Args");
+            vm?.Show("No Args");
         }
 
         private void Click_BaseArgs(object sender, object e)
         {
             var vm = DataContext as MainViewModel;
-            if (vm != null)
-                vm.Show("Base Args");
+            vm?.Show("Base Args");
         }
     }
 }

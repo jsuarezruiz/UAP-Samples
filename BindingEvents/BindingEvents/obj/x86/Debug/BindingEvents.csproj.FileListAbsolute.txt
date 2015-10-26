@@ -1,296 +1,449 @@
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\ApplicationInsights.config
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\App.xbf
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Views\MainView.xbf
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\BindingEvents.xr.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\BindingEvents.exe
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\BindingEvents.pdb
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\resources.pri
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\AppxManifest.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Internal.Net.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Internal.Uri.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.CSharp.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.VisualBasic.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.AppContext.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Collections.Concurrent.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Collections.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Collections.NonGeneric.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Collections.Specialized.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ComponentModel.Annotations.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ComponentModel.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ComponentModel.Primitives.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ComponentModel.TypeConverter.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Console.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Core.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Data.Common.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Diagnostics.Contracts.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Diagnostics.Debug.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Diagnostics.Tools.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Diagnostics.Tracing.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Dynamic.Runtime.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Globalization.Calendars.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Globalization.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Globalization.Extensions.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.Compression.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.Compression.ZipFile.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.FileSystem.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.FileSystem.Primitives.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.IsolatedStorage.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Linq.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Linq.Expressions.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Linq.Parallel.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Linq.Queryable.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.Http.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.Http.Rtc.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.NetworkInformation.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.Primitives.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.Requests.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.WebHeaderCollection.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ObjectModel.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Private.DataContractSerialization.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Private.Networking.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Private.ServiceModel.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Context.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.DispatchProxy.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Emit.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Extensions.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Primitives.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.TypeExtensions.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Resources.ResourceManager.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Resources.ResourceWriter.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Extensions.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Handles.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.InteropServices.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Numerics.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Serialization.Json.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Serialization.Xml.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Security.Claims.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Security.Cryptography.DeriveBytes.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Security.Cryptography.Encoding.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Security.Cryptography.Encryption.Aes.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Security.Cryptography.Encryption.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Security.Cryptography.Hashing.Algorithms.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Security.Cryptography.Hashing.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Security.Cryptography.RandomNumberGenerator.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Security.Principal.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ServiceModel.Duplex.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ServiceModel.Http.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ServiceModel.NetTcp.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ServiceModel.Primitives.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ServiceModel.Security.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Text.Encoding.CodePages.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Text.Encoding.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Text.Encoding.Extensions.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Text.RegularExpressions.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Threading.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Threading.Tasks.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Threading.Tasks.Parallel.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Threading.Timer.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.ReaderWriter.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.XDocument.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.XmlDocument.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.XPath.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.XPath.XDocument.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.XPath.XmlDocument.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\ClrCompression.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\resources.pri
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\ApplicationInsights.config
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Assets\Logo.scale-100.png
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Assets\SmallLogo.scale-100.png
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Assets\SplashScreen.scale-100.png
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Assets\StoreLogo.scale-100.png
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Assets\WideLogo.scale-100.png
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\BindingEvents.exe
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\BindingEvents.pdb
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\BindingEvents.xr.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\CoreRuntime\BindingEvents.exe
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.Diagnostics.Tracing.EventSource.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.Practices.ServiceLocation.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.Practices.ServiceLocation.pdb
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.Practices.Unity.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.Practices.Unity.RegistrationByConvention.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\Properties\Default.rd.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Numerics.Vectors.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\WinMetadata\Windows.winmd
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\AppxManifest.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\BindingEvents.build.appxrecipe
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.ApplicationInsights.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.ApplicationInsights.Extensibility.Windows.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.ApplicationInsights.PersistenceChannel.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Practices.Unity.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\System.Numerics.Vectors.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\System.Numerics.Vectors.WindowsRuntime.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.ApplicationInsights.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.ApplicationInsights.Extensibility.Windows.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Practices.ServiceLocation.pdb
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Practices.ServiceLocation.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Practices.Unity.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Practices.Unity.RegistrationByConvention.pri
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\System.Numerics.Vectors.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\System.Numerics.Vectors.WindowsRuntime.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\BindingEvents.csprojResolveAssemblyReference.cache
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\App.g.i.cs
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\App.g.cs
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Views\MainView.g.i.cs
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Views\MainView.g.cs
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\XamlTypeInfo.g.cs
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\App.xaml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Views\MainView.xaml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\App.xbf
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Views\MainView.xbf
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\XamlSaveStateFile.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\ApplicationInsights.config
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\BindingEvents.exe
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\BindingEvents.pdb
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource\en-US\Microsoft.Diagnostics.Tracing.Messages.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.ServiceLocation\en-US\Microsoft.Practices.ServiceLocation.Properties.Resources.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity\en\Microsoft.Practices.Unity.Properties.Resources.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\System.Numerics.Vectors\en-US\System.Strings.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\BindingEvents.csproj.GenerateResource.Cache
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource.pri
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource\qualifiers.txt
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.ServiceLocation.pri
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.ServiceLocation\qualifiers.txt
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity.pri
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity\qualifiers.txt
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\System.Numerics.Vectors.pri
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\System.Numerics.Vectors\qualifiers.txt
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\priconfig.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\priconfig.xml.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\layout.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\layout.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\resources.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\resources.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\pri.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\pri.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\qualifiers.txt
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\qualifiers.txt.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity.RegistrationByConvention.pri.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\ProjectArchitectures.txt
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\BindingEvents.exe
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\BindingEvents.pdb
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.ApplicationInsights.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.Diagnostics.Tracing.EventSource.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.Practices.ServiceLocation.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.Practices.Unity.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.Practices.Unity.RegistrationByConvention.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Numerics.Vectors.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.Practices.ServiceLocation.pdb
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\ApplicationInsights.config
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Properties\Default.rd.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Assets\Logo.scale-100.png
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Assets\SmallLogo.scale-100.png
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Assets\SplashScreen.scale-100.png
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Assets\StoreLogo.scale-100.png
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\Assets\WideLogo.scale-100.png
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\BindingEvents.xr.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\WinMetadata\Windows.winmd
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\resources.pri
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\Microsoft.CSharp\en-US\Microsoft.CSharp.RuntimeBinder.Errors.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\Microsoft.CSharp\en-US\Microsoft.CSharp.RuntimeBinder.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\Microsoft.VisualBasic\en-US\Microsoft.VisualBasic.MyServices.Internal.ProgressDialog.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\Microsoft.VisualBasic\en-US\Microsoft.VisualBasic.CompilerServices.VBInputBox.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\Microsoft.VisualBasic\en-US\Microsoft.VisualBasic.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.AppContext\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Collections.NonGeneric\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Collections.Specialized\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.ComponentModel.TypeConverter\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Console\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Core\en-US\System.Core.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Core\en-US\System.Linq.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Core\en-US\System.Linq.Expressions.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Data.Common\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System\en-US\System.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Globalization.Extensions\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.IO.Compression\en-US\System.IO.Compression.Messages.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.IO.Compression.ZipFile\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.IO.FileSystem\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.IO.IsolatedStorage\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.IO.UnmanagedMemoryStream\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Net.Http\en-US\System.Net.Http.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Net.WebHeaderCollection\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Private.DataContractSerialization\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Private.Networking\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Private.ServiceModel\en-US\Internals.TraceCore.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Private.ServiceModel\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Reflection.Context\en-US\System.Reflection.Context.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Reflection.DispatchProxy\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Resources.ResourceWriter\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Runtime.WindowsRuntime\en-US\System.Runtime.WindowsRuntime.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Runtime.WindowsRuntime.UI.Xaml\en-US\System.Runtime.WindowsRuntime.UI.Xaml.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Security.Cryptography.DeriveBytes\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Security.Cryptography.Encoding\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Security.Cryptography.Encryption.Aes\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Security.Cryptography.Encryption\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Security.Cryptography.Hashing.Algorithms\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Security.Cryptography.Hashing\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Security.Cryptography.RandomNumberGenerator\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Text.Encoding.CodePages\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Xml.XmlDocument\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Xml.XPath\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Xml.XPath.XDocument\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\System.Xml.XPath.XmlDocument\en-US\System.SR.resw
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Core\BindingEvents.csproj.AppLocalNetFX.GenerateResource.Cache
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\empty.layout.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\empty.pri.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\applocalnetfxresources.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\AppLocalNetFXResources\priconfig.netfx.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\bin\x86\Debug\Core\BindingEvents.csproj.AppLocalNetFX.GenerateResource.Cache
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource\layout.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource\layout.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource\Resources.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource\Resources.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource\pri.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource\pri.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource\priconfig.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Diagnostics.Tracing.EventSource\priconfig.xml.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.ServiceLocation\layout.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.ServiceLocation\Resources.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.ServiceLocation\pri.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.ServiceLocation\priconfig.xml.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity\layout.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity\layout.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity\Resources.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity\Resources.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity\pri.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity\pri.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity\priconfig.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity\priconfig.xml.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\System.Numerics.Vectors\layout.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\System.Numerics.Vectors\layout.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\System.Numerics.Vectors\Resources.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\System.Numerics.Vectors\Resources.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\System.Numerics.Vectors\pri.resfiles
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\System.Numerics.Vectors\pri.resfiles.intermediate
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\System.Numerics.Vectors\priconfig.xml
-C:\Users\Javier\Documents\GitHub\UAP-Samples\BindingEvents\BindingEvents\obj\x86\Debug\System.Numerics.Vectors\priconfig.xml.intermediate
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\BindingEvents.csprojResolveAssemblyReference.cache
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\App.g.i.cs
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\App.g.cs
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Views\MainView.g.i.cs
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Views\MainView.g.cs
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\XamlTypeInfo.g.cs
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\App.xaml
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Views\MainView.xaml
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\App.xbf
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Views\MainView.xbf
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\XamlSaveStateFile.xml
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\ApplicationInsights.config
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\App.xbf
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Views\MainView.xbf
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\BindingEvents.xr.xml
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\BindingEvents.exe
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\BindingEvents.pdb
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\resources.pri
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\AppxManifest.xml
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\ApplicationInsights.config
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\AppxManifest.xml
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Assets\StoreLogo.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\BindingEvents.exe
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\BindingEvents.pdb
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\BindingEvents.xr.xml
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\ClrCompression.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\entrypoint\BindingEvents.exe
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.CSharp.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.Practices.ServiceLocation.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.Practices.Unity.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.Practices.Unity.RegistrationByConvention.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.VisualBasic.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Microsoft.Win32.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\Properties\Default.rd.xml
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\resources.pri
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.AppContext.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Collections.Concurrent.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Collections.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Collections.Immutable.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Collections.NonGeneric.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Collections.Specialized.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ComponentModel.Annotations.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ComponentModel.DataAnnotations.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ComponentModel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Core.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Data.Common.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Diagnostics.Contracts.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Diagnostics.Debug.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Diagnostics.StackTrace.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Diagnostics.Tools.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Diagnostics.Tracing.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Dynamic.Runtime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Globalization.Calendars.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Globalization.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Globalization.Extensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.Compression.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.Compression.ZipFile.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.FileSystem.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.FileSystem.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.IsolatedStorage.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Linq.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Linq.Expressions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Linq.Parallel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Linq.Queryable.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.Http.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.Http.Rtc.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.NetworkInformation.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.Requests.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.Sockets.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Net.WebHeaderCollection.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Numerics.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Numerics.Vectors.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ObjectModel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Private.DataContractSerialization.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Private.Networking.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Private.ServiceModel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Private.Uri.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Context.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.DispatchProxy.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Emit.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Extensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Metadata.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Reflection.TypeExtensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Resources.ResourceManager.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Extensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Handles.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.InteropServices.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Numerics.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Serialization.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Serialization.Json.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.Serialization.Xml.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Security.Claims.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Security.Principal.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ServiceModel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ServiceModel.Duplex.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ServiceModel.Http.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ServiceModel.NetTcp.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ServiceModel.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ServiceModel.Security.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.ServiceModel.Web.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Text.Encoding.CodePages.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Text.Encoding.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Text.Encoding.Extensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Text.RegularExpressions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Threading.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Threading.Overlapped.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Threading.Tasks.Dataflow.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Threading.Tasks.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Threading.Tasks.Parallel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Threading.Timer.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Windows.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.Linq.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.ReaderWriter.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.Serialization.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.XDocument.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.XmlDocument.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\System.Xml.XmlSerializer.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Core\WinMetadata\Windows.winmd
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\BindingEvents.build.appxrecipe
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.ApplicationInsights.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.ApplicationInsights.PersistenceChannel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.ApplicationInsights.Extensibility.Windows.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.CSharp.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.ComponentModel.DataAnnotations.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Core.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Net.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Numerics.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Runtime.Serialization.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.ServiceModel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.ServiceModel.Web.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Windows.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Xml.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Xml.Linq.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Xml.Serialization.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.VisualBasic.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Win32.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.AppContext.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Collections.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Collections.Concurrent.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Collections.Immutable.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Collections.NonGeneric.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Collections.Specialized.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.ComponentModel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.ComponentModel.Annotations.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.ComponentModel.EventBasedAsync.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Data.Common.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Diagnostics.Contracts.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Diagnostics.Debug.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Diagnostics.StackTrace.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Diagnostics.Tools.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Diagnostics.Tracing.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Dynamic.Runtime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Globalization.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Globalization.Calendars.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Globalization.Extensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.IO.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.IO.Compression.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\ClrCompression.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.IO.Compression.ZipFile.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.IO.FileSystem.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.IO.FileSystem.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.IO.IsolatedStorage.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.IO.UnmanagedMemoryStream.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Linq.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Linq.Expressions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Linq.Parallel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Linq.Queryable.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Net.Http.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Net.Http.Rtc.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Net.NetworkInformation.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Net.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Net.Requests.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Net.Sockets.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Net.WebHeaderCollection.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Numerics.Vectors.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Numerics.Vectors.WindowsRuntime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.ObjectModel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Private.DataContractSerialization.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Private.Networking.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Private.ServiceModel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Private.Uri.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Reflection.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Reflection.Context.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Reflection.DispatchProxy.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Reflection.Emit.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Reflection.Emit.ILGeneration.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Reflection.Emit.Lightweight.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Reflection.Extensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Reflection.Metadata.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Reflection.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Reflection.TypeExtensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Resources.ResourceManager.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Runtime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Runtime.Extensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Runtime.Handles.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Runtime.InteropServices.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Runtime.Numerics.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Runtime.Serialization.Json.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Runtime.Serialization.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Runtime.Serialization.Xml.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Runtime.WindowsRuntime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Runtime.WindowsRuntime.UI.Xaml.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Security.Claims.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Security.Principal.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.ServiceModel.Duplex.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.ServiceModel.Http.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.ServiceModel.NetTcp.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.ServiceModel.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.ServiceModel.Security.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Text.Encoding.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Text.Encoding.CodePages.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Text.Encoding.Extensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Text.RegularExpressions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Threading.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Threading.Overlapped.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Threading.Tasks.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Threading.Tasks.Dataflow.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Threading.Tasks.Parallel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Threading.Timer.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Xml.ReaderWriter.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Xml.XDocument.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Xml.XmlDocument.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\System.Xml.XmlSerializer.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Practices.Unity.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\bin\x86\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\BindingEvents.exe
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\BindingEvents.pdb
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\ResourceHandlingTask.state
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.Microsoft.CSharp.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.Microsoft.VisualBasic.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.AppContext.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Collections.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Collections.Concurrent.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Collections.Immutable.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Collections.NonGeneric.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Collections.Specialized.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.ComponentModel.Annotations.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.ComponentModel.EventBasedAsync.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Data.Common.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Diagnostics.Debug.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Dynamic.Runtime.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Globalization.Extensions.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.IO.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.IO.Compression.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.IO.Compression.ZipFile.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.IO.FileSystem.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.IO.IsolatedStorage.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.IO.UnmanagedMemoryStream.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Linq.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Linq.Expressions.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Linq.Parallel.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Linq.Queryable.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Net.Http.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Net.Requests.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Net.WebHeaderCollection.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Numerics.Vectors.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.ObjectModel.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Private.DataContractSerialization.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Private.Networking.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Private.ServiceModel.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Private.Uri.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Reflection.Context.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Reflection.DispatchProxy.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Reflection.Metadata.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Runtime.Extensions.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Runtime.InteropServices.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Runtime.Numerics.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Runtime.Serialization.Primitives.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Runtime.WindowsRuntime.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Runtime.WindowsRuntime.UI.Xaml.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Security.Claims.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Text.Encoding.CodePages.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Text.RegularExpressions.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Threading.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Threading.Overlapped.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Threading.Tasks.Dataflow.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Threading.Tasks.Parallel.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Xml.ReaderWriter.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Xml.XDocument.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Xml.XmlDocument.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.ServiceLocation\en-US\Microsoft.Practices.ServiceLocation.Properties.Resources.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity\en\Microsoft.Practices.Unity.Properties.Resources.resw
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\BindingEvents.csproj.GenerateResource.Cache
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\priconfig.xml
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\priconfig.xml.intermediate
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\layout.resfiles
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\layout.resfiles.intermediate
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\resources.resfiles
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\resources.resfiles.intermediate
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\pri.resfiles
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\pri.resfiles.intermediate
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\qualifiers.txt
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\qualifiers.txt.intermediate
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Microsoft.Practices.Unity.RegistrationByConvention.pri.xml
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\ProjectArchitectures.txt
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\BindingEvents.exe
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\BindingEvents.pdb
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.Practices.ServiceLocation.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.ApplicationInsights.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.ApplicationInsights.PersistenceChannel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.ApplicationInsights.Extensibility.Windows.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.CSharp.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.ComponentModel.DataAnnotations.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Core.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Net.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Numerics.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Runtime.Serialization.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.ServiceModel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.ServiceModel.Web.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Windows.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Xml.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Xml.Linq.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Xml.Serialization.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.VisualBasic.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.Win32.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.AppContext.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Collections.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Collections.Concurrent.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Collections.Immutable.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Collections.NonGeneric.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Collections.Specialized.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.ComponentModel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.ComponentModel.Annotations.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.ComponentModel.EventBasedAsync.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Data.Common.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Diagnostics.Contracts.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Diagnostics.Debug.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Diagnostics.StackTrace.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Diagnostics.Tools.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Diagnostics.Tracing.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Dynamic.Runtime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Globalization.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Globalization.Calendars.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Globalization.Extensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.IO.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.IO.Compression.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\ClrCompression.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.IO.Compression.ZipFile.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.IO.FileSystem.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.IO.FileSystem.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.IO.IsolatedStorage.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.IO.UnmanagedMemoryStream.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Linq.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Linq.Expressions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Linq.Parallel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Linq.Queryable.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Net.Http.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Net.Http.Rtc.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Net.NetworkInformation.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Net.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Net.Requests.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Net.Sockets.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Net.WebHeaderCollection.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Numerics.Vectors.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Numerics.Vectors.WindowsRuntime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.ObjectModel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Private.DataContractSerialization.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Private.Networking.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Private.ServiceModel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Private.Uri.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Reflection.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Reflection.Context.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Reflection.DispatchProxy.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Reflection.Emit.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Reflection.Emit.ILGeneration.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Reflection.Emit.Lightweight.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Reflection.Extensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Reflection.Metadata.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Reflection.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Reflection.TypeExtensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Resources.ResourceManager.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Runtime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Runtime.Extensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Runtime.Handles.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Runtime.InteropServices.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Runtime.InteropServices.WindowsRuntime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Runtime.Numerics.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Runtime.Serialization.Json.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Runtime.Serialization.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Runtime.Serialization.Xml.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Runtime.WindowsRuntime.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Runtime.WindowsRuntime.UI.Xaml.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Security.Claims.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Security.Principal.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.ServiceModel.Duplex.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.ServiceModel.Http.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.ServiceModel.NetTcp.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.ServiceModel.Primitives.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.ServiceModel.Security.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Text.Encoding.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Text.Encoding.CodePages.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Text.Encoding.Extensions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Text.RegularExpressions.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Threading.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Threading.Overlapped.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Threading.Tasks.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Threading.Tasks.Dataflow.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Threading.Tasks.Parallel.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Threading.Timer.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Xml.ReaderWriter.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Xml.XDocument.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Xml.XmlDocument.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\System.Xml.XmlSerializer.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.Practices.Unity.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Microsoft.Practices.Unity.RegistrationByConvention.dll
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\ApplicationInsights.config
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Properties\Default.rd.xml
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Assets\SplashScreen.scale-200.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Assets\Square150x150Logo.scale-200.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Assets\Square44x44Logo.scale-200.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Assets\Square44x44Logo.targetsize-24_altform-unplated.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Assets\StoreLogo.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\Assets\Wide310x150Logo.scale-200.png
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\BindingEvents.xr.xml
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\WinMetadata\Windows.winmd
+c:\users\javie\documents\visual studio 2015\Projects\BindingEvents\BindingEvents\obj\x86\Debug\Core\resources.pri
