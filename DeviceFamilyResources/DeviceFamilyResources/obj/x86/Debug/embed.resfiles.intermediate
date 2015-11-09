@@ -1,0 +1,5 @@
+App.xbf
+Resources\MainResource.xbf
+Resources\PlatformResource.DeviceFamily-Mobile.xbf
+Resources\PlatformResource.xbf
+Views\MainView.xbf
