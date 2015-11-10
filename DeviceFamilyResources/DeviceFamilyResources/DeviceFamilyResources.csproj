@@ -128,15 +128,11 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Page Include="Resources\MainResource.xaml">
+    <Page Include="Resources\Colors.DeviceFamily-Mobile.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Resources\PlatformResource.DeviceFamily-Mobile.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Resources\PlatformResource.xaml">
+    <Page Include="Resources\Colors.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

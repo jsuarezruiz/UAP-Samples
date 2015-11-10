@@ -1,1 +1,1 @@
-c:\users\javie\documents\visual studio 2015\Projects\DeviceFamilyResources\DeviceFamilyResources\DeviceFamilyResources.csproj;x86
+C:\Users\javie\Documents\GitHub\UAP-Samples\DeviceFamilyResources\DeviceFamilyResources\DeviceFamilyResources.csproj;x86

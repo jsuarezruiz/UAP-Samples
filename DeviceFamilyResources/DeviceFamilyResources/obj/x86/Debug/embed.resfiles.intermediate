@@ -1,5 +1,4 @@
 App.xbf
-Resources\MainResource.xbf
-Resources\PlatformResource.DeviceFamily-Mobile.xbf
-Resources\PlatformResource.xbf
+Resources\Colors.DeviceFamily-Mobile.xbf
+Resources\Colors.xbf
 Views\MainView.xbf
