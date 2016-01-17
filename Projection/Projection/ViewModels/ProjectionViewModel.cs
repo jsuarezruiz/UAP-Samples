@@ -46,7 +46,7 @@ namespace Projection.ViewModels
         {
             try
             {
-                await _projectionService.SwitchProjection(App.MainViewId);
+                await _projectionService.SwapProjection(App.MainViewId);
             }
             catch (Exception ex)
             {

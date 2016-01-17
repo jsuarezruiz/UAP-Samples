@@ -11,7 +11,7 @@ namespace Projection.Services.Projection
         Task<IEnumerable<DeviceInformation>> GetProjectionDevices();
         Task<int> ProjectAsync(Type viewType, DeviceInformation device = null);
         Task<int> RequestProjectAsync(Type viewType, Rect? position = null);
-        Task SwitchProjection(int mainViewId);
+        Task SwapProjection(int mainViewId);
         Task StopProjection(int mainViewId);
     }
 }

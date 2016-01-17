@@ -79,14 +79,14 @@ namespace Projection.Services.Projection
             return mainViewId;
         }
 
-        public async Task SwitchProjection(int mainViewId)
+        public async Task StopProjection(int mainViewId)
         {
             await ProjectionManager.StopProjectingAsync(       
                 ApplicationView.GetForCurrentView().Id,
                 mainViewId);
         }
 
-        public async Task StopProjection(int mainViewId)
+        public async Task SwapProjection(int mainViewId)
         {
             await ProjectionManager.SwapDisplaysForViewsAsync(
                 ApplicationView.GetForCurrentView().Id,
