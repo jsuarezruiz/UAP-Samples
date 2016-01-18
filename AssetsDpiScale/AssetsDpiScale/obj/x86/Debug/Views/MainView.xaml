@@ -1,0 +1,80 @@
+﻿<base:PageBase
+    x:Class="AssetsDpiScale.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AssetsDpiScale.Views"
+    xmlns:base="using:AssetsDpiScale.Views.Base"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock 
+            Grid.Row="0"
+            Text="DPI Scaling"
+            FontWeight="SemiBold"/>
+        <StackPanel           
+            Grid.Row="1"
+            Margin="0, 12">
+            <StackPanel
+                Orientation="Horizontal">
+                <TextBlock Text="Logical DPI:" />
+                <TextBlock Text="{Binding LogicalDpi}" />
+                <TextBlock Text="DPI" />
+            </StackPanel>
+        </StackPanel>
+        <StackPanel   
+            Grid.Row="2"               
+            Margin="0, 12">
+            <StackPanel
+                Orientation="Horizontal">
+                <TextBlock Text="Scaling:" />
+                <TextBlock Text="{Binding Scale}" />
+                <TextBlock Text="%" />
+            </StackPanel>
+            <TextBlock Text="Example: For the 100% scale, use 1366x768 resolution setting. For 140% use 1920x1080 and for 180% use 2560x1440." 
+                       TextWrapping="Wrap" />
+        </StackPanel>
+        <StackPanel
+            Grid.Row="3">
+            <TextBlock 
+                Text="Can select an asset based on the current DPI. Include multiple versions of each asset using naming convention: image.scale-100.png, image.scale-140.png and image.scale-180.png."
+                TextWrapping="Wrap" />
+            <TextBlock Text="Not scaling" />
+            <Image
+                Source="ms-appx:///Assets/Picture-NoScale.png"
+                Height="100"
+                Width="100"
+                HorizontalAlignment="Left"/>
+            <TextBlock Text="Scaling" />
+            <Image
+                Source="ms-appx:///Assets/Picture.png"
+                Height="100"
+                Width="100"
+                HorizontalAlignment="Left"/>
+            <TextBlock Text="Path" />
+            <Grid
+                HorizontalAlignment="Left">
+                <Grid 
+                    Width="100" 
+                    Height="100">
+                    <Rectangle
+                        Fill="#FFE43910" />
+                </Grid>
+                <Path 
+                    Data="M23.900009,15.700002L20,21.099993 17.900009,19.699999 13,25.199995 30.300003,25.199995 28.200012,17.700001 25.700012,17.700001z M14.700012,13.200004C13.600006,13.200004 12.700012,14.099997 12.700012,15.200002 12.700012,16.300007 13.600006,17.200001 14.700012,17.200001 15.800003,17.200001 16.700012,16.300007 16.700012,15.200002 16.700012,14.099997 15.800003,13.200004 14.700012,13.200004z M8.5,9.3000117L32,9.3000117 32,26.800001 8.5,26.800001z M21,0L24.900009,7.7000071 6.9000092,7.7000071 6.9000092,24.199997 0,10.499993z" 
+                    Stretch="Uniform"
+                    Fill="#FFFFFFFF" 
+                    Width="55" 
+                    Height="55" />
+            </Grid>
+        </StackPanel>
+    </Grid>
+</base:PageBase>
+
