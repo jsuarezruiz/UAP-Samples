@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Fingerprint.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Fingerprint.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <Button Content="Check UserConsent Availability" 
+                    Command="{Binding AvailabilityCommand}" />
+            <TextBlock Text="Request UserConsent Verification"
+                       Margin="0,24,0,0"/>
+            <TextBox 
+                PlaceholderText="Insert Message..."
+                Text="{Binding Message, Mode=TwoWay}"/>
+            <Button Content="Request UserConsent Verification" 
+                    Command="{Binding VerificationCommand}"
+                    IsEnabled="{Binding IsUserConsentAvalaible}"/>
+        </StackPanel>
+    </Grid>
+</Page>
