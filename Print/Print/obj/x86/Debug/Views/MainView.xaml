@@ -1,0 +1,33 @@
+﻿<base:PageBase
+    x:Class="Print.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Print.Views" 
+    xmlns:base="using:Print.Views.Base"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding MainViewModel, Source={StaticResource Locator}}">
+    <Grid 
+        Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="50" />
+        </Grid.RowDefinitions>
+        <StackPanel x:ConnectionId='1' 
+            x:Name="PrintableContent">
+            <TextBlock 
+                Text="Shopping List"
+                FontWeight="Black"
+                Margin="12"/>
+            <ListView
+                ItemsSource="{Binding Products}"/>
+        </StackPanel>
+        <Button 
+            Grid.Row="1"
+            Content="Print"
+            Command="{Binding PrintCommand}"
+            HorizontalAlignment="Center"/>
+    </Grid>
+</base:PageBase>
+

@@ -1,0 +1,17 @@
+﻿<Application
+    x:Class="Print.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Print"    
+    xmlns:locator="using:Print.ViewModels.Base"
+    RequestedTheme="Light">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!-- ViewModelLocator -->
+            <locator:ViewModelLocator x:Key="Locator" />
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
+
