@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="InkToolbar_Sample.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:InkToolbar_Sample.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <InkCanvas 
+            x:Name="InkCanvas"/>
+        <RelativePanel
+            VerticalAlignment="Top">
+            <InkToolbar
+                x:Name="InkToolbar" 
+                RelativePanel.AlignLeftWithPanel="True" 
+                RelativePanel.AlignTopWithPanel="True" 
+                TargetInkCanvas="{x:Bind InkCanvas}" />
+            <CommandBar RelativePanel.RightOf="InkToolbar">
+                <AppBarButton 
+                    Icon="Clear"
+                    IsCompact="True" 
+                    Click="{x:Bind OnClear}" />
+            </CommandBar>
+        </RelativePanel>
+    </Grid>
+</Page>
