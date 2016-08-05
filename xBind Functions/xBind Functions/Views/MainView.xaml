@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="xBind_Functions.Views.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:xBind_Functions.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel
+            VerticalAlignment="Center">
+            <ProgressBar 
+                Background="Transparent"
+                Foreground="{x:Bind PasswordStrengthBrush(Password.Password), Mode=OneWay}"
+                Value="{x:Bind PasswordStrengthValue(Password.Password), Mode=OneWay}"
+                Height="3"/>
+            <PasswordBox 
+                x:Name="Password"
+                PlaceholderText="Insert Password"      
+                Password="{x:Bind UserPassword, Mode=TwoWay}" />
+        </StackPanel>
+    </Grid>
+</Page>
