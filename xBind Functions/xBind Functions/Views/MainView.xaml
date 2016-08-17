@@ -4,20 +4,74 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:xBind_Functions.Views"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:model="using:xBind_Functions.Models"
     mc:Ignorable="d">
+    <Page.Resources>
+
+        <DataTemplate
+            x:Key="HouseDataTemplate"
+            x:DataType="model:House">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <TextBlock 
+                    Text="{x:Bind Name}"
+                    x:Phase="1"
+                    VerticalAlignment="Center" />
+                <Button 
+                    Grid.Column="1"
+                    Content="Click me!"
+                    Click="{x:Bind Click}" />
+            </Grid>
+        </DataTemplate>
+
+    </Page.Resources>
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <StackPanel
-            VerticalAlignment="Center">
-            <ProgressBar 
-                Background="Transparent"
-                Foreground="{x:Bind PasswordStrengthBrush(Password.Password), Mode=OneWay}"
-                Value="{x:Bind PasswordStrengthValue(Password.Password), Mode=OneWay}"
-                Height="3"/>
-            <PasswordBox 
-                x:Name="Password"
-                PlaceholderText="Insert Password"      
-                Password="{x:Bind UserPassword, Mode=TwoWay}" />
-        </StackPanel>
+        <ScrollViewer>
+            <StackPanel
+                VerticalAlignment="Top"
+                Margin="12">
+                <TextBlock 
+                    Text="Function Binding"
+                    Margin="0,24,0,0"/>
+                <ProgressBar 
+                    Background="Transparent"
+                    Foreground="{x:Bind PasswordStrengthBrush(Password.Password), Mode=OneWay}"
+                    Value="{x:Bind PasswordStrengthValue(Password.Password), Mode=OneWay}"
+                    Height="3"/>
+                <PasswordBox 
+                    x:Name="Password"
+                    PlaceholderText="Insert Password"      
+                    Password="{x:Bind UserPassword, Mode=TwoWay}" />
+                <TextBlock 
+                    Text="Event Binding"
+                    Margin="0,24,0,0"/>
+                <ListView
+                    ItemsSource="{x:Bind Houses}"
+                    ItemTemplate="{StaticResource HouseDataTemplate}" />
+                <TextBlock 
+                    Text="Implicit Conversions"
+                    Margin="0,24,0,0"/>
+                <TextBlock 
+                    Text="Visible"
+                    Visibility="{x:Bind IsVisible}"/>
+                <TextBlock 
+                    Text="No Visible"
+                    Visibility="{x:Bind IsNotVisible}"/>
+                <TextBlock 
+                    Text="More supported types"
+                    Margin="0,24,0,0"/>
+                <TextBlock 
+                    Text="{x:Bind Dictionary['Clave']}" />
+                <TextBlock 
+                    Text="Explicit Casting"
+                    Margin="0,24,0,0"/>
+                <TextBlock 
+                    Text="{x:Bind ((TextBlock)Element).Text}"/>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Page>
